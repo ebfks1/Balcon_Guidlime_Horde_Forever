@@ -54,4 +54,4 @@ jobs:
           # 이 작업은 브랜치 push 로 시작됐지만, 패키저가 태그 배포로 처리하도록 알려 줍니다.
           export GITHUB_REF="refs/tags/$TAG" GITHUB_REF_NAME="$TAG" GITHUB_REF_TYPE=tag
           curl -fsSL https://raw.githubusercontent.com/BigWigsMods/packager/v2/release.sh -o "$RUNNER_TEMP/release.sh"
-          bash "$RUNNER_TEMP/release.sh"
+          bash "$RUNNER_TEMP/release.sh" -n "{package-name}-{project-version}:BalCon-{project-version}"
