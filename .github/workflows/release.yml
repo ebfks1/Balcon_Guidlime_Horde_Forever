@@ -1,9 +1,9 @@
 name: Release to CurseForge
 
+# GitHub 에서 Release 를 "Publish" 하면 실행됩니다 (태그 이름 예: v1.1.3-beta → Beta, v1.1.3 → Release).
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
   release:
