@@ -7,6 +7,7 @@
 ## Version: 1.1.2
 ## Dependencies: Guidelime
 ## SavedVariablesPerCharacter: BalConAutoSkipDB
+## X-Curse-Project-ID: 1763150
 
 00_AutoSkip.lua
 01_1-12_Durotar.lua
