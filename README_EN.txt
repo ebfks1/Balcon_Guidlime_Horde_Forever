@@ -1,0 +1,74 @@
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.2
+====================================================================
+
+A Guidelime leveling guide built around dungeons.
+At low levels you run each dungeon as soon as you reach its level and finish all of its quests;
+between dungeons you only do the most efficient zone quests on the way to the next one.
+The guide text follows your game language: Korean client → Korean guide, any other language → English guide.
+
+Install
+1. Install Guidelime (6.008 or later).
+2. Put the Guidelime_BalCon_Forever folder into Interface\AddOns.
+3. In game, pick "BalCon Dungeon Leveling (Forever)" from the Guidelime guide list.
+
+Route
+  1-12   Durotar / Mulgore / Tirisfal Glades / Zephras Isle (Skyborne)
+  12-13  Start the Wailing Caverns chain around the Crossroads
+  13     Ragefire Chasm
+  16     Ruins of Lordaeron (Forever)
+  18     Wailing Caverns
+  22-24  Shadowfang Keep
+  24-25  Blackfathom Deeps
+  26-27  Excavation Site: Wetlands (Forever)
+  30     Dalaran (Forever)
+  30-32  Razorfen Kraul, Scarlet Monastery Graveyard
+  34     Scarlet Monastery Library
+  37     Scarlet Monastery Armory
+  38     Razorfen Downs
+  39     Scarlet Monastery Cathedral
+  43     Uldaman
+  46     Zul'Farrak
+  49     Maraudon
+  52     Sunken Temple
+  55     Blackrock Depths (1st, two runs)
+  57     Lower Blackrock Spire
+  58     Blackrock Depths (2nd)
+  59     Stratholme -> 60
+
+Features
+  - Every dungeon quest, with prerequisites picked up on the route; party sharing is suggested where it saves travel.
+  - Level checks before each dungeon.
+  - Quests 4+ levels below you are skipped automatically (/balcon on, /balcon off).
+  - WoW Forever data: new quests, dungeon quest XP multipliers and levels checked against Wowhead Forever.
+  - No death-skips after level 10 (Forever's resurrection sickness makes walking faster).
+
+Credits
+  Starting-zone routes (1-12) and zone quest routing are based on the Sunpower leveling guide
+  (original by Bustea & Hakurai, Korean translation by 썬파워).
+
+Changes
+  1.1.2  Priest/Warlock option at the start of the 20-30 guide (right after the Thunder Bluff turn-ins):
+         with a high-level helper, run Blackfathom Deeps for "Blackfathom Villainy" only and turn it in to
+         Bashana Runetotem in Thunder Bluff for the Gravestone Scepter wand, then quest to 24-25 with it.
+         The other Blackfathom quests stay at the 24-25 run. Skip the option steps if you have no helper.
+  1.1.1  Labels at the end of quest accept/turn-in steps (shown in the guide window):
+         *Reward (outstanding reward), *Reward chain (leads to a *Reward quest),
+         Dungeon prereq (name) (needed before that dungeon's quests), Dungeon chain (name) (follow-up after a dungeon quest).
+         English guide: symbols that the English game font may not have (star, arrows, box lines) replaced with ASCII.
+  1.1.0  Guide extended to level 60: new 32-45 and 45-60 guides with the same dungeon-first concept.
+         Between dungeons: fast zone quests only (Hillsbrad, Arathi, Stranglethorn, Desolace, Badlands,
+         Swamp of Sorrows, Dustwallow, Tanaris, Feralas, Hinterlands, Un'Goro, Azshara, Felwood,
+         Winterspring, Burning Steppes, Eastern Plaguelands).
+         Quests with outstanding rewards are kept even with a longer trip (marked ★reward), e.g.
+         the Linken chain, The Princess Saved?, Family and Love chain, Hinterlands/Sunken Temple chain.
+         A level check before every dungeon (healers may go 1 level lower).
+         20-30 guide: Library prep quests added on the route (Undercity, Thunder Bluff), Razorfen Downs prep added.
+         Auto-skip table extended to the new guides.
+  1.0.1  Skyborne (Zephras Isle) 1-12 trimmed: doing every island quest put you near level 14, so the guide now
+         does the required and important quests only and leaves at level 12 (level-12 check added).
+         Kept: island progression, class quests (Shaman totems, Hunter taming, Warrior shield, Druid), Valanaar,
+         orchard and northern quests. Dropped: the late island storyline (Watchtower → Turncoat → Inner Sanctum →
+         Lorthuna → The Fate of Zephras → The Earthen Ring); the 4 Watchtower quests stay as an optional
+         "not level 12 yet" filler. Removed 2 Alliance-only quests (Bugged, Standing Our Ground) that stalled the
+         Horde route. Skyborne now turn in "Welcome to Azeroth" to Thrall during the 12-20 Orgrimmar step.
+  1.0.0  First CurseForge release (Korean / English).

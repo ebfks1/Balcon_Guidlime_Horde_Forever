@@ -1,0 +1,8 @@
+package-as: Guidelime_BalCon_Forever
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - CHANGELOG.md
