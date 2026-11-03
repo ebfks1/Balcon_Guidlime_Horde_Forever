@@ -1,13 +1,15 @@
 name: Release to CurseForge
 
-# main 에 올라온 toc 의 "## Version:" 이 새 번호이면 태그(v번호)를 자동으로 만들고 커스포지에 올립니다.
+# main 에 올라온 toc 의 "## Version:" 이 아직 배포되지 않은 번호이면
+# 태그(v번호)를 자동으로 만들고 커스포지에 올립니다.
 #   예) 1.1.3-beta → 커스포지 Beta,  1.1.3 → Release
-# 버전 번호가 그대로면(이미 같은 태그가 있으면) 아무것도 올리지 않습니다.
+# 이미 배포된 번호(같은 이름의 GitHub Release 가 있음)면 아무것도 올리지 않습니다.
 on:
   push:
     branches: [main]
     paths:
       - 'Guidelime_BalCon_Forever.toc'
+      - '.github/workflows/release.yml'
 
 permissions:
   contents: write
@@ -15,9 +17,6 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
-    env:
-      CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,10 +24,12 @@ jobs:
 
       - name: Read version from toc
         id: ver
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           v=$(grep -m1 '^## Version:' Guidelime_BalCon_Forever.toc | sed 's/^## Version:[[:space:]]*//' | tr -d '\r[:space:]')
           echo "tag=v$v" >> "$GITHUB_OUTPUT"
-          if git rev-parse -q --verify "refs/tags/v$v" >/dev/null; then
+          if gh release view "v$v" >/dev/null 2>&1; then
             echo "new=false" >> "$GITHUB_OUTPUT"
             echo "v$v already released - nothing to do"
           else
@@ -40,9 +41,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git tag "${{ steps.ver.outputs.tag }}"
-          git push origin "${{ steps.ver.outputs.tag }}"
+          git tag -f "${{ steps.ver.outputs.tag }}"
+          git push -f origin "refs/tags/${{ steps.ver.outputs.tag }}"
 
       - name: Package and upload
         if: steps.ver.outputs.new == 'true'
-        uses: BigWigsMods/packager@v2
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          # 이 작업은 브랜치 push 로 시작됐지만, 패키저가 태그 배포로 처리하도록 알려 줍니다.
+          export GITHUB_REF="refs/tags/$TAG" GITHUB_REF_NAME="$TAG" GITHUB_REF_TYPE=tag
+          curl -fsSL https://raw.githubusercontent.com/BigWigsMods/packager/v2/release.sh -o "$RUNNER_TEMP/release.sh"
+          bash "$RUNNER_TEMP/release.sh"
