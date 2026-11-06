@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.2 — Dungeon-focused leveling. 32-45: SM Library 34 -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39 -> Uldaman 43. In between, mostly quick zone quests; quests with outstanding rewards (*reward) are kept even when the trip is a bit longer.]
+[D BalCon Dungeon Leveling v1.1.3 — Dungeon-focused leveling. 32-45: SM Library 34 -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39 -> Uldaman 43. In between, mostly quick zone quests; quests with outstanding rewards (*reward) are kept even when the trip is a bit longer.]
 [GA Horde]
 [N32-45 BalCon: SM Library, Armory, RFD, Cathedral, Uldaman]
 [NX45-60 BalCon: ZF, Maraudon, Sunken Temple, BRD, LBRS, Stratholme]

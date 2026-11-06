@@ -1,9 +1,11 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.2 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.1.3 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Mulgore (Tauren) BalCon]
 [NX12-20 BalCon: RFC, Ruins of Lordaeron, WC]
+--OnLoad,PLAYER_LEVEL_UP>>BalConLevel12
+! When you reach level 12 a window pops up. Click "Go to the dungeon guide" to end this guide and jump straight to the 12-20 dungeon guide. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
 
 [G44.8,77.2 Mulgore]Accept [QA747 The Hunt Begins]
 [G44.2,76 Mulgore]Accept [QA752 A Humble Task]

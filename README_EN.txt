@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.2
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.3
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,12 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.3  1-12 starting-zone guides: a window pops up at level 12. "Go to the dungeon guide" reloads the UI and switches
+         to the 12-20 dungeon guide. The window warns about the reputation you would miss (per faction, with your
+         current standing) and lists class quests left. "Keep this guide" stops asking; /balcon 12 shows it again.
+         12-20 guide: join steps for players who ended the 1-12 guide early; Crossroads flight path and hearth for everyone.
+         Ruins of Lordaeron: "The Wrath of Rath'mael" needs Deathguard Linnea's two "Rear Guard Patrol" quests first - added.
+         Ruins of Lordaeron "The New Plague": a prerequisite ("A Recipe For Death" chain) is reported - optional until confirmed.
   1.1.2  Priest/Warlock option at the start of the 20-30 guide (right after the Thunder Bluff turn-ins):
          with a high-level helper, run Blackfathom Deeps for "Blackfathom Villainy" only and turn it in to
          Bashana Runetotem in Thunder Bluff for the Gravestone Scepter wand, then quest to 24-25 with it.
