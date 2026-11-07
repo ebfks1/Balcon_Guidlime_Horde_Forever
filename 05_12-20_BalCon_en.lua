@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.5 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron (prereqs: A Recipe For Death, Rear Guard Patrol) -> Wailing Caverns prereqs -> level 18-19 -> Wailing Caverns.]
+[D BalCon Dungeon Leveling v1.1.6 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron (prereqs: A Recipe For Death, Rear Guard Patrol) -> Wailing Caverns prereqs -> level 18-19 -> Wailing Caverns.]
 [GA Horde]
 [N12-20 BalCon: RFC, Ruins of Lordaeron, WC]
 [NX20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]

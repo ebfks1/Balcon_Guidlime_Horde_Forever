@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.5 — Dungeon-focused leveling. 45-60: Zul'Farrak 46 -> Maraudon 49 -> Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59. Quests with outstanding rewards (*reward) are kept even when the trip is a bit longer.]
+[D BalCon Dungeon Leveling v1.1.6 — Dungeon-focused leveling. 45-60: Zul'Farrak 46 -> Maraudon 49 -> Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59. Quests with outstanding rewards (*reward) are kept even when the trip is a bit longer.]
 [GA Horde]
 [N45-60 BalCon: ZF, Maraudon, Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip

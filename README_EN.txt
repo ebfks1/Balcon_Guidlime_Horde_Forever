@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.5
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.6
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,9 +47,10 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.6  "Trouble in the Deeps" is not a prerequisite: Wowhead Forever shows "Allegiance to the Old Gods" (Damp Note)
+         has no previous quest. It is now an optional breadcrumb step. The route through Stonetalon stays.
   1.1.5  20-30 route: Shadowfang Keep right after Wailing Caverns at level 22 (Thunder Bluff turn-ins -> Undercity ->
-         the Sepulcher), then straight to Blackfathom Deeps through Sun Rock Retreat in Stonetalon for the prerequisite
-         "Trouble in the Deeps" (needed for "Allegiance to the Old Gods"). After Blackfathom: Ashenvale -> Hillsbrad ->
+         the Sepulcher), then straight to Blackfathom Deeps through Sun Rock Retreat in Stonetalon. After Blackfathom: Ashenvale -> Hillsbrad ->
          Hammerfall (flight path discovery added) -> Excavation Site. Low northern Barrens quests removed.
          Steps of quests you never took or skipped (crossed-out icon) are hidden: the guide turns off Guidelime's
          "Show unavailable steps" once (chat notice); turn it back on in the Guidelime menu if you want them.

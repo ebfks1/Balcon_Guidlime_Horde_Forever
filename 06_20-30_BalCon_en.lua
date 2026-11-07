@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.5 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 20-30: Shadowfang Keep at 22 -> Stonetalon prerequisite -> Blackfathom Deeps at 24 -> Ashenvale and Hillsbrad -> Excavation Site -> Dalaran -> Razorfen Kraul -> Graveyard.]
+[D BalCon Dungeon Leveling v1.1.6 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 20-30: Shadowfang Keep at 22 -> Stonetalon prerequisite -> Blackfathom Deeps at 24 -> Ashenvale and Hillsbrad -> Excavation Site -> Dalaran -> Razorfen Kraul -> Graveyard.]
 [GA Horde]
 [N20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]
 [NX32-45 BalCon: SM Library, Armory, RFD, Cathedral, Uldaman]
@@ -63,7 +63,7 @@ Turn in to Deathstalker Vincent inside the dungeon: [QT1098 Deathstalkers in Sha
 Turn in [QT95981 Watching the Roads][A Orc, Undead, Tauren]
 == Shadowfang Keep turn-ins == [F Undercity]Fly to Undercity (if you don't have the flight path, run).[OC]
 [G53.6,54.4 Undercity]Turn in [QT1013 The Book of Ur][O]
->> Next dungeon: Blackfathom Deeps (at about Lv24) — about Lv23.1 now. Go through Sun Rock Retreat in Stonetalon Mountains to pick up the dungeon prerequisite "Trouble in the Deeps", then on to Zoram'gar.[OC]
+>> Next dungeon: Blackfathom Deeps (at about Lv24) — about Lv23.1 now. You don't have the Zoram'gar flight path yet, so walk there through Stonetalon Mountains via Sun Rock Retreat, doing the quests on the way.[OC]
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
 [H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
 [G32.0,37.8 Orgrimmar]Turn in to Thrall: [QT95350 Welcome to Azeroth][A Skyborne][O]
@@ -79,13 +79,13 @@ Kill spiders: [QC6461 Blood Feeders]
 Pick up the eggs: [QC1069 Deepmoss Spider Eggs]
 [G71.2,94.8 Stonetalon Mountains]Go back to Malaka'jin and turn in [QT6461 Blood Feeders]
 [G52,60 Stonetalon Mountains]Go to this point and head west to reach Sun Rock Retreat.[OC]
-[G47.2,64.2 Stonetalon Mountains]Accept [QA6562 Trouble in the Deeps]
+[G47.2,64.2 Stonetalon Mountains](Optional) Accept from Tsunaman: [QA6562 Trouble in the Deeps] — a breadcrumb to Zoram'gar. You can get every Blackfathom quest without it.[O]
 [G45.2,59.8 Stonetalon Mountains]Discover the [P Sun Rock Retreat] flight path.[OC]
 From Sun Rock Retreat, follow the road north out of Stonetalon Mountains to Zoram'gar Outpost on the west coast of Ashenvale (on foot if you don't have the Zoram'gar flight path yet).[OC]
 [G11.2,33.8 Ashenvale]Discover the [P Zoram'gar Outpost] flight path.[OC]
 You need to be [XP24 level 24] (tanks and DPS are better at 25). If not, grind a little around Zoram'gar.[OC]
 * Blackfathom Deeps — Lv24.0 -> about Lv25.3 · recommended Lv24-25 (healer 24 · tank/DPS 25)
-[G11.5,34.2 Ashenvale]Turn in to Je'neu Sancrea at Zoram'gar Outpost: [QT6562 Trouble in the Deeps]
+[G11.5,34.2 Ashenvale](Optional) Turn in to Je'neu Sancrea at Zoram'gar Outpost: [QT6562 Trouble in the Deeps][O]
 [G11.5,34.2 Ashenvale]Accept (or get it shared): [QA6563 The Essence of Aku'Mai]
 [G11.5,34.2 Ashenvale]Accept (or get it shared): [QA6921 Amongst The Ruins]
 [G14.2,14.0 Ashenvale]Enter Blackfathom Deeps on the north coast (underwater passage)[OC]
