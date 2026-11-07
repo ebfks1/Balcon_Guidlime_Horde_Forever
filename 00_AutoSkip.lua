@@ -20,6 +20,18 @@ local function db()
 	return BalConAutoSkipDB
 end
 
+-- 받지 않았거나 패스한 퀘스트의 "사용할 수 없는 단계"(금지 표시)를 숨김: Guidelime 의 "사용 불가능한 단계 표시"를 한 번만 끔
+local function hideUnavailable()
+	local d = db()
+	if d.unavailHidden or not GuidelimeDataChar then return end
+	d.unavailHidden = true
+	if GuidelimeDataChar.showUnavailableSteps then
+		GuidelimeDataChar.showUnavailableSteps = false
+		print(KO and "|cffffd200발컨|r: 패스한 퀘스트의 금지 표시 단계를 숨겼습니다. 다시 보려면 Guidelime 창 메뉴의 '사용 불가능한 단계 표시'를 켜세요."
+			or "|cffffd200BalCon|r: steps of skipped quests (crossed-out icon) are now hidden. To show them again, turn on 'Show unavailable steps' in the Guidelime window menu.")
+	end
+end
+
 local function inLog(q)
 	local i
 	if C_QuestLog and C_QuestLog.GetLogIndexForQuestID then i = C_QuestLog.GetLogIndexForQuestID(q)
@@ -41,6 +53,7 @@ local function title(e)
 end
 
 function G.BalConAutoSkip(data, args, event, arg1)
+	hideUnavailable()
 	local d = db()
 	if not d.on then return end
 	local guideName = GuidelimeDataChar and GuidelimeDataChar.currentGuide
@@ -120,6 +133,7 @@ local function switchGuide(target)
 	ReloadUI()
 end
 function G.BalConLevel12(data, args, event, arg1)
+	hideUnavailable()
 	local d = db()
 	d.stay12 = d.stay12 or {}
 	local guide = data and data.guide

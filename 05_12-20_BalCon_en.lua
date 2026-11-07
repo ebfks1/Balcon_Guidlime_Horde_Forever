@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.4 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron (prereqs: A Recipe For Death, Rear Guard Patrol) -> Wailing Caverns prereqs -> level 18-19 -> Wailing Caverns.]
+[D BalCon Dungeon Leveling v1.1.5 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron (prereqs: A Recipe For Death, Rear Guard Patrol) -> Wailing Caverns prereqs -> level 18-19 -> Wailing Caverns.]
 [GA Horde]
 [N12-20 BalCon: RFC, Ruins of Lordaeron, WC]
 [NX20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]
@@ -203,5 +203,5 @@ Accept from the "Glowing Shard" dropped by the final boss Mutanus: [QA6981 The G
 [G62.4,37.6 The Barrens]Turn in to Mebok Mizzyrix: [QT1491 Smart Drinks]
 [G63.0,37.6 The Barrens]Turn in to Crane Operator Bigglefuzz: [QT959 Trouble at the Docks]
 ! "Leaders of the Fang", "Serpentbloom" and "In Nightmares" are turned in when the route passes through Thunder Bluff (keep them). (click to close once checked)
->> Next dungeon: Shadowfang Keep (at about Lv24.0) — about Lv20.1 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn).
+>> Next dungeon: Shadowfang Keep (at Lv22) — about Lv21 now. The 20-30 guide takes you straight there: Thunder Bluff turn-ins -> Undercity -> the Sepulcher.
 ]], "BalCon Dungeon Leveling (Forever)")

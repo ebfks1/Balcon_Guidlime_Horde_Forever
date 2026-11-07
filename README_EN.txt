@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.4
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.5
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,12 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.5  20-30 route: Shadowfang Keep right after Wailing Caverns at level 22 (Thunder Bluff turn-ins -> Undercity ->
+         the Sepulcher), then straight to Blackfathom Deeps through Sun Rock Retreat in Stonetalon for the prerequisite
+         "Trouble in the Deeps" (needed for "Allegiance to the Old Gods"). After Blackfathom: Ashenvale -> Hillsbrad ->
+         Hammerfall (flight path discovery added) -> Excavation Site. Low northern Barrens quests removed.
+         Steps of quests you never took or skipped (crossed-out icon) are hidden: the guide turns off Guidelime's
+         "Show unavailable steps" once (chat notice); turn it back on in the Guidelime menu if you want them.
   1.1.4  Ruins of Lordaeron: "The New Plague" (Theodore Griffs) needs all three steps of "A Recipe For Death" - added
          (Renferrel at the Sepulcher -> Faranell in Undercity -> Berard's Bookshelf in Pyrewood -> Renferrel ->
          Lordamere Lake moss + Hardened Tumor from Vile Fin murlocs (about 5% drop) -> Faranell -> Theodore).
