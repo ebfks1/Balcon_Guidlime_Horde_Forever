@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.3
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.4
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,11 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.4  Ruins of Lordaeron: "The New Plague" (Theodore Griffs) needs all three steps of "A Recipe For Death" - added
+         (Renferrel at the Sepulcher -> Faranell in Undercity -> Berard's Bookshelf in Pyrewood -> Renferrel ->
+         Lordamere Lake moss + Hardened Tumor from Vile Fin murlocs (about 5% drop) -> Faranell -> Theodore).
+         12-20 route reordered: Ragefire -> Ruins prerequisites in Undercity/Silverpine to level 16 -> Ruins of Lordaeron
+         -> Wailing Caverns prerequisites in the Barrens/Thunder Bluff -> Wailing Caverns.
   1.1.3  1-12 starting-zone guides: a window pops up at level 12. "Go to the dungeon guide" reloads the UI and switches
          to the 12-20 dungeon guide. The window warns about the reputation you would miss (per faction, with your
          current standing) and lists class quests left. "Keep this guide" stops asking; /balcon 12 shows it again.

@@ -1,13 +1,9 @@
-## v1.1.3
+## v1.1.4
 
 **한국어**
-- 1-12 시작 지역 가이드: 12레벨이 되면 안내 창 — 12-20 던전 가이드로 바로 넘어가기. 남은 퀘스트를 안 했을 때 받지 못하는 평판(세력별)과 남은 직업 퀘스트를 경고로 표시
-- 12-20 가이드: 1-12 를 중간에 마치고 넘어온 경우의 합류 안내 추가
-- 로데론의 폐허: "라스마엘의 격노" 선행 퀘스트 "후방 경비" 두 단계(죽음의경비병 리니아) 추가
-- 로데론의 폐허 "새로운 역병": 선행 퀘스트 확인 중 — 선택 단계로 표시
+- 로데론의 폐허 "새로운 역병": 선행 퀘스트 "죽음의 비법" 연계 3단계를 동선에 추가 (공동묘지 렌퍼럴 → 언더시티 파라넬 → 장작나무 마을 → 로더미어 호숫가)
+- 12-20 동선 변경: 성난불길 → 폐허 선행 퀘스트(언더시티·은빛소나무 숲)로 16레벨 → 로데론의 폐허 → 통곡의 동굴 선행 퀘스트 → 통곡의 동굴
 
 **English**
-- 1-12 starting-zone guides: level-12 window to jump straight to the 12-20 dungeon guide, warning about the reputation you would miss (per faction) and class quests left
-- 12-20 guide: join steps for players who ended the 1-12 guide early
-- Ruins of Lordaeron: added the "Rear Guard Patrol" prerequisite chain (Deathguard Linnea) for "The Wrath of Rath'mael"
-- Ruins of Lordaeron "The New Plague": prerequisite being checked - marked optional
+- Ruins of Lordaeron "The New Plague": added its prerequisite, the three-step "A Recipe For Death" chain (Renferrel at the Sepulcher -> Faranell in Undercity -> Pyrewood Village -> Lordamere Lake)
+- 12-20 route reordered: Ragefire -> Ruins prerequisites (Undercity, Silverpine) to level 16 -> Ruins of Lordaeron -> Wailing Caverns prerequisites -> Wailing Caverns

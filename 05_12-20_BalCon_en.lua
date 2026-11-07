@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.3 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron -> level 18 -> Wailing Caverns.]
+[D BalCon Dungeon Leveling v1.1.4 — Dungeon-focused leveling. 12-20: follow the Wailing Caverns quest chain to level 13 -> Ragefire Chasm -> level 16 -> Ruins of Lordaeron (prereqs: A Recipe For Death, Rear Guard Patrol) -> Wailing Caverns prereqs -> level 18-19 -> Wailing Caverns.]
 [GA Horde]
 [N12-20 BalCon: RFC, Ruins of Lordaeron, WC]
 [NX20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]
@@ -88,8 +88,64 @@ Two books (spellbook and tome): [QC5725 The Power to Destroy...][O]
 [G49.4,50.5 Orgrimmar]Then accept [QA5730 Hidden Enemies] — Dungeon chain (Ragefire Chasm)
 [G32.0,37.8 Orgrimmar]Turn in to Thrall: [QT5730 Hidden Enemies] — Dungeon chain (Ragefire Chasm)
 ! If you have "The Power to Destroy..." (Varimathras), turn it in in Undercity on the way to the Ruins of Lordaeron. The Thunder Bluff turn-ins (troggs and satchel) are done in step 3 when the Fang chain takes you to Thunder Bluff. (click to close once checked)
->> Next dungeon: Ruins of Lordaeron (at Lv16) — about Lv14.8 now. Until then, continue the Wailing Caverns chain (Leaders of the Fang) and the quests along the way.[OC]
-== Step 3: Leaders of the Fang chain + Ratchet (to level 16) == [F The Crossroads]Fly to the Crossroads.[OC]
+>> Next dungeon: Ruins of Lordaeron (at Lv16) — about Lv14.8 now. Until then, do the Ruins prerequisites in Undercity and Silverpine Forest (the "A Recipe For Death" chain and "Rear Guard Patrol") to reach level 16.[OC]
+== Step 3: Ruins of Lordaeron prerequisites (Undercity and Silverpine Forest, to level 16) == "The New Plague" is only offered after all three steps of "A Recipe For Death".[OC]
+[G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
+[G56.1,92.3 Undercity]Turn in [QT5725 The Power to Destroy...][O]
+[G57.8,89.8 Undercity]Accept from Morbin Lightbane in the Royal Quarter (or get it shared): [QA92421 Light's Justice]
+[G44.6,42.8 Silverpine Forest]Leave Undercity, run west to the Sepulcher in Silverpine Forest and accept from Tabitha Heartweaver (or get it shared): [QA92401 A Frightened Request]
+[G45.6,42.6 Silverpine Forest]Discover the [P The Sepulcher] flight path at the Sepulcher flight master.[OC]
+[G42.8,40.9 Silverpine Forest]Accept from Apothecary Renferrel at the Sepulcher: [QA447 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[G49.6,34.0 Silverpine Forest]Kill Ferocious Grizzled Bears on the hills northeast of the Sepulcher for 6 Grizzled Bear Hearts: [QC447,1 A Recipe For Death]
+[G35.4,12.0 Silverpine Forest]Go up to the north coast and collect 6 Skittering Blood from Moss Stalkers and Mist Creepers: [QC447,2 A Recipe For Death]
+[G60.7,58.8 Tirisfal Glades]Leave Silverpine by the north road and go back to Undercity.[OC]
+[G48.8,69.3 Undercity]Turn in to Master Apothecary Faranell in the Apothecarium: [QT447 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[G48.8,69.3 Undercity]Then accept: [QA450 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[F The Sepulcher]Fly to the Sepulcher.[OC]
+[G43.0,73.2 Silverpine Forest]Click Berard's Bookshelf in Pyrewood Village to the south for Berard's Journal: [QC450 A Recipe For Death]
+[G42.8,40.9 Silverpine Forest]Back at the Sepulcher, turn in to Renferrel: [QT450 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[G42.8,40.9 Silverpine Forest]Then accept: [QA451 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[G72.0,35.0 Silverpine Forest]On the east shore of Lordamere Lake, kill Lake Skulkers for 6 Lake Skulker Moss: [QC451,1 A Recipe For Death]
+[G77.0,26.0 Silverpine Forest]Further north along the shore, kill Lake Creepers (level 17-18) for 6 Lake Creeper Moss: [QC451,2 A Recipe For Death]
+Get 1 Hardened Tumor from the Vile Fin murlocs along the shore (about 5% drop - kill murlocs whenever you see them while collecting the moss): [QC451,3 A Recipe For Death]
+[G60.7,58.8 Tirisfal Glades]Take the road north of the lake back to Undercity.[OC]
+[G48.8,69.3 Undercity]Turn in to Faranell: [QT451 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
+[G47.0,72.6 Undercity]Accept from Theodore Griffs right next to him (or get it shared): [QA95216 The New Plague]
+You need to be [XP16 level 16]. If not, grind a little in eastern Tirisfal while doing "Rear Guard Patrol" below, or go to the Ruins of Lordaeron at 15 (healers).[OC]
+* Ruins of Lordaeron — Lv16.0 -> about Lv18.2 · recommended Lv15-16 (healer 15 · tank/DPS 16)
+[G65.5,60.2 Tirisfal Glades]Leave Undercity and go east to the camp near Brill. Right next to Kristof, accept from Deathguard Linnea: [QA356 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron) Kristof only offers "The Wrath of Rath'mael" after both steps of Linnea's "Rear Guard Patrol" (skipped automatically if you already did it in Tirisfal).
+[G76.2,60.6 Tirisfal Glades]To the east, kill 8 Bleeding Horrors and 8 Wandering Spirits: [QC356 Rear Guard Patrol]
+[G65.5,60.2 Tirisfal Glades]Turn in to Linnea: [QT356 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron)
+[G65.5,60.2 Tirisfal Glades]Then accept: [QA99156 Rear Guard Patrol] (new in Forever) — Dungeon prereq (Ruins of Lordaeron)
+[G81.3,44.5 Tirisfal Glades]Kill Riptear, the level 13 elite patrolling the northeast coast, and take its heart: [QC99156 Rear Guard Patrol]
+[G65.5,60.2 Tirisfal Glades]Turn in to Linnea: [QT99156 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron)
+[G65.2,60.2 Tirisfal Glades]Accept from Deathguard Kristof (or get it shared): [QA92422 The Wrath of Rath'mael]
+[G62.0,68.0 Tirisfal Glades]Enter the Ruins of Lordaeron above the Undercity entrance (approximate entrance location)[OC]
+Kill the Decayfangs patrolling the spider area at the entrance for the Highly Toxic Strain: [QC95216 The New Plague]
+Every mob drops several Intact Limbs, collect 25: [QC92421 Light's Justice]
+Accept from the Baron's "Abominable Head": [QA97288 Unending Torment]
+If a "Crest of Lordaeron" drops, pick it up and accept [QA95204 Crest of Lordaeron][OC]
+Investigate Edward Heartweaver's remains in the graveyard area where Rath'mael is: [QC92401 A Frightened Request]
+Kill the final boss Rath'mael, visible beyond the fence: [QC92422 The Wrath of Rath'mael]
+[G65.2,60.2 Tirisfal Glades]Turn in to Deathguard Kristof: [QT92422 The Wrath of Rath'mael]
+[G47.0,72.6 Undercity]Turn in to Theodore Griffs: [QT95216 The New Plague]
+[G48.4,69.4 Undercity]Turn in to Master Apothecary Faranell: [QT97288 Unending Torment]
+[G48.4,69.4 Undercity]Then accept [QA97289 Unending Torment]
+[G46.2,63.0 Undercity]Turn in to the Unfinished Abomination (Osmar's body): [QT97289 Unending Torment]
+[G46.2,63.0 Undercity]Then accept [QA97290 Unending Torment]
+[G48.4,69.4 Undercity]Turn in to Faranell: [QT97290 Unending Torment]
+[G48.4,69.4 Undercity]Then accept [QA97291 Unending Torment]
+Toxic Skullcap (Tawny Grisette, Trade Quarter), Blisterweed (pot behind the herbalist), Essence of Agony (poison vendor, Rogues' Quarter): [QC97291 Unending Torment]
+[G48.4,69.4 Undercity]Turn in to Faranell: [QT97291 Unending Torment]
+[G48.4,69.4 Undercity]Then accept [QA97292 Unending Torment]
+Inject the Hissing Serum into the device on Osmar's body: [QC97292 Unending Torment]
+[G48.4,69.4 Undercity]Turn in to Faranell: [QT97292 Unending Torment]
+[G73.4,32.4 Undercity]Turn in to Oran Snakewrithe: [QT95204 Crest of Lordaeron][O]
+[G57.8,89.8 Undercity]Turn in to Morbin Lightbane: [QT92421 Light's Justice]
+! "A Frightened Request" is turned in at the Sepulcher on the way to Shadowfang Keep (keep it). (click to close once checked)
+! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
+== Step 4: Leaders of the Fang chain + Ratchet (Wailing Caverns prerequisites) == [H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
+[F The Crossroads]Fly to the Crossroads.[OC]
 [G47.6,40.0 The Barrens]Kill the oasis creatures at the Lushwater Oasis to the southwest (south of Wailing Caverns): [QC880 Altered Beings]
 [G52.2,31.8 The Barrens]Turn in to Tonga Runetotem at the Crossroads: [QT880 Altered Beings] — Dungeon prereq (Wailing Caverns)
 [G52.2,31.8 The Barrens]Then accept [QA1489 Hamuul Runetotem] — Dungeon prereq (Wailing Caverns)
@@ -120,52 +176,10 @@ Follow the main road south from the Crossroads to Thunder Bluff (if you have the
 [G70.2,29.5 Thunder Bluff]Turn in to Rahauro on the Elder Rise: [QT5723 Testing an Enemy's Strength][O]
 [G70.2,29.5 Thunder Bluff]Turn in [QT5724 Returning the Lost Satchel] — Dungeon chain (Ragefire Chasm)[O]
 [G46.8,50 Thunder Bluff]Discover the [P Thunder Bluff] flight path at the flight master.[OC]
-*Spells* [T]Train your new spells up to level 16 at your class trainer.[OC]
-You need to be [XP16 level 16]. If not, grind a little in Mulgore below Thunder Bluff, or go to the Ruins of Lordaeron at 15 (healers).[OC]
-* Ruins of Lordaeron — Lv16.0 -> about Lv18.3 · recommended Lv15-16 (healer 15 · tank/DPS 16)
-[F Orgrimmar]Fly to Orgrimmar.[OC]
-[G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
-[G56.1,92.3 Undercity]Turn in [QT5725 The Power to Destroy...][O]
-[G57.8,89.8 Undercity]Accept from Morbin Lightbane in the Royal Quarter (or get it shared): [QA92421 Light's Justice]
-[G47.0,72.6 Undercity]Accept from Theodore Griffs in the Apothecarium (or get it shared): [QA95216 The New Plague] — if Theodore does not offer it, the "A Recipe For Death" chain may be required first (being checked). If you cannot get it, skip these steps.[O]
-[G44.6,42.8 Silverpine Forest]Leave Undercity, run west to the Sepulcher in Silverpine Forest and accept from Tabitha Heartweaver (or get it shared): [QA92401 A Frightened Request]
-[G45.6,42.6 Silverpine Forest]Discover the [P The Sepulcher] flight path at the Sepulcher flight master.[OC]
-[F Undercity]Fly to Undercity.[OC]
-[G65.5,60.2 Tirisfal Glades]Leave Undercity and go east to the camp near Brill. Right next to Kristof, accept from Deathguard Linnea: [QA356 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron) Kristof only offers "The Wrath of Rath'mael" after both steps of Linnea's "Rear Guard Patrol" (skipped automatically if you already did it in Tirisfal).
-[G76.2,60.6 Tirisfal Glades]To the east, kill 8 Bleeding Horrors and 8 Wandering Spirits: [QC356 Rear Guard Patrol]
-[G65.5,60.2 Tirisfal Glades]Turn in to Linnea: [QT356 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron)
-[G65.5,60.2 Tirisfal Glades]Then accept: [QA99156 Rear Guard Patrol] (new in Forever) — Dungeon prereq (Ruins of Lordaeron)
-[G81.3,44.5 Tirisfal Glades]Kill Riptear, the level 13 elite patrolling the northeast coast, and take its heart: [QC99156 Rear Guard Patrol]
-[G65.5,60.2 Tirisfal Glades]Turn in to Linnea: [QT99156 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron)
-[G65.2,60.2 Tirisfal Glades]Accept from Deathguard Kristof (or get it shared): [QA92422 The Wrath of Rath'mael]
-[G62.0,68.0 Tirisfal Glades]Enter the Ruins of Lordaeron above the Undercity entrance (approximate entrance location)[OC]
-Kill the Decayfangs patrolling the spider area at the entrance for the Highly Toxic Strain: [QC95216 The New Plague][O]
-Every mob drops several Intact Limbs, collect 25: [QC92421 Light's Justice]
-Accept from the Baron's "Abominable Head": [QA97288 Unending Torment]
-If a "Crest of Lordaeron" drops, pick it up and accept [QA95204 Crest of Lordaeron][OC]
-Investigate Edward Heartweaver's remains in the graveyard area where Rath'mael is: [QC92401 A Frightened Request]
-Kill the final boss Rath'mael, visible beyond the fence: [QC92422 The Wrath of Rath'mael]
-[G65.2,60.2 Tirisfal Glades]Turn in to Deathguard Kristof: [QT92422 The Wrath of Rath'mael]
-[G47.0,72.6 Undercity]Turn in to Theodore Griffs: [QT95216 The New Plague][O]
-[G48.4,69.4 Undercity]Turn in to Master Apothecary Faranell: [QT97288 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97289 Unending Torment]
-[G46.2,63.0 Undercity]Turn in to the Unfinished Abomination (Osmar's body): [QT97289 Unending Torment]
-[G46.2,63.0 Undercity]Then accept [QA97290 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97290 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97291 Unending Torment]
-Toxic Skullcap (Tawny Grisette, Trade Quarter), Blisterweed (pot behind the herbalist), Essence of Agony (poison vendor, Rogues' Quarter): [QC97291 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97291 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97292 Unending Torment]
-Inject the Hissing Serum into the device on Osmar's body: [QC97292 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97292 Unending Torment]
-[G73.4,32.4 Undercity]Turn in to Oran Snakewrithe: [QT95204 Crest of Lordaeron][O]
-[G57.8,89.8 Undercity]Turn in to Morbin Lightbane: [QT92421 Light's Justice]
-! "A Frightened Request" is turned in at the Sepulcher on the way to Shadowfang Keep (keep it). (click to close once checked)
-! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
-== Step 4: at level 18, go straight to Wailing Caverns == [H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
-[F The Crossroads]Fly to the Crossroads.[OC]
+*Spells* [T]Train your new spells up to level 19 at your class trainer.[OC]
+== Step 5: Wailing Caverns == [F The Crossroads]Fly to the Crossroads.[OC]
 You need to be [XP18 level 18]. If not, kill centaurs on the way to Verog the Dervish below.[OC]
-* Wailing Caverns — Lv18.4 -> about Lv20.1 · recommended Lv16-17 (healer 16 · tank/DPS 17)
+* Wailing Caverns — Lv19.2 -> about Lv20.9 · recommended Lv16-17 (healer 16 · tank/DPS 17)
 [G53.0,41.6 The Barrens]Centaur camp next to the Stagnant Oasis to the south: kill centaurs until you hear "I am here!", then kill Verog the Dervish: [QC851 Verog the Dervish]
 [G53.0,41.6 The Barrens]Turn it in right there: [QT851 Verog the Dervish]
 [G53.0,41.6 The Barrens]Then accept [QA852 Hezrul Bloodmark]

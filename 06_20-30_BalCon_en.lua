@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.3 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon.]
+[D BalCon Dungeon Leveling v1.1.4 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon.]
 [GA Horde]
 [N20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]
 [NX32-45 BalCon: SM Library, Armory, RFD, Cathedral, Uldaman]
