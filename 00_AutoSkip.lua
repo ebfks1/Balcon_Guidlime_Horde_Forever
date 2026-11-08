@@ -126,11 +126,20 @@ local function repLine(fid, v)
 	end
 	return s
 end
-local function switchGuide(target)
-	if not target then return end
-	GuidelimeDataChar.currentGuide = target
-	GuidelimeDataChar.mainFrameShowing = true
-	ReloadUI()
+-- 리로드 없이 넘어가기: 1-12 가이드의 남은 단계를 모두 건너뛰면 Guidelime 이 창 맨 위에
+-- "가이드 완료 — 다음 가이드" 링크를 띄우고, 그 링크를 누르면 리로드 없이 12-20 가이드를 불러옵니다.
+local function finishGuide(guide, guideName, next)
+	GuidelimeDataChar.guideSkip = GuidelimeDataChar.guideSkip or {}
+	GuidelimeDataChar.guideSkip[guideName] = GuidelimeDataChar.guideSkip[guideName] or {}
+	local skipT = GuidelimeDataChar.guideSkip[guideName]
+	for _, step in ipairs(guide.steps) do
+		if step.index and not step.completed and not step.skip then
+			step.skip = true
+			skipT[step.index] = true
+		end
+	end
+	print(KO and ("|cffffd200발컨|r: 1-12 가이드의 남은 단계를 건너뛰었습니다. Guidelime 창 맨 위의 |cffffffff다음 가이드: " .. (next or "12-20") .. "|r 를 눌러 주세요 (리로드 없음).")
+		or ("|cffffd200BalCon|r: skipped the rest of the 1-12 guide. Click |cffffffffnext guide: " .. (next or "12-20") .. "|r at the top of the Guidelime window (no reload)."))
 end
 function G.BalConLevel12(data, args, event, arg1)
 	hideUnavailable()
@@ -176,7 +185,7 @@ function G.BalConLevel12(data, args, event, arg1)
 			for _, f in ipairs(order) do t[#t + 1] = repLine(f, sum[f]) end
 		end
 		if #cl > 0 then t[#t + 1] = "\n|cffff8000남은 직업 퀘스트|r: " .. table.concat(cl, ", ", 1, math.min(#cl, 6)) .. (#cl > 6 and " …" or "") .. "\n(직업 퀘스트는 넘어가기 전에 꼭 끝내세요)" end
-		t[#t + 1] = "\n넘어가면 화면을 다시 불러옵니다 (/reload)."
+		t[#t + 1] = "\n건너뛰면 Guidelime 창 맨 위에 다음 가이드 링크가 뜹니다 (리로드 없음)."
 	else
 		t[#t + 1] = "|cffffd200BalCon|r — You reached level 12!\n\nWe recommend finishing this 1-12 guide here\nand moving on to the 12-20 dungeon guide."
 		if #order > 0 then
@@ -184,13 +193,13 @@ function G.BalConLevel12(data, args, event, arg1)
 			for _, f in ipairs(order) do t[#t + 1] = repLine(f, sum[f]) end
 		end
 		if #cl > 0 then t[#t + 1] = "\n|cffff8000Class quests left|r: " .. table.concat(cl, ", ", 1, math.min(#cl, 6)) .. (#cl > 6 and " …" or "") .. "\n(finish your class quests before moving on)" end
-		t[#t + 1] = "\nMoving on reloads your UI (/reload)."
+		t[#t + 1] = "\nSkipping shows the next-guide link at the top of the Guidelime window (no reload)."
 	end
 	StaticPopupDialogs["BALCON_LEVEL12"] = {
 		text = "%s",
-		button1 = KO and "던전 가이드로 넘어가기" or "Go to the dungeon guide",
+		button1 = KO and "남은 단계 건너뛰기" or "Skip the rest",
 		button2 = KO and "이 가이드 계속하기" or "Keep this guide",
-		OnAccept = function() switchGuide(target) end,
+		OnAccept = function() finishGuide(guide, guideName, guide.next and guide.next[1]) end,
 		OnCancel = function(_, _, reason)
 			if reason == "clicked" then
 				d.stay12[guideName] = true

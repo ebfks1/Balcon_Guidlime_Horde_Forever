@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.6 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 20-30: Shadowfang Keep at 22 -> Stonetalon prerequisite -> Blackfathom Deeps at 24 -> Ashenvale and Hillsbrad -> Excavation Site -> Dalaran -> Razorfen Kraul -> Graveyard.]
+[D BalCon Dungeon Leveling v1.1.7 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 20-30: Shadowfang Keep at 22 -> Stonetalon prerequisite -> Blackfathom Deeps at 24 -> Ashenvale and Hillsbrad -> Excavation Site -> Dalaran -> Razorfen Kraul -> Graveyard.]
 [GA Horde]
 [N20-30 BalCon: SFK, BFD, Excavation Site, Dalaran, RFK, SM Graveyard]
 [NX32-45 BalCon: SM Library, Armory, RFD, Cathedral, Uldaman]

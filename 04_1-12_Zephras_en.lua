@@ -1,11 +1,11 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.6 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.1.7 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Zephras Isle (Skyborne) BalCon]
 [NX12-20 BalCon: RFC, Ruins of Lordaeron, WC]
 --OnLoad,PLAYER_LEVEL_UP>>BalConLevel12
-! When you reach level 12 a window pops up. Click "Go to the dungeon guide" to end this guide and jump straight to the 12-20 dungeon guide. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
+! When you reach level 12 a window pops up. "Skip the rest" ends this guide; then click the "next guide" link at the top of the Guidelime window to open the 12-20 dungeon guide without a reload. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
 
 Zephras Isle — Skyborne only, levels 1-12. You only see the class quests for your own class. == Starting village (1-5) == Accept [QA92460 Coming of Age] (Ailee Farheart)[G42.8,23.4Zephras Isle]
 Turn in [QT92460 Coming of Age] (Rorian the Dayseeker)[G42.0,23.4Zephras Isle]

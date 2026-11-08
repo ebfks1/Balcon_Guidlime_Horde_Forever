@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.6
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.7
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,12 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.7  Level-12 window no longer reloads the UI: "Skip the rest" ends the 1-12 guide and Guidelime's own
+         "next guide" link at the top of its window opens the 12-20 guide without a reload.
+         12-20 route: Thrall's "Hidden Enemies" at 12 -> Wailing Caverns prereqs to 13 -> Ragefire Chasm ->
+         turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs plus Silverpine quests (The Dead Fields,
+         The Decrepit Ferry, Pyrewood Ambush) to 16 -> Ruins of Lordaeron -> Wailing Caverns prereqs -> Wailing Caverns.
+         Pyrewood Village has level 13-15 elites: party recommended, solo tips added, Pyrewood Ambush is party-only (optional).
   1.1.6  "Trouble in the Deeps" is not a prerequisite: Wowhead Forever shows "Allegiance to the Old Gods" (Damp Note)
          has no previous quest. It is now an optional breadcrumb step. The route through Stonetalon stays.
   1.1.5  20-30 route: Shadowfang Keep right after Wailing Caverns at level 22 (Thunder Bluff turn-ins -> Undercity ->
