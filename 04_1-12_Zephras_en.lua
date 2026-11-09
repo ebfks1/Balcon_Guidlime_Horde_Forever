@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test4 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.2.0-test5 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Zephras Isle (Skyborne) BalCon]
 [NX12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
@@ -260,9 +260,9 @@ Turn in [QT94638 Strength and Mercy] (Urs'endris)[G69.8,61.4Zephras Isle][A Drui
 [XP12 Reach level 12 — ready for the next guide]
 == To Thunder Bluff == Take the skyship to Thunder Bluff from the dock west of Valanaar: [G57.9,80.9Zephras Isle][OC]
 [P Thunder Bluff] Discover the Thunder Bluff flight path: [G47.0,49.8Thunder Bluff][OC]
-[G33.4,22.4 Mulgore]Accept from Alaana Stormwalker: [QA95350 Welcome to Azeroth] — turn it in to Thrall in Orgrimmar (when you pass through Orgrimmar).[OC]
-[G33.4,22.4 Mulgore]Accept from Muln Earthfury: [QA94911 Child of Nature][A Druid]
-[G76.4,27.4 Thunder Bluff]Turn in to Turak Runetotem on the Elder Rise in Thunder Bluff: [QT94911 Child of Nature][A Druid]
+[G33.4,22.5 Mulgore]Accept from Alaana Stormwalker: [QA95350 Welcome to Azeroth] — turn it in to Thrall in Orgrimmar (when you pass through Orgrimmar).[OC]
+[G33.4,22.5 Mulgore]Accept from Muln Earthfury: [QA94911 Child of Nature][A Druid]
+[G76.3,27.3 Thunder Bluff]Turn in to Turak Runetotem on the Elder Rise in Thunder Bluff: [QT94911 Child of Nature][A Druid]
 == Level 12: on to BalCon 12-25 ==
 Continue with the next guide "12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD" (it starts at the Crossroads).
 ]], "BalCon Dungeon Leveling (Forever)")

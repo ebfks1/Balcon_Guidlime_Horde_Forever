@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test4 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
+[D BalCon Dungeon Leveling v1.2.0-test5 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
 [GA Horde]
 [N12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
 [NX25-30 BalCon: Excavation Site, Dalaran]
@@ -210,8 +210,8 @@ Follow the main road south from the Crossroads to Thunder Bluff (if you have the
 You need to be [XP18 level 18]. If not, kill centaurs on the way to Verog the Dervish below.[OC]
 * Wailing Caverns — Lv19.2 -> about Lv20.9 · recommended Lv16-17 (healer 16 · tank/DPS 17)
 [G53.0,41.6 The Barrens]Centaur camp next to the Stagnant Oasis to the south: kill centaurs until you hear "I am here!", then kill Verog the Dervish: [QC851 Verog the Dervish]
-[G53.0,41.6 The Barrens]Turn it in right there: [QT851 Verog the Dervish]
-[G53.0,41.6 The Barrens]Then accept [QA852 Hezrul Bloodmark]
+[G45.2,28.4 The Barrens]Go back north to Regthar Deathgate and turn in: [QT851 Verog the Dervish]
+[G45.2,28.4 The Barrens]Then accept from Regthar: [QA852 Hezrul Bloodmark]
 [G46.0,37.6 The Barrens]Hezrul Bloodmark near the Wailing Caverns entrance (2 escorts, group recommended): [QC852 Hezrul Bloodmark]
 [G45.9,35.6 The Barrens]Accept from Nalpak above the entrance (or get it shared): [QA1486 Deviate Hides]
 [G46.0,35.7 The Barrens]Accept from Ebru (or get it shared): [QA1487 Deviate Eradication]
