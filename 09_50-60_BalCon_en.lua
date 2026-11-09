@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test5 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59 (this part will be refined in a later version).]
+[D BalCon Dungeon Leveling v1.2.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59 (this part will be refined in a later version).]
 [GA Horde]
 [N50-60 BalCon: Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip

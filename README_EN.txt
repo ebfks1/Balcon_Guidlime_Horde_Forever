@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.9
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.0
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,12 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.2.0  Shortest Path Forever: no route line on objective (kill/collect) steps — the Guidelime arrow stays; the route
+         returns to the turn-in NPC once objectives are done. Accept/turn-in/travel and cave/entrance steps keep routes.
+         Toggle with /balcon route (on by default).
+         1-12 coordinates checked line by line against Forever client positions (327 fixes); Mulgore coordinates were in
+         a different map frame (NPCs/hunting spots 3-10 units off). Rite of Vision spots fixed. 12-25: Verog the Dervish
+         turn-in and Hezrul Bloodmark pickup are at Regthar Deathgate.
   1.1.9  Mulgore 1-12 coordinates fixed: Dangers of the Windfury harpies now point to the hill south of the Rite of Vision
          cave (32.4,41.2); waypoints added to 26 kill/collect steps that had none; Morin Cloudstalker moved to 55.1,60.7.
   1.1.8  Guides split into 12-25, 25-30, 30-40, 40-50 and 50-60. Guide names changed, so characters in progress must
