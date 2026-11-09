@@ -1,11 +1,11 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.7 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.1.8 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Zephras Isle (Skyborne) BalCon]
-[NX12-20 BalCon: RFC, Ruins of Lordaeron, WC]
+[NX12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
 --OnLoad,PLAYER_LEVEL_UP>>BalConLevel12
-! When you reach level 12 a window pops up. "Skip the rest" ends this guide; then click the "next guide" link at the top of the Guidelime window to open the 12-20 dungeon guide without a reload. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
+! When you reach level 12 a window pops up. "Skip the rest" ends this guide; then click the "next guide" link at the top of the Guidelime window to open the 12-25 dungeon guide without a reload. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
 
 Zephras Isle — Skyborne only, levels 1-12. You only see the class quests for your own class. == Starting village (1-5) == Accept [QA92460 Coming of Age] (Ailee Farheart)[G42.8,23.4Zephras Isle]
 Turn in [QT92460 Coming of Age] (Rorian the Dayseeker)[G42.0,23.4Zephras Isle]
@@ -263,6 +263,6 @@ Turn in [QT94638 Strength and Mercy] (Urs'endris)[G69.8,61.4Zephras Isle][A Drui
 [G33.4,22.4 Mulgore]Accept from Alaana Stormwalker: [QA95350 Welcome to Azeroth] — turn it in to Thrall in Orgrimmar (when you pass through Orgrimmar).[OC]
 [G33.4,22.4 Mulgore]Accept from Muln Earthfury: [QA94911 Child of Nature][A Druid]
 [G76.4,27.4 Thunder Bluff]Turn in to Turak Runetotem on the Elder Rise in Thunder Bluff: [QT94911 Child of Nature][A Druid]
-== Level 12: on to BalCon 12-20 ==
-Continue with the next guide "12-20 BalCon: RFC, Ruins of Lordaeron, WC" (it starts at the Crossroads).
+== Level 12: on to BalCon 12-25 ==
+Continue with the next guide "12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD" (it starts at the Crossroads).
 ]], "BalCon Dungeon Leveling (Forever)")

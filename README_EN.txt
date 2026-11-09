@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.7
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.8
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,15 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.8  Guides split into 12-25, 25-30, 30-40, 40-50 and 50-60. Guide names changed, so characters in progress must
+         pick the new guide in Guidelime (completed quests are detected automatically).
+         Lieutenant's Insignia fixed: it drops (about 20%) from Burning Blade Fanatics/Apprentices in Skull Rock, not Gazz'uz.
+         Ragefire right at 13; optional Barrens steps before 13 (Disrupt the Attacks removed; Forgotten Pools with Kolkar
+         Leaders; Centaur Bracers collected along the way and finished at Hezrul; plainstriders/raptors/zhevras while moving;
+         Stolen Silver after Raptor Thieves). New "Get the Ragefire Chasm quests" line checks off each quest you accept or get shared.
+         After the Ruins: hearth to the Crossroads -> Wailing Caverns -> Shadowfang Keep at 22 -> Naga at the Zoram Strand and
+         the Blackfathom sapphires (party recommended) to 24 -> Blackfathom Deeps. Razorfen Kraul moved after Dalaran;
+         SM Graveyard and Library together (Library: healer 32, tank/DPS 33). 50-60 will be re-checked in a later version.
   1.1.7  Level-12 window no longer reloads the UI: "Skip the rest" ends the 1-12 guide and Guidelime's own
          "next guide" link at the top of its window opens the 12-20 guide without a reload.
          12-20 route: Thrall's "Hidden Enemies" at 12 -> Wailing Caverns prereqs to 13 -> Ragefire Chasm ->

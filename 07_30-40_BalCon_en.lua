@@ -1,12 +1,54 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.7 — Dungeon-focused leveling. 32-45: SM Library 34 -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39 -> Uldaman 43. In between, mostly quick zone quests; quests with outstanding rewards (*reward) are kept even when the trip is a bit longer.]
+[D BalCon Dungeon Leveling v1.1.8 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39.]
 [GA Horde]
-[N32-45 BalCon: SM Library, Armory, RFD, Cathedral, Uldaman]
-[NX45-60 BalCon: ZF, Maraudon, Sunken Temple, BRD, LBRS, Stratholme]
+[N30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]
+[NX40-50 BalCon: Uldaman, ZF, Maraudon]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip
 
->> Next dungeon: Scarlet Monastery Library (at about Lv34.3) — about Lv32.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G62.3,20.4 Hillsbrad Foothills]Accept from High Executor Darthalia: [QA541 Battle of Hillsbrad]
+* Razorfen Kraul — Lv31.3 -> about Lv32.0 · recommended Lv30-31 (healer 30 · tank/DPS 31)
+! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
+[H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
+[F Ratchet]Fly to Ratchet.[OC]
+[G62.3,37.6 The Barrens]Accept from Mebok Mizzyrix in Ratchet (or get it shared): [QA1221 Blueleaf Tubers] (grab the crate, control rod and manual next to him)
+[G42.3,89.9 The Barrens]Enter Razorfen Kraul at the southern end of the Barrens[OC]
+Use the crate with air holes to summon Snufflenose and collect 6 Blueleaf Tubers: [QC1221 Blueleaf Tubers]
+Get the Kraul Guano from the Kraul bats: [QC1109 Going, Going, Guano!]
+Accept from Willix the Importer (escort): [QA1144 Willix the Importer]
+Escort Willix to the entrance: [QC1144 Willix the Importer]
+When the escort ends, turn in to Willix right away: [QT1144 Willix the Importer]
+Heart of Agamaggan: [QC1102 A Vengeful Fate][OC]
+Kill the final boss Charlga Razorflank and pick up the "Small Scroll" to accept [QA6522 An Unholy Alliance] — Dungeon prereq (Razorfen Downs)
+== Razorfen Kraul turn-ins == [F Thunder Bluff]Fly to Thunder Bluff (if you don't have the flight path, run).[OC]
+[G70.9,34.1 Thunder Bluff]Turn in [QT6561 Blackfathom Villainy][O]
+[G70.9,34.1 Thunder Bluff]Turn in [QT95664 Elder Knowledge][O]
+[G70.8,33.8 Thunder Bluff]Then accept from Bashana Runetotem: [QA98823 Earthen Echo] (Forever new)[OC]
+[G35.9,59.7 Thunder Bluff]Turn in [QT1102 A Vengeful Fate][O]
+[G34.4,46.9 Thunder Bluff]Accept from Sage Truthseeker (or get it shared): [QA1049 Compendium of the Fallen] (SM Library — 32-45 part)[A Orc, Troll, Tauren]
+[G33.4,22.4 Mulgore]Turn in to Muln Earthfury at Skywatcher Plateau northwest of Thunder Bluff: [QT98823 Earthen Echo][O]
+[F Ratchet]Fly to Ratchet (if you don't have the flight path, run).[OC]
+[G62.3,37.6 The Barrens]Turn in [QT1221 Blueleaf Tubers][O]
+[F Orgrimmar]Fly to Orgrimmar (if you don't have the flight path, run).[OC]
+[G57.4,53.4 Orgrimmar]Turn in [QT95697 Changing Tastes][O]
+* Scarlet Monastery (Graveyard and Library together) — Lv32.0 -> about Lv33.5 · Graveyard recommended Lv31-32 (healer 31 · tank/DPS 32), Library recommended Lv32-33 (healer 32 · tank/DPS 33)
+[G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
+[F Undercity]Fly to Undercity (walk if you're close).[OC]
+[G56.1,92.3 Undercity]Turn in to Varimathras in the Royal Quarter: [QT6522 An Unholy Alliance] (the quest from Razorfen Kraul) — Dungeon prereq (Razorfen Downs)
+[G56.2,92.2 Undercity]Then accept from Varimathras (or get it shared): [QA6521 An Unholy Alliance] (Ambassador Malcin outside Razorfen Downs — 32-45 part)
+[G48.8,69.3 Undercity]In the Apothecarium, turn in to Master Apothecary Faranell: [QT1109 Going, Going, Guano!] (the guano from Razorfen Kraul)
+[G48.8,69.3 Undercity]In the Undercity Apothecarium, accept from Master Apothecary Faranell (or get it shared): [QA1113 Hearts of Zeal] (dropped by Scarlet mobs — collect them over the Library, Armory and Cathedral)
+[G56.2,92.2 Undercity]In the Royal Quarter, accept from Varimathras (or get it shared): [QA1048 Into The Scarlet Monastery] (4 bosses across the Library, Armory and Cathedral)
+[G82.6,33.8 Tirisfal Glades]Scarlet Monastery Graveyard entrance[OC]
+Accept from Vorrel Sengutz inside the Graveyard: [QA1051 Vorrel's Revenge]
+Clear the Graveyard up to Bloodmage Thalnos. When you get Vorrel's Wedding Ring: [QC1051 Vorrel's Revenge]
+[XP33 33] The Library is better at Lv33 (healers can go at 32). Varimathras' "Into The Scarlet Monastery" needs level 33, so at 32 accept it once you reach 33 (its Houndmaster Loksey objective is only in the Library).
+[G82.6,33.8 Tirisfal Glades]Go to the Scarlet Monastery and enter the Library wing (keep collecting Hearts of Zeal from Scarlet mobs).[OC]
+Kill Houndmaster Loksey: [QC1048,4 Into The Scarlet Monastery]
+Find the "Compendium of the Fallen" on a bookshelf in the hall before Arcanist Doan's room: [QC1049 Compendium of the Fallen][A Orc, Troll, Tauren]
+Clear the Library up to Arcanist Doan and leave the Monastery (the Compendium is turned in when you pass through Thunder Bluff).[OC]
+== Scarlet Monastery (Graveyard) turn-ins == [F Tarren Mill]Fly to Tarren Mill (if you don't have the flight path, run).[OC]
+[G62.6,19.0 Hillsbrad Foothills]Turn in [QT1051 Vorrel's Revenge][O]
+>> Next dungeon: Scarlet Monastery Armory (at about Lv37.0) — about Lv33.5 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn).[OC]
 [G62.8,20.2 Hillsbrad Foothills]Accept from Deathguard Humbert: [QA547 Humbert's Sword]
 [G61.5,20.9 Hillsbrad Foothills]Accept from Keeper Bel'varil: [QA556 Stone Tokens]
 [G61.9,19.6 Hillsbrad Foothills]Accept from Tallow: [QA676 The Hammer May Fall] (Arathi Highlands)
@@ -54,7 +96,6 @@ Kill raptors on the way back to Hammerfall to finish collecting the eyes: [QC672
 [G62.8,20.2 Hillsbrad Foothills]Turn in to Deathguard Humbert: [QT547 Humbert's Sword]
 [G62.3,20.4 Hillsbrad Foothills]Then accept from High Executor Darthalia: [QA550 Battle of Hillsbrad] (deliver to Varimathras in Undercity)
 [F Undercity]Fly to Undercity.[OC]
-[G48.8,69.3 Undercity]In the Apothecarium, turn in to Master Apothecary Faranell: [QT1109 Going, Going, Guano!] (the guano from Razorfen Kraul)
 [G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT550 Battle of Hillsbrad]
 [G61.9,59.1 Tirisfal Glades]Take the zeppelin to Stranglethorn Vale (Grom'gol) from the tower east of Undercity.[OC]
 [G32.4,29.2 Stranglethorn Vale]Discover the flight path: [P Grom'gol Base Camp][OC]
@@ -98,16 +139,7 @@ The trolls elsewhere are level 36-37 and harder. Complete the quest: [QC581 Hunt
 [G32.3,27.7 Stranglethorn Vale]Turn in to Kin'weelay: [QT596 Bloody Bone Necklaces]
 [G32.2,27.7 Stranglethorn Vale]Accept from Nimboya: [QA638 Trollbane] (deliver to Hammerfall in Arathi — later)
 [G32.2,27.7 Stranglethorn Vale]Accept from Nimboya: [QA582 Headhunting] (finished later)
-[G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Undercity from the Grom'gol tower.[OC]
-[XP34 34] You should be at least Lv34 (healers can go from Lv33). If you are short, kill mobs in the areas you just passed.
-* Scarlet Monastery (Library) — Lv34.3 -> about Lv34.6 · recommended Lv33-34 (healer 33 · tank/DPS 34)
-[G48.8,69.3 Undercity]In the Undercity Apothecarium, accept from Master Apothecary Faranell (or get it shared): [QA1113 Hearts of Zeal] (dropped by Scarlet mobs — collect them over the Library, Armory and Cathedral)
-[G56.2,92.2 Undercity]In the Royal Quarter, accept from Varimathras (or get it shared): [QA1048 Into The Scarlet Monastery] (4 bosses across the Library, Armory and Cathedral)
-[G82.6,33.8 Tirisfal Glades]Go to the Scarlet Monastery and enter the Library wing (keep collecting Hearts of Zeal from Scarlet mobs).[OC]
-Kill Houndmaster Loksey: [QC1048,4 Into The Scarlet Monastery]
-Find the "Compendium of the Fallen" on a bookshelf in the hall before Arcanist Doan's room: [QC1049 Compendium of the Fallen][A Orc, Troll, Tauren]
-Clear the Library up to Arcanist Doan and leave the Monastery (the Compendium is turned in when you pass through Thunder Bluff).[OC]
->> Next dungeon: Scarlet Monastery Armory (at about Lv37.0) — about Lv34.6 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G60.7,58.8 Tirisfal Glades]Take the zeppelin to Orgrimmar from the tower east of Undercity.[OC]
+[G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Orgrimmar from the Grom'gol zeppelin tower.[OC]
 [G54,68.6 Orgrimmar][S Orgrimmar]Set your Hearthstone to Orgrimmar.
 [G51.3,45.9 Orgrimmar]Accept from Craven Drok: [QA1431 Alliance Relations] (start of the Desolace chain)
 [G22.6,52.6 Orgrimmar]Turn in to Keldran: [QT1431 Alliance Relations]
@@ -253,201 +285,5 @@ Kill High Inquisitor Whitemane (she revives Mograine): [QC1048,1 Into The Scarle
 [G62.3,48.6 Undercity]Accept from Patrick Garrett (or get it shared): [QA2342 Reclaimed Treasures] (Uldaman prep)
 [G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT1048 Into The Scarlet Monastery]
 [G56.2,92.2 Undercity]Turn in to Varimathras: [QT6521 An Unholy Alliance]
->> Next dungeon: Uldaman (at about Lv43.5) — about Lv39.7 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Hammerfall]Fly to Hammerfall.[OC]
-[G73.8,34 Arathi Highlands]Turn in to Zengu: [QT638 Trollbane] (the quest from Grom'gol)
-[G74.2,33.9 Arathi Highlands]Accept from Drum Fel: [QA678 Call to Arms]
-[G74.7,36.3 Arathi Highlands]Accept from Tor'gan: [QA701 Guile of the Raptor]
-[G73.8,34 Arathi Highlands]Accept from Zengu: [QA639 Sigil of Strom]
-[G53,76.8 Arathi Highlands]Kill ogres to complete: [QC678 Call to Arms]
-Kill raptors to complete: [QC701 Guile of the Raptor]
-[G24,59 Arathi Highlands]Find the Sigil of Strom in Stromgarde to the west (Stromgarde Defenders and Troll Hunters around it): [QC639 Sigil of Strom]
-[G31,64 Arathi Highlands]Head west to Faldir's Cove — follow the small tunnel down to the cove.[OC]
-[G31.6,82.6 Arathi Highlands]Accept [QA663 Land Ho!]
-[G32.2,81.4 Arathi Highlands]Turn in [QT663 Land Ho!]
-[G32.6,81.4 Arathi Highlands]Accept [QA662 Deep Sea Salvage]
-[G33.8,80.8 Arathi Highlands]Accept [QA664 Drowned Sorrows]
-[G33.8,80.6 Arathi Highlands]Accept [QA665 Sunken Treasure]
-Complete the escort quest: [QC665 Sunken Treasure]
-[G33.8,80.4 Arathi Highlands]Turn in [QT665 Sunken Treasure]
-Accept [QA666 Sunken Treasure]
-Put on the Goggles of Gem Hunting and drink a Water Breathing potion (Undead don't need one). Kill naga to complete: [QC664 Drowned Sorrows]
-Get the elven gems to complete: [QC666 Sunken Treasure]
-[G20.4,85.6 Arathi Highlands]Get it here: [QC662,3 Deep Sea Salvage]
-[G20.7,85.1 Arathi Highlands]Get it here: [QC662,4 Deep Sea Salvage]
-[G23.4,85.1 Arathi Highlands]Get it here: [QC662,2 Deep Sea Salvage]
-[G23,84.4 Arathi Highlands]Get it here: [QC662,1 Deep Sea Salvage]
-[G32.6,81.4 Arathi Highlands]Turn in [QT662 Deep Sea Salvage]
-[G33.8,80.8 Arathi Highlands]Turn in [QT664 Drowned Sorrows]
-[G33.8,80.4 Arathi Highlands]Turn in [QT666 Sunken Treasure]
-Accept [QA668 Sunken Treasure]
-[G32.2,81.4 Arathi Highlands]Turn in [QT668 Sunken Treasure]
-Accept [QA669 Sunken Treasure] (deliver to Booty Bay — later)
-[F Hammerfall]Fly to Hammerfall (if you don't have the flight path, run).[OC]
-[G74.7,36.3 Arathi Highlands]Turn in to Tor'gan: [QT701 Guile of the Raptor]
-[G74.7,36.3 Arathi Highlands]Then accept from Tor'gan: [QA702 Guile of the Raptor]
-[G72.6,33.9 Arathi Highlands]Turn in to Gor'mul: [QT702 Guile of the Raptor]
-[G73.8,34 Arathi Highlands]Turn in to Zengu: [QT639 Sigil of Strom] (skip the rest of the sigil chain)
-[G74.2,33.9 Arathi Highlands]Turn in to Drum Fel: [QT678 Call to Arms]
-[G48,85 Arathi Highlands]Go south across Thandol Span into the Wetlands.[OC]
-[G54,70 Wetlands]Go to Dun Algaz here.[OC]
-Follow the tunnel into Loch Modan. [G47,76.4 Loch Modan]Go here to enter the Badlands.[OC]
-[G26,45 Badlands]Accept [QA710 Study of the Elements: Rock]
-[G20.2,46.2 Badlands]Kill elementals to complete: [QC710 Study of the Elements: Rock]
-[G26,45 Badlands]Turn in [QT710 Study of the Elements: Rock]
-Accept [QA711 Study of the Elements: Rock]
-[G4,44.8 Badlands]Discover the flight path: [P Kargath][OC]
-[G6.4,47 Badlands]Accept [QA1420 Report to Helgrum] (deliver to the Swamp of Sorrows)
-Accept [QA1419 Coyote Thieves]
-[G2.6,46 Badlands]Accept [QA2258 Badlands Reagent Run] — Dungeon prereq (Uldaman)
-[G2.8,45.8 Badlands]Accept [QA782 Broken Alliances]
-[G42.4,52.8 Badlands]Accept [QA703 Barbecued Buzzard Wings]
-[G42.4,52.9 Badlands]Accept from Rigglefuzz (or get it shared): [QA2418 Power Stones] (Uldaman prep)
-[G51.4,76.9 Badlands]Accept from Theldurin the Lost (or get it shared): [QA709 Solution to Doom] (Uldaman prep)
-Kill coyotes to complete: [QC1419 Coyote Thieves][QC2258,2 Badlands Reagent Run]
-Kill buzzards to complete: [QC2258,1 Badlands Reagent Run][QC703 Barbecued Buzzard Wings]
-[G40,78 Badlands]Kill rock elementals to complete: [QC711 Study of the Elements: Rock][QC2258,3 Badlands Reagent Run]
-[G42.4,52.8 Badlands]Turn in [QT703 Barbecued Buzzard Wings]
-[G26,45 Badlands]Turn in [QT711 Study of the Elements: Rock]
-Accept [QA712 Study of the Elements: Rock]
-[G9.4,73.6 Badlands]Kill greater rock elementals to complete: [QC712 Study of the Elements: Rock]
-[G26,45 Badlands]Turn in [QT712 Study of the Elements: Rock] (skip the follow-up alchemy/engineering material quests)
-[G6.4,47 Badlands]Turn in [QT1419 Coyote Thieves]
-[G2.6,46 Badlands]Turn in [QT2258 Badlands Reagent Run] — Dungeon prereq (Uldaman)
-[G2.4,46.1 Badlands]Then accept from Jarkal Mossmeld (or get it shared): [QA2202 Uldaman Reagent Run] (Uldaman prep)
-[F Grom'gol Base Camp]Fly to Grom'gol Base Camp.[OC]
-[G39.8,6.6 Stranglethorn Vale]Go north from here into Duskwood.[OC]
-[G81.8,19.8 Duskwood]Go here and follow the road east;[OC]
-you'll reach Deadwind Pass. Keep following the road east to reach the Swamp of Sorrows! [G43,55 Swamp of Sorrows]Now run into the Swamp of Sorrows.[OC]
-[G46,54.6 Swamp of Sorrows]Discover the flight path: [P Stonard][OC]
-[G47.8,55.2 Swamp of Sorrows]Turn in [QT1420 Report to Helgrum]
-[G47.9,54.8 Swamp of Sorrows]Accept from Fel'zerul: [QA1424 Pool of Tears] (start of the Sunken Temple chain) — Dungeon prereq (Sunken Temple)
-[G44.8,57 Swamp of Sorrows]Accept [QA698 Lack of Surplus]
-[G44.7,57.2 Swamp of Sorrows]Accept from Dar: [QA1430 Fresh Meat]
-Kill Sawtooth Snappers around Stonard to complete: [QC698 Lack of Surplus]
-Finish collecting the artifacts around the Pool of Tears: [QC1424 Pool of Tears]
-[G81.4,80.8 Swamp of Sorrows]Turn in [QT698 Lack of Surplus]
-Accept [QA699 Lack of Surplus]
-[G83.2,70.2 Swamp of Sorrows]Kill Sawtooth Crocolisks to complete: [QC699 Lack of Surplus]
-[G81.4,80.8 Swamp of Sorrows]Turn in [QT699 Lack of Surplus]
-Accept [QA1422 Threat From the Sea]
-[G83.6,80.4 Swamp of Sorrows]Turn in [QT1422 Threat From the Sea]
-Accept [QA1426 Threat From the Sea]
-Kill the nearby murlocs to complete: [QC1426 Threat From the Sea]
-[G95,58 Swamp of Sorrows]Kill Monstrous Crawlers on the east coast for 10 legs: [QC1430 Fresh Meat]
-[G83.6,80.4 Swamp of Sorrows]Turn in [QT1426 Threat From the Sea]
-Accept [QA1427 Threat From the Sea]
-[G81.4,80.8 Swamp of Sorrows]Turn in [QT1427 Threat From the Sea]
-[G83.6,80.4 Swamp of Sorrows]Accept [QA1428 Continued Threat]
-Kill murlocs to complete: [QC1428 Continued Threat]
-[G83.6,80.4 Swamp of Sorrows]Turn in [QT1428 Continued Threat]
-[G44.7,57.2 Swamp of Sorrows]Back in Stonard, turn in to Dar: [QT1430 Fresh Meat]
-[G47.9,54.8 Swamp of Sorrows]Turn in to Fel'zerul: [QT1424 Pool of Tears] — Dungeon prereq (Sunken Temple)
-[G47.9,54.8 Swamp of Sorrows]Then accept from Fel'zerul: [QA1429 The Atal'ai Exile] (The Hinterlands — turned in during 45-60) — Dungeon prereq (Sunken Temple)
-[F Booty Bay]Fly to Booty Bay.[OC]
-[G27.2,77 Stranglethorn Vale]Turn in [QT669 Sunken Treasure]
-[G27,77.2 Stranglethorn Vale]Accept [QA2864 Tran'rek]
-Accept [QA621 Zanzil's Secret]
-[S Booty Bay]Set your Hearthstone to Booty Bay.
-[G26.8,76.4 Stranglethorn Vale]Accept [QA617 Akiris by the Bundle]
-[G27.8,77 Stranglethorn Vale]Accept [QA606 Scaring Shaky]
-Accept [QA2872 Stoley's Debt]
-[G28,76.2 Stranglethorn Vale]Accept [QA595 The Bloodsail Buccaneers]
-[G27.3,69.5 Stranglethorn Vale]Turn in [QT595 The Bloodsail Buccaneers]
-Accept [QA597 The Bloodsail Buccaneers]
-[G27.2,63 Stranglethorn Vale]Kill naga to complete: [QC617 Akiris by the Bundle]
-[G33.2,65.8 Stranglethorn Vale]Kill gorillas to complete: [QC606 Scaring Shaky]
-[G26.8,73.6 Stranglethorn Vale]Turn in [QT606 Scaring Shaky]
-[G26.8,76.4 Stranglethorn Vale]Turn in [QT617 Akiris by the Bundle]
-[G26.8,73.6 Stranglethorn Vale]Accept [QA607 Return to MacKinley]
-[G28,76.2 Stranglethorn Vale]Turn in [QT597 The Bloodsail Buccaneers]
-Accept [QA599 The Bloodsail Buccaneers]
-[G27.8,77 Stranglethorn Vale]Turn in [QT607 Return to MacKinley]
-Accept [QA609 Voodoo Dues]
-[G27.2,77 Stranglethorn Vale]Turn in [QT599 The Bloodsail Buccaneers]
-Accept [QA604 The Bloodsail Buccaneers]
-[G27,77.2 Stranglethorn Vale]Accept [QA587 Up to Snuff]
-[G28.6,75.8 Stranglethorn Vale]Accept [QA576 Keep An Eye Out]
-[G27.7,83.1 Stranglethorn Vale]Get the charts: [QC604,2 The Bloodsail Buccaneers]
-Get the orders: [QC604,3 The Bloodsail Buccaneers]
-Kill the Swashbucklers to complete: [QC604,1 The Bloodsail Buccaneers]
-Any Bloodsail pirate can drop it. Finish collecting the snuff: [QC587 Up to Snuff]
-Get Dizzy's Eye: [QC576 Keep An Eye Out]
-! Your Hearthstone must be set to Booty Bay. If it's set elsewhere, fly or run to Booty Bay instead of hearthing. (click to close once checked)
-[H Booty Bay]Hearth to Booty Bay.[OC]
-[G27.2,77 Stranglethorn Vale]Turn in [QT604 The Bloodsail Buccaneers]
-Accept [QA608 The Bloodsail Buccaneers]
-Turn in [QT587 Up to Snuff]
-[G28.6,75.8 Stranglethorn Vale]Turn in [QT576 Keep An Eye Out]
-[G40,44 Stranglethorn Vale]Kill goblins to complete: [QC600 Venture Company Mining]
-[G48,20 Stranglethorn Vale]A group is recommended. *Find* Bhag'thera[OC]
-If she's not there, [L 48,28] check this spot too.[OC]
-Kill Bhag'thera: [QC193 Panther Mastery]
-[G29.8,44.2 Stranglethorn Vale]Kill Jungle Stalkers to complete: [QC196 Raptor Mastery]
-Collect 10 Jungle Stalker Feathers from them too: [QC572 Mok'thardin's Enchantment]
-[G23,9 Stranglethorn Vale]A group is recommended.[OC]
-Find and kill Gan'zulah and Nezzliok: [QC584 Bloodscalp Clan Heads]
-[G35.6,10.6 Stranglethorn Vale]Turn in [QT196 Raptor Mastery]
-Turn in [QT193 Panther Mastery]
-[G32.1,29.2 Stranglethorn Vale]Turn in to Far Seer Mok'thardin: [QT572 Mok'thardin's Enchantment] (skip the follow-up)
-[G32.2,27.7 Stranglethorn Vale]Click the cauldron to turn in [QT584 Bloodscalp Clan Heads]
-Accept [QA585 Speaking with Nezzliok]
-Accept [QA586 Speaking with Gan'zulah]
-[G32.3,27.7 Stranglethorn Vale]Accept from Kin'weelay: [QA598 Split Bone Necklace] (available after the two necklace/reef quests)
-[G42.2,36.1 Stranglethorn Vale]Get the trophy skull: [QC585,2 Speaking with Nezzliok]
-[G46.1,32.4 Stranglethorn Vale]Get the trophy skull: [QC585,1 Speaking with Nezzliok]
-[G47.6,39.5 Stranglethorn Vale]Get the trophy skull: [QC585,3 Speaking with Nezzliok]
-Kill Skullsplitter trolls to complete: [QC586 Speaking with Gan'zulah]
-Finish collecting the tusks: [QC209 Skullsplitter Tusks]
-Finish collecting the bone necklaces: [QC598 Split Bone Necklace]
-[G44,44 Stranglethorn Vale]*Find* and kill Ana'thek: [QC586,4 Speaking with Gan'zulah]
-[G32.2,27.8 Stranglethorn Vale]Turn in [QT598 Split Bone Necklace]
-[G32.2,27.7 Stranglethorn Vale]Turn in [QT585 Speaking with Nezzliok]
-Turn in [QT586 Speaking with Gan'zulah]
-Accept [QA588 The Fate of Yenniku]
-Turn in [QT588 The Fate of Yenniku]
-Accept [QA589 The Singing Crystals]
-[G41,51 Stranglethorn Vale]Kill the basilisks inside the cave to complete: [QC589 The Singing Crystals]
-[G35,51 Stranglethorn Vale]Kill Maury: [QC609,1 Voodoo Dues]
-[G33.4,52.8 Stranglethorn Vale]Kill Jon-Jon: [QC609,2 Voodoo Dues]
-[G40,58.2 Stranglethorn Vale]Kill Chucky: [QC609,3 Voodoo Dues]
-There are 3 ships off the small island at the far south. [G29.2,88.4 Stranglethorn Vale]Kill Captain Keelhaul: [QC608,2 The Bloodsail Buccaneers]
-[G30.6,90.4 Stranglethorn Vale]Kill Fleet Master Firallon: [QC608,3 The Bloodsail Buccaneers]
-[G33,88.2 Stranglethorn Vale]Kill Captain Stillwater: [QC608,1 The Bloodsail Buccaneers]
-Find Cortello's Riddle (it's on one of the 3 ships) and accept (*reward chain): [QA624 Cortello's Riddle]
-! Your Hearthstone must be set to Booty Bay. If it's set elsewhere, fly or run to Booty Bay instead of hearthing. (click to close once checked)
-[H Booty Bay]Hearth to Booty Bay.[OC]
-[G27,77.2 Stranglethorn Vale]Turn in [QT621 Zanzil's Secret]
-Turn in [QT600 Venture Company Mining]
-Turn in [QT209 Skullsplitter Tusks]
-[G27.2,77 Stranglethorn Vale]Turn in [QT608 The Bloodsail Buccaneers]
-[G27.8,77 Stranglethorn Vale]Turn in [QT609 Voodoo Dues]
-[G26.8,77 Stranglethorn Vale][F Grom'gol Base Camp]Fly to Grom'gol Base Camp.[OC]
-[G32.2,27.8 Stranglethorn Vale]Turn in [QT589 The Singing Crystals]
-[G32.4,29.2 Stranglethorn Vale][F Stonard]Fly to Stonard.[OC]
-[G22.8,48.1 Swamp of Sorrows]Turn in [QT624 Cortello's Riddle] — *Reward chain
-Accept [QA625 Cortello's Riddle] (Dustwallow Marsh — 45-60 part) — *Reward chain
-[G46,54.6 Swamp of Sorrows][F Kargath]Fly to Kargath.[OC]
-[G62,72 Badlands]*Find* and kill Boss Tho'grun: [QC782 Broken Alliances]
-[G2.8,45.8 Badlands]Turn in [QT782 Broken Alliances]
-[XP43 43] You should be at least Lv43 (healers can go from Lv42). If you are short, run SM Cathedral once more or kill mobs in the areas you just passed.
-* Uldaman — Lv43.5 -> about Lv44.2 · recommended Lv42-43 (healer 42 · tank/DPS 43)
-[G44.4,12.2 Badlands]Enter Uldaman in northern Badlands (the Shadowforge dwarves in the dig site outside also drop Power Stones).[OC]
-Collect 8 Dentrium and 8 An'Alleum Power Stones from Shadowforge dwarves: [QC2418 Power Stones]
-Take the Garrett family treasure from the chest in the South Common Hall: [QC2342 Reclaimed Treasures]
-Find the valuable necklace inside (a damaged one counts): [QC2283 Necklace Recovery]
-Collect 12 Magenta Fungus Caps inside: [QC2202 Uldaman Reagent Run]
-Find the Tablet of Ryun'eh: [QC709 Solution to Doom]
-Speak with the stone watcher in front of the Discs of Norgannon, then activate the discs: [QA2278 The Platinum Discs] — *Reward chain
-Talk to the Stone Watcher again to turn in [QT2278 The Platinum Discs] — *Reward chain
-Click the discs again for the follow-up (turned in to a sage in Thunder Bluff during 45-60): [QA2280 The Platinum Discs] — *Reward
-Clear up to the final boss Archaedas.[OC]
-[G42.4,52.9 Badlands]== Uldaman turn-ins == Turn in to Rigglefuzz: [QT2418 Power Stones]
-[G51.4,76.9 Badlands]Turn in to Theldurin the Lost: [QT709 Solution to Doom]
-[F Kargath]Fly to Kargath (if you don't have the flight path, run).[OC]
-[G2.4,46.1 Badlands]Turn in to Jarkal Mossmeld: [QT2202 Uldaman Reagent Run]
-[G2.4,46.1 Badlands]Then accept from Jarkal Mossmeld: [QA2203 Badlands Reagent Run II] — Dungeon chain (Uldaman)
-[G81.4,52.9 Badlands]Use the empty vessels on the Scorched Guardians in the east: [QC2203 Badlands Reagent Run II]
-[G2.4,46.1 Badlands]Back in Kargath, turn in to Jarkal Mossmeld: [QT2203 Badlands Reagent Run II] — Dungeon chain (Uldaman)
-That's the end of 32-45. Continue with the 45-60 guide (fly to Grom'gol and take the zeppelin to Orgrimmar).
+That's the end of 30-40. Move on to the 40-50 guide (Uldaman, ZF, Maraudon).
 ]], "BalCon Dungeon Leveling (Forever)")
-

@@ -1,11 +1,11 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.7 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.1.8 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Durotar (Orc/Troll) BalCon]
-[NX12-20 BalCon: RFC, Ruins of Lordaeron, WC]
+[NX12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
 --OnLoad,PLAYER_LEVEL_UP>>BalConLevel12
-! When you reach level 12 a window pops up. "Skip the rest" ends this guide; then click the "next guide" link at the top of the Guidelime window to open the 12-20 dungeon guide without a reload. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
+! When you reach level 12 a window pops up. "Skip the rest" ends this guide; then click the "next guide" link at the top of the Guidelime window to open the 12-25 dungeon guide without a reload. The window also shows the reputation you would miss by skipping the quests left in this guide. (click to close)
 
 [G43.3,68.5 Durotar]Accept [QA4641 Your Place In The World]
 [G42.6,69]Accept [QA1485 Vile Familiars][A Warlock]
