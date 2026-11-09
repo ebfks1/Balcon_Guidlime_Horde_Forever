@@ -216,6 +216,39 @@ G.BalConLevel12Reset = function()
 	if last12 then G.BalConLevel12(last12, nil, "manual") end
 end
 
+-- Shortest Path Forever 연동: 퀘스트 진행(사냥·수집) 단계에서는 경로 선을 그리지 않음.
+-- 가이드라임 화살표와 단계는 그대로 두고, Shortest Path 의 공개 API(ShortestPathForever.API.Cancel)로 그 단계의 경로만 취소합니다.
+-- 수락·완료·비행·이동 단계와 동굴·입구처럼 찾기 어려운 진행 단계는 경로를 그대로 둡니다.  /발컨 경로  로 켜고 끕니다.
+local function workStep(step)
+	if type(step) ~= "table" or type(step.elements) ~= "table" then return false end
+	local work = false
+	for _, e in ipairs(step.elements) do
+		local t = type(e) == "table" and e.t
+		if t == "ACCEPT" or t == "TURNIN" or t == "FLY" or t == "HEARTH" or t == "GET_FLIGHT_POINT" or t == "SET_HEARTH" then return false end
+		if t == "COMPLETE" or t == "QUEST" or t == "WORK" then work = true end
+	end
+	if work then
+		local s = type(step.text) == "string" and step.text:lower() or ""
+		if s:find("동굴", 1, true) or s:find("입구", 1, true) or s:find("cave", 1, true) or s:find("entrance", 1, true) then return false end
+	end
+	return work
+end
+local function routeCheck()
+	local d = db()
+	if d.route == false then return end
+	local api = type(ShortestPathForever) == "table" and ShortestPathForever.API
+	local arrow = GuidelimeArrow
+	if type(api) ~= "table" or type(api.CurrentStop) ~= "function" or type(api.Cancel) ~= "function" then return end
+	if not arrow or type(arrow.element) ~= "table" then return end
+	local cur = GuidelimeDataChar and GuidelimeDataChar.currentGuide
+	if type(cur) ~= "string" or not (cur:find(GROUP_KO, 1, true) or cur:find(GROUP_EN, 1, true)) then return end
+	if not api.CurrentStop("Guidelime") then return end
+	if workStep(arrow.element.step) then pcall(api.Cancel, "Guidelime") end
+end
+if C_Timer and C_Timer.NewTicker and not G.routeTicker then
+	G.routeTicker = C_Timer.NewTicker(0.25, function() pcall(routeCheck) end)
+end
+
 SLASH_BALCON1 = "/발컨"; SLASH_BALCON2 = "/balcon"
 SlashCmdList["BALCON"] = function(msg)
 	local d = db()
@@ -223,6 +256,13 @@ SlashCmdList["BALCON"] = function(msg)
 	if msg == "끔" or msg == "off" then
 		d.on = false
 		print(KO and "|cffffd200발컨|r: 레벨 자동 건너뛰기 끔" or "|cffffd200BalCon|r: auto-skip of low-level quests OFF")
+	elseif msg == "경로" or msg == "route" then
+		d.route = (d.route == false)
+		if KO then
+			print("|cffffd200발컨|r: Shortest Path 진행 단계 경로 숨기기 " .. (d.route and "켬 (사냥·수집 중에는 경로 선 없음)" or "끔 (모든 단계에 경로 선)"))
+		else
+			print("|cffffd200BalCon|r: hide Shortest Path routes on objective steps " .. (d.route and "ON (no route line while hunting/collecting)" or "OFF (route line on every step)"))
+		end
 	elseif msg == "12" then
 		G.BalConLevel12Reset()
 		print(KO and "|cffffd200발컨|r: 12레벨 안내를 다시 띄웁니다 (1-12 가이드를 쓰는 중이고 12레벨 이상일 때)" or "|cffffd200BalCon|r: showing the level-12 prompt again (in a 1-12 guide at level 12+)")
@@ -231,7 +271,9 @@ SlashCmdList["BALCON"] = function(msg)
 		print(KO and "|cffffd200발컨|r: 레벨 자동 건너뛰기 켬 (다음 레벨업·퀘스트 수락 때 적용)" or "|cffffd200BalCon|r: auto-skip of low-level quests ON (applied at your next level-up or quest accept)")
 	elseif KO then
 		print("|cffffd200발컨|r: /발컨 켬  ·  /발컨 끔   (지금: " .. (d.on and "켬" or "끔") .. ", 기준: 내 레벨 - " .. G.MARGIN .. " 이하 퀘스트)")
+		print("|cffffd200발컨|r: /발컨 경로  — Shortest Path 진행 단계 경로 숨기기 켜고 끄기 (지금: " .. (d.route == false and "끔" or "켬") .. ")")
 	else
 		print("|cffffd200BalCon|r: /balcon on  ·  /balcon off   (now: " .. (d.on and "on" or "off") .. ", skips quests " .. G.MARGIN .. "+ levels below you)")
+		print("|cffffd200BalCon|r: /balcon route  — toggle hiding Shortest Path routes on objective steps (now: " .. (d.route == false and "off" or "on") .. ")")
 	end
 end

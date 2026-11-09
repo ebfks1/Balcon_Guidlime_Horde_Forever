@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.1.9 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
+[D BalCon Dungeon Leveling v1.2.0-test3 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
 [GA Horde]
 [N12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
 [NX25-30 BalCon: Excavation Site, Dalaran]
