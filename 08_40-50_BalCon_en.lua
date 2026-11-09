@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test3 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Uldaman 43 -> Zul'Farrak 46 -> Maraudon 49.]
+[D BalCon Dungeon Leveling v1.2.0-test4 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Uldaman 43 -> Zul'Farrak 46 -> Maraudon 49.]
 [GA Horde]
 [N40-50 BalCon: Uldaman, ZF, Maraudon]
 [NX50-60 BalCon: Sunken Temple, BRD, LBRS, Stratholme]

@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test3 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39.]
+[D BalCon Dungeon Leveling v1.2.0-test4 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39.]
 [GA Horde]
 [N30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]
 [NX40-50 BalCon: Uldaman, ZF, Maraudon]

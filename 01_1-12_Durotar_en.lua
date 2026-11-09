@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0-test3 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
+[D BalCon Dungeon Leveling v1.2.0-test4 — Levels 1-12 use the Sunpower (Forever edition) starting-zone routes, with route bugs fixed, WoW Forever's new quests and new race/class combos (Orc Mage, Troll Warlock, Undead Paladin, Skyborne) added, and dungeon prerequisite quests picked up on the way. Steps marked as dungeon/optional (*) can be skipped without blocking the guide.]
 [GA Horde]
 [N1-12 Durotar (Orc/Troll) BalCon]
 [NX12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
@@ -18,7 +18,7 @@ Unequip your legs, boots and weapon and [V]sell them with the Tough Jerky to the
 You should end up with at least 10 copper. [G40.65,68.51][T]|cFF9482C9Train: Immolate (Rank 1)|r[A Warlock].[OC]
 [G40.6,62.6]Accept [QA790 Sarkoth]
 Work on [QC788 Cutting Teeth] on the way.[OC]
-Kill boars and pick up 6 Discarded Training Weapons from the ground: [QC97279 Wayward Weapons]
+[G43.4,62.8 Durotar]Kill boars and pick up 6 Discarded Training Weapons from the ground: [QC97279 Wayward Weapons]
 [G40.5,67.3]Kill Sarkoth: [QC790 Sarkoth]
 [G40.6,62.6]Turn in [QT790 Sarkoth]
 Accept [QA804 Sarkoth]
@@ -200,7 +200,7 @@ Grind your way south. [G49.81,81.31]Burn the Attack Plan: Valley of Trials: [QC7
 [G47.67,77.39]Burn the Attack Plan: Sen'jin Village: [QC786,2 Thwarting Kolkar Aggression]
 [G46.26,78.98]Burn the Attack Plan: Orgrimmar: [QC786,3 Thwarting Kolkar Aggression]
 [G46.2,78.6 Durotar]Accept from Pal'juh inside the cave: [QA99123 Lost in the Shadows] (Forever new)
-Escort Pal'juh out of the cave: [QC99123 Lost in the Shadows]
+[G51.4,79.2 Durotar]Escort Pal'juh out of the cave: [QC99123 Lost in the Shadows]
 Grind here until [XP8 level 8].[A Mage][OC]
 [G53.3,81.6]Profession available: [T]Fishing[OC]
 [G54.3,73.4]Turn in [QT786 Thwarting Kolkar Aggression] (the NPC walks around)
@@ -213,7 +213,7 @@ Go to the Echo Isles and work on all 4 quests: [QC815 Break a Few Eggs] - pick u
 [QC817 Practical Prey] - kill Durotar Tigers
 [G67.4,87.8][QC808 Minshina's Skull] - on the small hill ringed with candles
 [G67.19,86.98][QC826 Zalazane] - kill trolls and Zalazane
-[QC97225 Forgotten Loa Idols] - 8 Forgotten Loa Idols around the islands
+[G66.5,85.5 Durotar][QC97225 Forgotten Loa Idols] - 8 Forgotten Loa Idols around the islands
 |cFFFF0000Die to get back to Sen'jin Village and talk to the Spirit Healer to resurrect instantly.|r [G56,73.9Durotar]Turn in [QT817 Practical Prey]
 [G56,74.7Durotar]Turn in [QT808 Minshina's Skull]
 Keep the *Faintly Glowing Skull*, you'll use it later. [G56,74.7Durotar]Turn in [QT826 Zalazane]
@@ -331,7 +331,7 @@ If a Thunder Lizard drops a Dull Storm Orb, click it to accept [QA97281 A Simmer
 [G42.07,26.63]Kill Fizzle Darkstorm: [QC806 Dark Storms]
 If you have the orb, [G46.4,23.0 Durotar]turn in to Rezlak: [QT97281 A Simmering Storm][O]
 [G43.09,30.34]Turn in [QT816 Lost But Not Forgotten]
-Go back to Razor Hill and turn in [QT806 Dark Storms]
+[G52.0,43.5 Durotar]Go back to Razor Hill and turn in [QT806 Dark Storms]
 Accept [QA828 Margoz]
 Turn in [QT837 Encroachment][A Mage]
 [R]Repair and [V]sell junk.[OC]
