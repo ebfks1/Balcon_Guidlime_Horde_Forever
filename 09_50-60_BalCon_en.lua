@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59 (this part will be refined in a later version).]
+[D BalCon Dungeon Leveling v1.2.1-test — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Sunken Temple 52 -> Blackrock Depths 55 -> Lower Blackrock Spire 57 -> Blackrock Depths (2nd) 58 -> Stratholme 59 (this part will be refined in a later version).]
 [GA Horde]
 [N50-60 BalCon: Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip
@@ -92,8 +92,8 @@ Accept [QA7723 Curse These Fat Fingers]
 Accept [QA7724 Fiery Menace!]
 [G38.6,28.4 Searing Gorge]Accept [QA7722 What the Flux?]
 [G41,50 Searing Gorge]Kill Steamsmiths to complete: [QC7728,1 STOLEN: Smithing Tuyere and Lookout's Spyglass]
-[G57,46 Searing Gorge]Kill golems to complete: [QC7723 Curse These Fat Fingers]
-Finish collecting the golem oil: [QC3442,2 The Flawless Flame]
+[G37.2,45.1 Searing Gorge]Kill golems to complete: [QC7723 Curse These Fat Fingers]
+[G37.2,45.1 Searing Gorge]Finish collecting the golem oil: [QC3442,2 The Flawless Flame]
 [G57,46 Searing Gorge]Kill elementals to complete: [QC3442,1 The Flawless Flame]
 Kill Dark Iron dwarves to complete: [QC7729 JOB OPPORTUNITY: Culling the Competition]
 [G46,53 Searing Gorge]Go here and climb the ramp.[OC]
@@ -125,13 +125,13 @@ Click the glowing green torch to turn in [QT3454 The Torch of Retribution]
 Accept [QA3462 Squire Maltrake]
 Turn in [QT3462 Squire Maltrake]
 Accept [QA3463 Set Them Ablaze!]
-[G33,52 Searing Gorge]Equip the torch and light it: [QC3463,2 Set Them Ablaze!]
-[G32,57 Searing Gorge]Equip the torch and light it: [QC3463,4 Set Them Ablaze!]
-[G35,59 Searing Gorge]Equip the torch and light it: [QC3463,1 Set Them Ablaze!]
-[G43,63 Searing Gorge]Equip the torch and light it: [QC3463,3 Set Them Ablaze!]
-Turn in [QT3463 Set Them Ablaze!]
-Watch Kalaran turn into a dragon, talk and fly away. Right-click the *Black Dragonflight treasure* chest next to where Kalaran stood: [QA3481 Trinkets...]
-Click the chest again to turn in [QT3481 Trinkets...]
+[G33.3,54.5 Searing Gorge]Equip the torch and light it: [QC3463,4 Set Them Ablaze!]
+[G35.7,60.7 Searing Gorge]Equip the torch and light it: [QC3463,1 Set Them Ablaze!]
+[G44.0,60.9 Searing Gorge]Equip the torch and light it: [QC3463,2 Set Them Ablaze!]
+[G50.1,54.7 Searing Gorge]Equip the torch and light it: [QC3463,3 Set Them Ablaze!]
+[G39.2,39.0 Searing Gorge]Turn in [QT3463 Set Them Ablaze!]
+[G38.9,39.0 Searing Gorge]Watch Kalaran turn into a dragon, talk and fly away. Right-click the *Black Dragonflight treasure* chest next to where Kalaran stood: [QA3481 Trinkets...]
+[G38.9,39.0 Searing Gorge]Click the chest again to turn in [QT3481 Trinkets...]
 Open the box in your bags to get the Black Dragonflight Molt. Don't throw it away. [G38.8,27.6 Searing Gorge]Turn in [QT7728 STOLEN: Smithing Tuyere and Lookout's Spyglass]
 [G38.4,27.8 Searing Gorge]Turn in [QT7724 Fiery Menace!]
 [G34.8,30.8 Searing Gorge][F Stonard]Fly to Stonard.[OC]
@@ -152,9 +152,9 @@ Place it in the Essence Font in the Shade of Eranikus' lair (*reward): [QT3373 T
 [G47.9,54.8 Swamp of Sorrows]== Sunken Temple turn-ins == In Stonard, turn in to Fel'zerul: [QT1445 The Temple of Atal'Hakkar] (Jammal'an goes to The Hinterlands and The God Hakkar to Tanaris)
 >> Next dungeon: Blackrock Depths (at about Lv55.1) — about Lv53.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G46,54.6 Swamp of Sorrows][F Grom'gol Base Camp]Fly to Grom'gol Base Camp.[OC]
 [G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Orgrimmar from the Grom'gol tower.[OC]
-[G56.4,46.4 Orgrimmar]Turn in [QT32 Rise of the Silithid]
+[G56.2,46.7 Orgrimmar]Turn in [QT32 Rise of the Silithid]
 Accept [QA4494 March of the Silithid]
-[G75,34 Orgrimmar]Accept [QA3504 Betrayed] (Azshara — later)
+[G75.2,34.2 Orgrimmar]Accept [QA3504 Betrayed] (Azshara — later)
 [G54,68.6 Orgrimmar]Accept [QA936 Assisting Arch Druid Runetotem]
 [S Orgrimmar]Set your Hearthstone to Orgrimmar.
 [G45.2,63.8 Orgrimmar][F Thunder Bluff]Fly to Thunder Bluff.[OC]
@@ -169,7 +169,7 @@ Accept [QA4496 Bungle in the Jungle]
 [G27,57 Tanaris]Head southwest toward this spot.[OC]
 Follow the ramp down into Un'Goro Crater. [G71.6,76 Un'Goro Crater]Accept [QA4290 The Fare of Lar'korwi]
 Accept [QA4289 The Apes of Un'Goro]
-*Look for crystals while you're in Un'Goro Crater.* There are 4 colors: |cFF990000red|r, |cFF3333FFblue|r, |cFFFFFF00yellow|r and |cFF006600green|r. *Pick up 7 of each.* Also click the Un'Goro dirt mounds to collect |cFFCC6600Un'Goro Soil|r: [Q3761 Un'Goro Soil] Kill every dinosaur except the devilsaurs. [G63,68 Un'Goro Crater]Go here and accept [QA3844 It's a Secret to Everybody] — *Reward chain
+*Look for crystals while you're in Un'Goro Crater.* There are 4 colors: |cFF990000red|r, |cFF3333FFblue|r, |cFFFFFF00yellow|r and |cFF006600green|r. *Pick up 7 of each.* Also click the Un'Goro dirt mounds to collect |cFFCC6600Un'Goro Soil|r: [Q3761 Un'Goro Soil] Kill every dinosaur except the devilsaurs. [G63.0,68.6 Un'Goro Crater]Go here and accept [QA3844 It's a Secret to Everybody] — *Reward chain
 Click the bag in the water to turn in [QT3844 It's a Secret to Everybody] — *Reward chain
 Accept [QA3845 It's a Secret to Everybody] — *Reward chain
 [G68.6,56.7 Un'Goro Crater]Click a threshadon carcass to get a chunk: [QC4290 The Fare of Lar'korwi]
@@ -244,7 +244,7 @@ It's southeast of Ursolan. Follow this path down. You'll soon meet naga — kill
 Collect the tablets in the Ruins of Eldarath. They appear at random spots. Finish collecting the tablets: [QC3517 Stealing Knowledge]
 Kill naga to finish collecting the *rune*: [QC5534 Kim'jael's "Missing" Equipment]
 From the Shattered Strand [G46,39 Azshara]find the ramp up to the high ground here.[OC]
-Turn in [QT3506 Betrayed]
+[G22.3,51.5 Azshara]Turn in [QT3506 Betrayed]
 [G53.4,21.8 Azshara]Turn in [QT5534 Kim'jael's "Missing" Equipment]
 [G22.4,51.4 Azshara]Turn in [QT3517 Stealing Knowledge]
 Accept [QA3561 Delivery to Archmage Xylem]
@@ -259,8 +259,8 @@ Accept [QA3565 Xylem's Payment to Jediga]
 [H Orgrimmar]Hearth to Orgrimmar.[OC]
 [G55.6,34 Orgrimmar]Turn in [QT3541 Delivery to Jes'rimon] (skip the return quest)
 [G45.2,63.8 Orgrimmar][F Thunder Bluff]Fly to Thunder Bluff.[OC]
-[G70.2,30.8 Thunder Bluff]Turn in [QT3518 Delivery to Magatha] (skip the return quest)
-[G77.4,22.4 Thunder Bluff]Turn in [QT3761 Un'Goro Soil]
+[G69.9,30.8 Thunder Bluff]Turn in [QT3518 Delivery to Magatha] (skip the return quest)
+[G77.5,22.0 Thunder Bluff]Turn in [QT3761 Un'Goro Soil]
 [XP55 55] You should be at least Lv55 (healers can go from Lv54). If you are short, run the Sunken Temple once more or kill mobs in the areas you just passed.
 * Blackrock Depths (1st) — Lv55.1 -> about Lv56.2 · recommended Lv54-55 (healer 54 · tank/DPS 55)
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
@@ -333,7 +333,7 @@ You can destroy the Videre Elixir. [G51.6,25.4 Tanaris][F Marshal's Refuge]Fly t
 Accept [QA3941 A Gnome's Assistance] — *Reward chain
 [G41.8,2.6 Un'Goro Crater]Turn in [QT3941 A Gnome's Assistance] — *Reward chain
 Accept [QA3942 Linken's Memory] — *Reward chain
-[G71,76 Un'Goro Crater]Accept from Torwa in southeastern Un'Goro: [QA4301 The Mighty U'cha]
+[G71.6,75.9 Un'Goro Crater]Accept from Torwa in southeastern Un'Goro: [QA4301 The Mighty U'cha]
 Accept [QA4292 The Bait for Lar'korwi]
 [G80,49 Un'Goro Crater]There's a giant dinosaur bone here.[OC]
 You'll face a level 56 mob, so check your health and mana. Open Torwa's pouch in your bags to get the Preserved Threshadon Meat and the Preserved Pheromone Mixture. Right-click the meat and the pheromones and Larion appears. Kill him and take his head: [QC4292 The Bait for Lar'korwi]

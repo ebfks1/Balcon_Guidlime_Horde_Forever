@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
+[D BalCon Dungeon Leveling v1.2.1-test — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Thrall's "Hidden Enemies" at 12 -> (Barrens if not 13 yet) -> Ragefire Chasm at 13 -> turn-ins in Orgrimmar, Thunder Bluff and Undercity -> Ruins prereqs and Silverpine to 16 -> Ruins of Lordaeron -> hearth to the Crossroads, Wailing Caverns prereqs -> Wailing Caverns -> Shadowfang Keep at 22 -> Zoram Strand and Blackfathom prereqs to 24 -> Blackfathom Deeps.]
 [GA Horde]
 [N12-25 BalCon: RFC, Ruins of Lordaeron, WC, SFK, BFD]
 [NX25-30 BalCon: Excavation Site, Dalaran]
@@ -42,7 +42,7 @@ Accept [QA848 Fungal Spores][O]
 Don't finish Raptor Thieves in one go; work on it whenever you're around. Walk around the Crossroads and finish [QC844 Plainstrider Menace][O]
 [G52.2,31 The Barrens]Turn in [QT844 Plainstrider Menace][O]
 Accept [QA845 The Zhevra][O]
-Accept [QA850 Kolkar Leaders][O]
+[G45.3,28.4 The Barrens]Accept [QA850 Kolkar Leaders][O]
 [G45.2,28.4 The Barrens]Accept from Regthar Deathgate: [QA855 Centaur Bracers] — no need to finish at once. Collect them whenever you kill centaurs (leaders too) and fill up the 15 when you kill Hezrul Bloodmark at the end.[O]
 On the way, kill raptors and zhevra. Head north toward the centaur camp. Pick up the mushrooms around the pools: [QC848 Fungal Spores][O]
 [G44,22 The Barrens]Explore the crevasse at the bottom of the pool (exploration only, so a low level is fine): [QC870 The Forgotten Pools][O]
@@ -124,7 +124,7 @@ Two books (spellbook and tome): [QC5725 The Power to Destroy...][O]
 Get 1 Hardened Tumor from the Vile Fin murlocs along the shore (about 5% drop - kill murlocs whenever you see them while collecting the moss): [QC451,3 A Recipe For Death]
 [G60.7,58.8 Tirisfal Glades]Take the road north of the lake back to Undercity.[OC]
 [G48.8,69.3 Undercity]Turn in to Faranell: [QT451 A Recipe For Death] — Dungeon prereq (Ruins of Lordaeron)
-[G47.0,72.6 Undercity]Accept from Theodore Griffs right next to him (or get it shared): [QA95216 The New Plague]
+[G46.3,71.9 Undercity]Accept from Theodore Griffs right next to him (or get it shared): [QA95216 The New Plague]
 You need to be [XP16 level 16]. If not, grind a little in eastern Tirisfal while doing "Rear Guard Patrol" below, or go to the Ruins of Lordaeron at 15 (healers).[OC]
 * Ruins of Lordaeron — Lv16.0 -> about Lv18.2 · recommended Lv15-16 (healer 15 · tank/DPS 16)
 [G65.5,60.2 Tirisfal Glades]Leave Undercity and go east to the camp near Brill. Right next to Kristof, accept from Deathguard Linnea: [QA356 Rear Guard Patrol] — Dungeon prereq (Ruins of Lordaeron) Kristof only offers "The Wrath of Rath'mael" after both steps of Linnea's "Rear Guard Patrol" (skipped automatically if you already did it in Tirisfal).
@@ -142,19 +142,19 @@ If a "Crest of Lordaeron" drops, pick it up and accept [QA95204 Crest of Lordaer
 Investigate Edward Heartweaver's remains in the graveyard area where Rath'mael is: [QC92401 A Frightened Request]
 Kill the final boss Rath'mael, visible beyond the fence: [QC92422 The Wrath of Rath'mael]
 [G65.2,60.2 Tirisfal Glades]Turn in to Deathguard Kristof: [QT92422 The Wrath of Rath'mael]
-[G47.0,72.6 Undercity]Turn in to Theodore Griffs: [QT95216 The New Plague]
-[G48.4,69.4 Undercity]Turn in to Master Apothecary Faranell: [QT97288 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97289 Unending Torment]
-[G46.2,63.0 Undercity]Turn in to the Unfinished Abomination (Osmar's body): [QT97289 Unending Torment]
-[G46.2,63.0 Undercity]Then accept [QA97290 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97290 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97291 Unending Torment]
+[G46.3,71.9 Undercity]Turn in to Theodore Griffs: [QT95216 The New Plague]
+[G48.8,69.3 Undercity]Turn in to Master Apothecary Faranell: [QT97288 Unending Torment]
+[G48.8,69.3 Undercity]Then accept [QA97289 Unending Torment]
+[G45.8,62.2 Undercity]Turn in to the Unfinished Abomination (Osmar's body): [QT97289 Unending Torment]
+[G45.8,62.2 Undercity]Then accept [QA97290 Unending Torment]
+[G48.8,69.3 Undercity]Turn in to Faranell: [QT97290 Unending Torment]
+[G48.8,69.3 Undercity]Then accept [QA97291 Unending Torment]
 Toxic Skullcap (Tawny Grisette, Trade Quarter), Blisterweed (pot behind the herbalist), Essence of Agony (poison vendor, Rogues' Quarter): [QC97291 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97291 Unending Torment]
-[G48.4,69.4 Undercity]Then accept [QA97292 Unending Torment]
+[G48.8,69.3 Undercity]Turn in to Faranell: [QT97291 Unending Torment]
+[G48.8,69.3 Undercity]Then accept [QA97292 Unending Torment]
 Inject the Hissing Serum into the device on Osmar's body: [QC97292 Unending Torment]
-[G48.4,69.4 Undercity]Turn in to Faranell: [QT97292 Unending Torment]
-[G73.4,32.4 Undercity]Turn in to Oran Snakewrithe: [QT95204 Crest of Lordaeron][O]
+[G48.8,69.3 Undercity]Turn in to Faranell: [QT97292 Unending Torment]
+[G73.0,32.9 Undercity]Turn in to Oran Snakewrithe: [QT95204 Crest of Lordaeron][O]
 [G57.8,89.8 Undercity]Turn in to Morbin Lightbane: [QT92421 Light's Justice]
 ! "A Frightened Request" is turned in at the Sepulcher on the way to Shadowfang Keep (keep it). (click to close once checked)
 ! Your Hearthstone should be set to the Crossroads. If not, take the zeppelin to Orgrimmar from the tower east of Undercity, then fly or run to the Crossroads. (click to close)
@@ -164,12 +164,12 @@ Inject the Hissing Serum into the device on Osmar's body: [QC97292 Unending Torm
 [G52.2,31.8 The Barrens]First step of the Wailing Caverns chain — accept from Tonga Runetotem: [QA870 The Forgotten Pools] — Dungeon prereq (Wailing Caverns)
 [G44,22 The Barrens]Explore the crevasse at the bottom of the pool (exploration only, so a low level is fine): [QC870 The Forgotten Pools]
 [G52.2,31.8 The Barrens]Turn in to Tonga Runetotem: [QT870 The Forgotten Pools] — Dungeon prereq (Wailing Caverns)
-Accept [QA850 Kolkar Leaders]
+[G45.3,28.4 The Barrens]Accept [QA850 Kolkar Leaders]
 [G45.2,28.4 The Barrens]Accept from Regthar Deathgate: [QA855 Centaur Bracers] — no need to finish at once. Collect them whenever you kill centaurs (leaders too) and fill up the 15 when you kill Hezrul Bloodmark at the end.
 [G42.8,23.4 The Barrens]Kill Barak Kodobane: [QC850 Kolkar Leaders]
 [G45.2,28.4 The Barrens]Turn in to Regthar Deathgate: [QT850 Kolkar Leaders]
 Accept [QA851 Verog the Dervish] (done right before Wailing Caverns)
-Accept [QA903 Prowlers of the Barrens] (done on the way to Ratchet)
+[G52.2,31.0 The Barrens]Accept [QA903 Prowlers of the Barrens] (done on the way to Ratchet)
 [G51.8,30.2 The Barrens]Then accept from Gazrog: [QA3281 Stolen Silver] — done at the raptor grounds during the Wailing Caverns prerequisites.
 Accept [QA877 The Stagnant Oasis] — Dungeon prereq (Wailing Caverns)
 [G55.0,42.0 The Barrens]Plant the seed in the crevasse under the water of the Stagnant Oasis to the south (you only plant the seed and leave, so a low level is fine; avoid the centaur camp next to it): [QC877 The Stagnant Oasis]
@@ -201,8 +201,8 @@ Collect the Stolen Silver from the same raptors: [QC3281 Stolen Silver]
 Follow the main road south from the Crossroads to Thunder Bluff (if you have the flight path, [F Thunder Bluff]fly there).[OC]
 [G78.4,28.4 Thunder Bluff]Turn in to Arch Druid Hamuul Runetotem on the Elder Rise: [QT1489 Hamuul Runetotem] — Dungeon prereq (Wailing Caverns)
 [G78.4,28.4 Thunder Bluff]Then accept [QA1490 Nara Wildmane] — Dungeon prereq (Wailing Caverns)
-[G75.6,31.2 Thunder Bluff]Turn in to Nara Wildmane: [QT1490 Nara Wildmane] — Dungeon prereq (Wailing Caverns)
-[G75.6,31.2 Thunder Bluff]Then accept [QA914 Leaders of the Fang] (Wailing Caverns quest)
+[G75.7,31.6 Thunder Bluff]Turn in to Nara Wildmane: [QT1490 Nara Wildmane] — Dungeon prereq (Wailing Caverns)
+[G75.7,31.6 Thunder Bluff]Then accept [QA914 Leaders of the Fang] (Wailing Caverns quest)
 [G22.8,20.9 Thunder Bluff]Accept from Apothecary Zamah in the Pools of Vision (or get it shared): [QA962 Serpentbloom] (Wailing Caverns quest)
 [G46.8,50 Thunder Bluff]Discover the [P Thunder Bluff] flight path at the flight master.[OC]
 *Spells* [T]Train your new spells up to level 19 at your class trainer.[OC]
@@ -241,7 +241,7 @@ Fill up the 15 Centaur Bracers (centaurs around Verog and Hezrul): [QC855 Centau
 [G63,37 The Barrens]Go to this point and discover the [P Ratchet] flight path.[OC]
 [G63.2,38.4 The Barrens]Turn in [QT1492 Wharfmaster Dizzywig]
 The lions are only found in the grass. [G63,37 The Barrens][F The Crossroads]Fly to the Crossroads.[OC]
-Accept [QA4921 Lost in Battle]
+[G52.0,31.6 The Barrens]Accept [QA4921 Lost in Battle]
 [F Thunder Bluff]Fly to Thunder Bluff. [A Tauren, Skyborne][OC]
 Follow the main road south toward Camp Taurajo. [G49,50 The Barrens]Find the clue at this point: [QC4921 Lost in Battle] [A Undead,Orc,Troll]
 *Spells* [T]Train your new spells up to level 20 at your class trainer. (Rogues and Warlocks train later in Orgrimmar.)[OC]
