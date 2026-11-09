@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.8
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.1.9
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,8 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.1.9  Mulgore 1-12 coordinates fixed: Dangers of the Windfury harpies now point to the hill south of the Rite of Vision
+         cave (32.4,41.2); waypoints added to 26 kill/collect steps that had none; Morin Cloudstalker moved to 55.1,60.7.
   1.1.8  Guides split into 12-25, 25-30, 30-40, 40-50 and 50-60. Guide names changed, so characters in progress must
          pick the new guide in Guidelime (completed quests are detected automatically).
          Lieutenant's Insignia fixed: it drops (about 20%) from Burning Blade Fanatics/Apprentices in Skull Rock, not Gazz'uz.

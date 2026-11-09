@@ -1,10 +1,10 @@
 ## Interface: 16001
-## Title: BalCon Dungeon Leveling Guide (Forever) v1.1.8
-## Title-koKR: 발컨 던전 레벨업 가이드 (포에버) v1.1.8
+## Title: BalCon Dungeon Leveling Guide (Forever) v1.1.9
+## Title-koKR: 발컨 던전 레벨업 가이드 (포에버) v1.1.9
 ## Notes: Dungeon-focused Guidelime leveling guide for WoW Forever (Horde 1-60). Korean or English text, chosen by your game language.
 ## Notes-koKR: 던전 중심 레벨업 1-60 (호드) — 성난불길부터 스트라솔름까지
 ## Author: 씨가 + Claude (1-12 & zone routes based on the Sunpower guide)
-## Version: 1.1.8
+## Version: 1.1.9
 ## Dependencies: Guidelime
 ## SavedVariablesPerCharacter: BalConAutoSkipDB
 ## X-Curse-Project-ID: 1763150
