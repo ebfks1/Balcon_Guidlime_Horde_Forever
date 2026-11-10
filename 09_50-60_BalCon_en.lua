@@ -300,6 +300,7 @@ Kill the high-ranking Dark Iron officials: [QC4082 KILL ON SIGHT: High Ranking D
 [G3.3,48.3 Badlands]Turn in to Thunderheart: [QT3907 Disharmony of Fire]
 [G2.9,47.8 Badlands]Turn in to Shadowmage Vivian Lagrave: [QT7201 The Last Element]
 [G5.8,47.5 Badlands]Turn in to Warlord Goretooth: [QT4082 KILL ON SIGHT: High Ranking Dark Iron Officials]
+! One more run (optional): since Nov 8, dungeon kill XP is up 50%. If your group is fast, running Blackrock Depths again is worth it — we recommend gathering the group for "2 runs" from the start. Runs after the first give no quest XP, so if the next dungeon level (Lower Blackrock Spire Lv57.2) is close, go back to zone quests. (click to close)[O]
 >> Next dungeon: Lower Blackrock Spire (at about Lv57.2) — about Lv56.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
 [H Orgrimmar]Hearth to Orgrimmar.[OC]
 [G31.7,37.8 Orgrimmar]In Orgrimmar, turn in to Thrall: [QT4001 What Is Going On?] (the quest from Blackrock Depths) — *Reward chain

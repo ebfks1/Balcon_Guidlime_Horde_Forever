@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> The Drowned City 37.5 (new in Forever) -> Razorfen Downs 38 -> Cathedral 39.]
+[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> The Drowned City 37.5 (new in Forever) -> SM Armory and Cathedral 39 (together). Razorfen Downs is a 40-50 dungeon in Forever, so it moved to the 40-50 guide.]
 [GA Horde]
 [N30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]
 [NX40-50 BalCon: Uldaman, ZF, Maraudon]
@@ -48,7 +48,8 @@ Find the "Compendium of the Fallen" on a bookshelf in the hall before Arcanist D
 Clear the Library up to Arcanist Doan and leave the Monastery (the Compendium is turned in when you pass through Thunder Bluff).[OC]
 == Scarlet Monastery (Graveyard) turn-ins == [F Tarren Mill]Fly to Tarren Mill (if you don't have the flight path, run).[OC]
 [G62.6,19.0 Hillsbrad Foothills]Turn in [QT1051 Vorrel's Revenge][O]
->> Next dungeon: Scarlet Monastery Armory (at about Lv37.0) — about Lv33.5 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn).[OC]
+! One more run (optional): since Nov 8, dungeon kill XP is up 50%. If your group is fast, running the Graveyard/Library again is worth it — we recommend gathering the group for "2 runs" from the start. Runs after the first give no quest XP, so if the next dungeon level (Drowned City Lv37.5) is close, go back to zone quests. (click to close)[O]
+>> Next dungeon: The Drowned City (at about Lv37.5 — new in Forever) — about Lv33.5 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn).[OC]
 [G62.8,20.2 Hillsbrad Foothills]Accept from Deathguard Humbert: [QA547 Humbert's Sword]
 [G61.5,20.9 Hillsbrad Foothills]Accept from Keeper Bel'varil: [QA556 Stone Tokens]
 [G61.9,19.6 Hillsbrad Foothills]Accept from Tallow: [QA676 The Hammer May Fall] (Arathi Highlands)
@@ -218,13 +219,7 @@ Turn in [QT6143 Other Fish to Fry]
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
 [H Orgrimmar]Hearth to Orgrimmar.[OC]
 [G22.4,52.8 Orgrimmar]Turn in [QT1436 Alliance Relations]
-[G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
-[XP37 37] You should be at least Lv37 (healers can go from Lv36). If you are short, run SM Library once more or kill mobs in the areas you just passed.
-* Scarlet Monastery (Armory) — Lv37.0 -> about Lv37.3 · recommended Lv36-37 (healer 36 · tank/DPS 37)
-[G74,33.3 Undercity]In the Undercity Magic Quarter, accept from Andrew Brownell (or get it shared): [QA3341 Bring the End] (Razorfen Downs — requires level 37, prep for the next dungeon)
-[G82.6,33.8 Tirisfal Glades]Enter the Scarlet Monastery Armory wing (keep collecting Hearts of Zeal).[OC]
-Kill Herod, the Scarlet Champion at the end of the Armory: [QC1048,3 Into The Scarlet Monastery]
->> Next dungeon: The Drowned City (at about Lv37.5 — new in Forever) — about Lv37.3 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G61.9,59.1 Tirisfal Glades]Take the zeppelin to Stranglethorn Vale (Grom'gol) from the tower east of Undercity.[OC]
+[G50.8,13.6 Durotar]Take the zeppelin to Grom'gol (Stranglethorn Vale) from the tower outside Orgrimmar's north gate.[OC]
 [G27,77 Stranglethorn Vale]Run south along the road to Booty Bay.[OC]
 [G26.8,77 Stranglethorn Vale]Discover the flight path: [P Booty Bay][OC]
 [G27.1,77.2 Stranglethorn Vale]Accept from Crank Fizzlebub: [QA605 Singing Blue Shards]
@@ -265,21 +260,7 @@ Turn in: [QT95775 The Drowned City][O] (turn-in NPC not confirmed — Kin'weelay
 [G27,77.1 Stranglethorn Vale]Turn in to Kebok: [QT213 Hostile Takeover]
 [G27,77.1 Stranglethorn Vale]Then accept from Kebok: [QA209 Skullsplitter Tusks] (finished later)
 [G25.9,73.1 Stranglethorn Vale]Take the boat to Ratchet from the Booty Bay docks.[OC]
-[XP38 38] You should be at least Lv38 (healers can go from Lv37). If you are short, run SM Armory once more or kill mobs in the areas you just passed.
-* Razorfen Downs — Lv38.0 -> about Lv38.6 · recommended Lv37-38 (healer 37 · tank/DPS 38)
-[G63.1,37.2 The Barrens][F Camp Taurajo]Fly to Camp Taurajo.[OC]
-[G49,93 The Barrens]Follow the road south to the Razorfen Downs entrance at the southern edge of the Barrens.[OC]
-[G49,94.9 The Barrens]Near the entrance, accept from Myriam Moonsinger (or get it shared): [QA6626 A Host of Evil]
-[G47.8,92 The Barrens]Kill Ambassador Malcin, who walks the hills outside the entrance, and take his scalp: [QC6521 An Unholy Alliance]
-Accept from Belnistrasz inside the dungeon: [QA3523 Scourge of the Downs] — *Reward chain · Dungeon prereq (Razorfen Downs)
-Hand the Oathstone back to him right away: [QT3523 Scourge of the Downs] — *Reward chain · Dungeon prereq (Razorfen Downs)
-Then accept (escort): [QA3525 Extinguishing the Idol] — *Reward
-Escort Belnistrasz to the idol and protect him until the ritual ends: [QC3525 Extinguishing the Idol]
-When the ritual ends, click the brazier (*reward): [QT3525 Extinguishing the Idol]
-Kill 8 each of Razorfen Battleguards, Thornweavers and Death's Head Cultists: [QC6626 A Host of Evil]
-Kill the final boss Amnennar the Coldbringer and take his skull: [QC3341 Bring the End]
-[G49,94.9 The Barrens]== Razorfen Downs turn-ins == Near the entrance, turn in to Myriam Moonsinger: [QT6626 A Host of Evil] (An Unholy Alliance and Bring the End are turned in at Undercity)
->> Next dungeon: Scarlet Monastery Cathedral (at about Lv39.0) — about Lv38.6 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G49.6,76.8 The Barrens]Go north and take the road east of Camp Taurajo into Dustwallow Marsh.[OC]
+>> Next dungeon: Scarlet Monastery Armory + Cathedral (together, at about Lv39.0) — about Lv38.3 now. Until then, do the zone quests below. [F Camp Taurajo]Fly to Camp Taurajo (run if you don't have the flight path), then [G49.6,76.8 The Barrens]take the road east of Camp Taurajo into Dustwallow Marsh.[OC]
 [G35.6,31.8 Dustwallow Marsh]Discover the flight path in Brackenwall Village to the north: [P Brackenwall Village][OC]
 [G35.2,30.7 Dustwallow Marsh]Accept from Nazeer Bloodpike: [QA1201 Theramore Spies]
 [G35.1,38.3 Dustwallow Marsh]Accept from Mudcrush Durtfeet: [QA1177 Hungry!]
@@ -291,17 +272,18 @@ Kill the final boss Amnennar the Coldbringer and take his skull: [QC3341 Bring t
 [H Orgrimmar]Hearth to Orgrimmar.[OC]
 [G59.5,36.6 Orgrimmar]Accept from Dran Droffers (or get it shared): [QA2283 Necklace Recovery] (Uldaman prep — requires level 37)
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
-[XP39 39] You should be at least Lv39 (healers can go from Lv38). If you are short, run Razorfen Downs once more or kill mobs in the areas you just passed.
-* Scarlet Monastery (Cathedral) — Lv39.0 -> about Lv39.7 · recommended Lv38-39 (healer 38 · tank/DPS 39)
-[G82.6,33.8 Tirisfal Glades]Enter the Scarlet Monastery Cathedral wing.[OC]
+[XP38 38] Lv38.5+ is best (healers can go at 38). You run the Armory and the Cathedral back to back with the same group — the Cathedral bosses are Lv42, so don't go too low. If short, run the Drowned City again or hunt mobs along the way.
+* Scarlet Monastery (Armory + Cathedral together) — about Lv39.0 -> about Lv40.3 · recommended Lv38.5-39 (healer 38 · tank/DPS 38.5-39)
+[G74,33.3 Undercity]In the Undercity Magic Quarter, accept from Andrew Brownell (or get it shared): [QA3341 Bring the End] (Razorfen Downs — requires level 37, prep for the next dungeon)
+[G82.6,33.8 Tirisfal Glades]Enter the Scarlet Monastery Armory wing first (keep collecting Vials of Zeal).[OC]
+Kill Herod, the Scarlet Champion at the end of the Armory: [QC1048,3 Into The Scarlet Monastery]
+After the Armory, go straight into the Cathedral wing with the same group.[OC]
 Finish collecting 20 Hearts of Zeal from Scarlet mobs: [QC1113 Hearts of Zeal]
 Kill Scarlet Commander Mograine: [QC1048,2 Into The Scarlet Monastery]
 Kill High Inquisitor Whitemane (she revives Mograine): [QC1048,1 Into The Scarlet Monastery]
-== Scarlet Monastery & Razorfen Downs turn-ins == [F Undercity]Fly to Undercity (walk if you're close).[OC]
+== Scarlet Monastery turn-ins == [F Undercity]Fly to Undercity (walk if you are close).[OC]
 [G48.8,69.3 Undercity]In the Apothecarium, turn in to Master Apothecary Faranell: [QT1113 Hearts of Zeal]
-[G74,33.3 Undercity]In the Magic Quarter, turn in to Andrew Brownell: [QT3341 Bring the End]
 [G62.3,48.6 Undercity]Accept from Patrick Garrett (or get it shared): [QA2342 Reclaimed Treasures] (Uldaman prep)
 [G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT1048 Into The Scarlet Monastery]
-[G56.2,92.2 Undercity]Turn in to Varimathras: [QT6521 An Unholy Alliance]
-That's the end of 30-40. Move on to the 40-50 guide (Uldaman, ZF, Maraudon).
+That's the end of 30-40. Move on to the 40-50 guide (Krol'dok Stronghold, Uldaman, Razorfen Downs, ZF, Maraudon).
 ]], "BalCon Dungeon Leveling (Forever)")
