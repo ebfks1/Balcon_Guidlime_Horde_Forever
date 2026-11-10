@@ -72,10 +72,10 @@ Kill Syndicate members to complete: [QC533 Infiltration]
 [G61.5,20.9 Hillsbrad Foothills]Turn in to Keeper Bel'varil: [QT556 Stone Tokens] (skip the follow-up "Bracers of Binding")
 [G52,53 Hillsbrad Foothills]Go to this spot.[OC]
 Click Helcular's grave to turn in [QT553 Helcular's Revenge] There are guards nearby, so run away afterwards.
-*The next part is best done in a group of two.* [G69,73 Hillsbrad Foothills]Go here and enter the dwarven fortress of Dun Garok.[OC]
+*Dun Garok elite trio (group of 2-3 recommended · 8,050 XP total)*: Battle of Hillsbrad part 6 (2,450) + Humbert's Sword (3,050) + the Undercity report that follows (2,550). From Helcular's grave go southeast to [G69,73 Hillsbrad Foothills]the dwarven fortress of Dun Garok. Elites 28-30, Captain Ironhill is a 32 elite — gather a group in Tarren Mill.[OC]
 Kill Captain Ironhill: [QC541,4 Battle of Hillsbrad]
 Kill dwarves to complete: [QC541 Battle of Hillsbrad]
-Humbert's Sword drops randomly from the mobs. Get Humbert's Sword: [QC547 Humbert's Sword]
+Humbert's Sword drops randomly from Dun Garok dwarves (Mountaineers, Riflemen, Priests) — if it hasn't dropped after your kill counts are done, keep killing until it does: [QC547 Humbert's Sword]
 [G32.4,46 Arathi Highlands]Head east into the Arathi Highlands![OC]
 Kill ogres to complete: [QC676 The Hammer May Fall]
 Head northeast toward Hammerfall. [G73,32.6 Arathi Highlands]Discover the flight path: [P Hammerfall][OC]

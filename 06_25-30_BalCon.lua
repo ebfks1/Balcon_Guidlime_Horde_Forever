@@ -135,6 +135,7 @@ Guidelime.registerGuide([[
 [G64.0,53.8 Hillsbrad Foothills]던 가록 바깥의 죽음추적자 마소즈에게 [QT98094 Scout Support][O]
 타렌 밀농장으로 되돌아가세요. [G62.2,20.2 Hillsbrad Foothills]퀘스트 완료: [QT567 위험 인물 수배]
 퀘스트 완료: [QT539 힐스브래드 전투]
+[G62.2,20.2 Hillsbrad Foothills]이어서 고위집행관 다살리아에게 퀘스트 수락: [QA541 힐스브래드 전투] (던 가록 정예 — 30-40 가이드에서 험버트의 검과 함께 2~3인 파티로 합니다)
 [G61.4,19.2 Hillsbrad Foothills]퀘스트 완료: [QT509 죽음의 비약]
 ★ 달라란 — Lv30.1 → 약 Lv31.3 · 권장 Lv30 (퀘스트 요구 레벨 30)
 [G62.6,20.6 Hillsbrad Foothills]타렌 밀농장 멜리사라에게 퀘스트 수락 (또는 파티원에게 공유받기): [QA96986 무덤 기사]

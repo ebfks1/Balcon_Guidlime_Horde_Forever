@@ -135,6 +135,7 @@ Collect Mudsnout Blossoms: [QC509 Elixir of Agony]
 [G64.0,53.8 Hillsbrad Foothills]Turn in to Deathstalker Mathoz outside Durnholde: [QT98094 Scout Support][O]
 Go back to Tarren Mill. [G62.2,20.2 Hillsbrad Foothills]Turn in [QT567 Dangerous!]
 Turn in [QT539 Battle of Hillsbrad]
+[G62.2,20.2 Hillsbrad Foothills]Then accept from High Executor Darthalia: [QA541 Battle of Hillsbrad] (Dun Garok elites — done in the 30-40 guide together with Humbert's Sword in a group of 2-3)
 [G61.4,19.2 Hillsbrad Foothills]Turn in [QT509 Elixir of Agony]
 * Dalaran — Lv30.1 -> about Lv31.3 · recommended Lv30 (quests require level 30)
 [G62.6,20.6 Hillsbrad Foothills]Accept from Melisara in Tarren Mill (or get it shared): [QA96986 The Grave Knight]
