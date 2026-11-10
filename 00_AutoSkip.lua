@@ -20,6 +20,28 @@ local function db()
 	return BalConAutoSkipDB
 end
 
+-- Guidelime 6.018 보정: "진행 중 단계를 별도 창에" 기능의 창 너비(ongoingFrameWidth)에 기본값이 없어
+-- 기존 캐릭터에서 SetWidth(nil) 오류 → 단계 목록이 통째로 사라짐. 값이 비어 있을 때만 채워 둡니다 (원작은 고치지 않음).
+-- Guidelime 6.018 fix: ongoingFrameWidth has no default, so SetWidth(nil) errors and the step list vanishes. Fill it only when empty.
+local function fixOngoingFrame()
+	local c = GuidelimeDataChar
+	if type(c) ~= "table" then return end
+	if type(c.ongoingFrameWidth) ~= "number" then c.ongoingFrameWidth = tonumber(c.mainFrameWidth) or 350 end
+	if type(c.ongoingFrameRelative) ~= "string" then c.ongoingFrameRelative = "CENTER" end
+	if type(c.ongoingFrameX) ~= "number" then c.ongoingFrameX = 0 end
+	if type(c.ongoingFrameY) ~= "number" then c.ongoingFrameY = 0 end
+end
+pcall(fixOngoingFrame)
+do
+	local f = CreateFrame("Frame")
+	f:RegisterEvent("ADDON_LOADED")
+	f:RegisterEvent("PLAYER_LOGIN")
+	f:SetScript("OnEvent", function(self, event)
+		pcall(fixOngoingFrame)
+		if event == "PLAYER_LOGIN" then self:UnregisterAllEvents() end
+	end)
+end
+
 -- 받지 않았거나 패스한 퀘스트의 "사용할 수 없는 단계"(금지 표시)를 숨김: Guidelime 의 "사용 불가능한 단계 표시"를 한 번만 끔
 local function hideUnavailable()
 	local d = db()

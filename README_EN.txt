@@ -42,9 +42,8 @@ Features
   - WoW Forever data: new quests, dungeon quest XP multipliers and levels checked against Wowhead Forever.
   - No death-skips after level 10 (Forever's resurrection sickness makes walking faster).
 
-Credits
-  Starting-zone routes (1-12) and zone quest routing are based on the Sunpower leveling guide
-  (original by Bustea & Hakurai, Korean translation by 썬파워).
+Data sources
+  Quests: Wowhead WoW Forever. Coordinates: WoW Forever client map and spawn data.
 
 Changes
   1.2.1  New Forever dungeons: The Drowned City (30-40, Grom'gol, Lv37.5) and Krol'dok Stronghold (40-50, Riverglades, Lv42.5)
