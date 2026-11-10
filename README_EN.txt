@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.1
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.2
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -46,6 +46,10 @@ Data sources
   Quests: Wowhead WoW Forever. Coordinates: WoW Forever client map and spawn data.
 
 Changes
+  1.2.2  Auto-skip of low-level quests works again (Guidelime 6.012+ stores skips in a new place; it did nothing in 12-25 and later).
+         12-25: at level 13 the leftover optional "Step 2: Barrens before level 13" steps are cleared (the Wailing Caverns chain
+         comes back in step 5; turn-ins of finished quests are kept). Fix for Guidelime 6.018 where an empty ongoing-window width
+         made the whole step list disappear. Sunpower references removed.
   1.2.1  New Forever dungeons: The Drowned City (30-40, Grom'gol, Lv37.5) and Krol'dok Stronghold (40-50, Riverglades, Lv42.5)
          (some quest givers/turn-ins are not confirmed yet, so those steps are optional; no map arrows in the Riverglades).
          30-40: SM Armory + Cathedral together (Lv39); Razorfen Downs at Lv40.5 (a 40-50 dungeon in Forever), using an

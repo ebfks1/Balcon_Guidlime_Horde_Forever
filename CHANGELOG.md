@@ -1,17 +1,13 @@
-## v1.2.1
+## v1.2.2
 
 **한국어**
-- 포에버 신규 던전 추가: 가라앉은 도시(30-40, Lv37.5), 크롤독 보루(40-50, Lv42.5)
-- 30-40: 붉은십자군 무기고·대성당 함께(Lv39), 가시덩굴 구릉 Lv40.5 (언더시티 귀환석 활용)
-- 귀환석 동선 전체 점검: 잘못된 귀환 수정, 던전 뒤 귀환, 비행선 줄이기, 재사용 대기 대비 안내
-- "한 바퀴 더 (선택)" 안내 4곳 (11월 8일 던전 몹 경험치 50% 상향)
-- 퀘스트 추가: 약탈자 촐아룩(Lv18), 수배: 브루즈, 버섯구름 잔디아 2개, 운명의 복수 / 힐스브래드 전투 6단계 수락 보강(던 가록 정예 3종)
-- 12-60 좌표 전수 검증·수정
+- 레벨 자동 건너뛰기 복구 (Guidelime 6.012 부터 12-25 이후 가이드에서 동작하지 않던 문제)
+- 12-25: 13레벨이 되면 "13레벨 전 불모의 땅" 선택 구간의 남은 단계 자동 정리 (통곡 연퀘는 폐허 뒤 5단계에서 다시 나옴)
+- Guidelime 6.018 "진행 중 단계 별도 창" 너비 오류로 단계 목록이 사라지던 문제 보정
+- 썬파워 가이드 참고 표기 삭제
 
 **English**
-- New Forever dungeons: The Drowned City (30-40, Lv37.5), Krol'dok Stronghold (40-50, Lv42.5)
-- 30-40: SM Armory + Cathedral together (Lv39), Razorfen Downs at Lv40.5 (Undercity hearth)
-- Hearthstone routing reviewed across all guides: wrong hearth steps fixed, hearth after dungeons, fewer zeppelin trips, cooldown fallbacks
-- "One more run (optional)" notes at 4 dungeons (Nov 8 +50% dungeon kill XP)
-- Added Chol'aruk the Ravener (Lv18), WANTED: Bruuz, two Jandia quests, A Vengeful Fate; added the missing Battle of Hillsbrad part 6 pickup (Dun Garok trio)
-- 12-60 coordinates checked and fixed
+- Auto-skip of low-level quests works again (it did nothing in 12-25 and later since Guidelime 6.012)
+- 12-25: at level 13 the leftover optional "Barrens before level 13" steps are cleared (the Wailing Caverns chain comes back in step 5)
+- Fix for Guidelime 6.018: an empty ongoing-window width made the whole step list disappear
+- Sunpower references removed

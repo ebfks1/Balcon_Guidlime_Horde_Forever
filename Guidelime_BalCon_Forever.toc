@@ -4,7 +4,7 @@
 ## Notes: Dungeon-focused Guidelime leveling guide for WoW Forever (Horde 1-60). Korean or English text, chosen by your game language.
 ## Notes-koKR: 던전 중심 레벨업 1-60 (호드) — 성난불길부터 스트라솔름까지
 ## Author: 씨가 + Claude
-## Version: 1.2.1
+## Version: 1.2.2
 ## Dependencies: Guidelime
 ## SavedVariablesPerCharacter: BalConAutoSkipDB
 ## X-Curse-Project-ID: 1763150
