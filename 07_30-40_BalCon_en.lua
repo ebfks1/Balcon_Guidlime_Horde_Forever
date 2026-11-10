@@ -9,7 +9,9 @@ Guidelime.registerGuide([[
 * Razorfen Kraul — Lv31.3 -> about Lv32.0 · recommended Lv30-31 (healer 30 · tank/DPS 31)
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
 [H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
-[F Ratchet]Fly to Ratchet.[OC]
+[G45.2,63.8 Orgrimmar][F Thunder Bluff]Fly to Thunder Bluff (a quick stop for a Razorfen Kraul quest).[OC]
+[G35.9,59.7 Thunder Bluff]On the Hunter Rise, accept from Auld Stonespire: [QA1102 A Vengeful Fate] — Dungeon prereq (Razorfen Kraul) · 8,500 XP
+[G46.8,50 Thunder Bluff][F Ratchet]Fly to Ratchet.[OC]
 [G62.3,37.6 The Barrens]Accept from Mebok Mizzyrix in Ratchet (or get it shared): [QA1221 Blueleaf Tubers] (grab the crate, control rod and manual next to him)
 [G42.3,89.9 The Barrens]Enter Razorfen Kraul at the southern end of the Barrens[OC]
 Use the crate with air holes to summon Snufflenose and collect 6 Blueleaf Tubers: [QC1221 Blueleaf Tubers]
@@ -17,13 +19,13 @@ Get the Kraul Guano from the Kraul bats: [QC1109 Going, Going, Guano!]
 Accept from Willix the Importer (escort): [QA1144 Willix the Importer]
 Escort Willix to the entrance: [QC1144 Willix the Importer]
 When the escort ends, turn in to Willix right away: [QT1144 Willix the Importer]
-Heart of Agamaggan: [QC1102 A Vengeful Fate][OC]
+Kill the last boss, Charlga Razorflank, and take Razorflank's Heart: [QC1102 A Vengeful Fate]
 Kill the final boss Charlga Razorflank and pick up the "Small Scroll" to accept [QA6522 An Unholy Alliance] — Dungeon prereq (Razorfen Downs)
 == Razorfen Kraul turn-ins == [F Thunder Bluff]Fly to Thunder Bluff (if you don't have the flight path, run).[OC]
 [G70.9,34.1 Thunder Bluff]Turn in [QT6561 Blackfathom Villainy][O]
 [G70.9,34.1 Thunder Bluff]Turn in [QT95664 Elder Knowledge][O]
 [G70.9,34.2 Thunder Bluff]Then accept from Bashana Runetotem: [QA98823 Earthen Echo] (Forever new)[OC]
-[G35.9,59.7 Thunder Bluff]Turn in [QT1102 A Vengeful Fate][O]
+[G35.9,59.7 Thunder Bluff]Turn in [QT1102 A Vengeful Fate]
 [G34.4,46.9 Thunder Bluff]Accept from Sage Truthseeker (or get it shared): [QA1049 Compendium of the Fallen] (SM Library — 32-45 part)[A Orc, Troll, Tauren]
 [G33.4,22.4 Mulgore]Turn in to Muln Earthfury at Skywatcher Plateau northwest of Thunder Bluff: [QT98823 Earthen Echo][O]
 [F Ratchet]Fly to Ratchet (if you don't have the flight path, run).[OC]
