@@ -19,8 +19,8 @@ If a *Pristine Yeti Hide* drops, click it to accept (skip this if it doesn't dro
 [G74.4,42.8 Feralas]Go to Camp Mojache and turn in [QT7734 Improved Quality]
 Turn in [QT7738 Perfect Yeti Hide][O]
 [G76,43.8 Feralas]Turn in [QT3063 Vengeance on the Northspring]
-! Your Hearthstone must be set to Gadgetzan. If it's set elsewhere, fly or run to Gadgetzan instead of hearthing. (click to close once checked)
-[H Gadgetzan]Hearth to Gadgetzan.[OC]
+! Your Hearthstone is set to Orgrimmar and is saved for after the Sunken Temple. Fly from Camp Mojache to Gadgetzan here. (click to close)
+[G75.4,44.4 Feralas][F Gadgetzan]Fly to Gadgetzan.[OC]
 [G67,22.4 Tanaris]At Steamwheedle Port to the east, turn in to Yeh'kinya: [QT4787 The Ancient Egg] (the egg from The Hinterlands) — *Reward chain · Dungeon prereq (Sunken Temple)
 [G67,22.4 Tanaris]Then accept from Yeh'kinya (or get it shared): [QA3528 The God Hakkar] (Sunken Temple — *reward)
 [G67,24 Tanaris]Accept from Yorba Screwspigot (or get it shared): [QA4324 Yuka Screwspigot] (Burning Steppes — Blackrock Depths chain, later)
@@ -150,8 +150,8 @@ Summon and kill the Avatar of Hakkar, then fill the Ancient Egg (*reward): [QC35
 If the Essence of Eranikus drops, click it to accept: [QA3373 The Essence of Eranikus] — *Reward[O]
 Place it in the Essence Font in the Shade of Eranikus' lair (*reward): [QT3373 The Essence of Eranikus][O]
 [G47.9,54.8 Swamp of Sorrows]== Sunken Temple turn-ins == In Stonard, turn in to Fel'zerul: [QT1445 The Temple of Atal'Hakkar] (Jammal'an goes to The Hinterlands and The God Hakkar to Tanaris)
->> Next dungeon: Blackrock Depths (at about Lv55.1) — about Lv53.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G46,54.6 Swamp of Sorrows][F Grom'gol Base Camp]Fly to Grom'gol Base Camp.[OC]
-[G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Orgrimmar from the Grom'gol tower.[OC]
+>> Next dungeon: Blackrock Depths (at about Lv55.1) — about Lv53.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn).[OC]
+[H Orgrimmar]Hearth to Orgrimmar (set in the 40-50 guide — if it is on cooldown or set elsewhere, fly from Stonard to Grom'gol and take the zeppelin to Orgrimmar).[OC]
 [G56.2,46.7 Orgrimmar]Turn in [QT32 Rise of the Silithid]
 Accept [QA4494 March of the Silithid]
 [G75.2,34.2 Orgrimmar]Accept [QA3504 Betrayed] (Azshara — later)
@@ -267,6 +267,7 @@ Accept [QA3565 Xylem's Payment to Jediga]
 [G46.8,50 Thunder Bluff][F Orgrimmar]Fly to Orgrimmar.[OC]
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
 [G54.8,76.3 Undercity]Turn in [QT3542 Delivery to Andron Gant] (skip the return quest)
+[G73.0,32.9 Undercity]Turn in [QT2995 Lines of Communication] (completed in The Hinterlands)
 [G50.1,68 Undercity]In the Apothecarium, accept from Apothecary Zinge (or get it shared): [QA4133 Vivian Lagrave] (Blackrock Depths prep — deliver to Kargath)
 [G63.4,48.6 Undercity][F Kargath]Fly to Kargath.[OC]
 [G2.9,47.8 Badlands]Turn in to Shadowmage Vivian Lagrave: [QT4133 Vivian Lagrave]

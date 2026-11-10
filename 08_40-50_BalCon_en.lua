@@ -360,6 +360,7 @@ Accept [QA82 Noxious Lair Investigation] (later)
 [G56.2,46.7 Orgrimmar]Turn in [QT7732 Zukk'ash Report]
 [G39.2,86.3 Orgrimmar]Turn in [QT3002 The Gordunni Orb]
 [G75.2,34.2 Orgrimmar]Turn in [QT2976 A Grim Discovery]
+[G54.1,68.4 Orgrimmar]Set your Hearthstone to [S Orgrimmar] with the innkeeper in the Valley of Strength (you hearth straight back after The Hinterlands — and again after the Sunken Temple).
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
 [G73.0,32.9 Undercity]Accept [QA2995 Lines of Communication]
 [G63.4,48.6 Undercity][F Tarren Mill]Fly to Tarren Mill.[OC]
@@ -406,9 +407,8 @@ Turn in [QT7830 Avenging the Fallen]
 [G79.2,79 The Hinterlands]Turn in [QT7841 Message to the Wildhammer]
 [G78.8,78.4 The Hinterlands]Turn in [QT7844 Cannibalistic Cousins]
 [G78.2,81.2 The Hinterlands]Turn in [QT7840 Lard Lost His Lunch]
-[G81.6,81.8 The Hinterlands][F Undercity]Fly to Undercity.[OC]
-[G73.0,32.9 Undercity]Turn in [QT2995 Lines of Communication]
-[G60.7,58.8 Tirisfal Glades]Take the zeppelin to Orgrimmar from the tower east of Undercity.[OC]
+! Your Hearthstone should be set to Orgrimmar (set above). "Lines of Communication" is turned in later when you pass through Undercity (50-60 guide). (click to close)
+[H Orgrimmar]Hearth to Orgrimmar (if it is on cooldown, fly from Revantusk Village to Undercity and take the zeppelin to Orgrimmar).[OC]
 [G59.4,36.8 Orgrimmar]Turn in [QT81 Ripple Delivery]
 [G45.2,63.8 Orgrimmar][F Shadowprey Village]Fly to Shadowprey Village.[OC]
 [XP49 49] You should be at least Lv49 (healers can go from Lv48). If you are short, run Zul'Farrak once more or kill mobs in the areas you just passed.
