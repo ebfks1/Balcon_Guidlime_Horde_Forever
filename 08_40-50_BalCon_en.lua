@@ -1,12 +1,12 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Krol'dok Stronghold 42.5 (new in Forever) -> Uldaman 43.5 -> Razorfen Downs 44.5 -> Zul'Farrak 46.5 -> Maraudon 49.]
+[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Krol'dok Stronghold 42.5 (new in Forever) -> Uldaman 43.5 -> Zul'Farrak 46 -> Maraudon 49.]
 [GA Horde]
 [N40-50 BalCon: Uldaman, ZF, Maraudon]
 [NX50-60 BalCon: Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip
 
->> Next dungeon: Krol'dok Stronghold (at about Lv42.5 — new in Forever) — about Lv39.7 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Hammerfall]Fly to Hammerfall.[OC]
+>> Next dungeon: Krol'dok Stronghold (at about Lv42.5 — new in Forever) — about Lv41.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Hammerfall]Fly to Hammerfall.[OC]
 [G73.8,34 Arathi Highlands]Turn in to Zengu: [QT638 Trollbane] (the quest from Grom'gol)
 [G74.2,33.9 Arathi Highlands]Accept from Drum Fel: [QA678 Call to Arms]
 [G74.7,36.3 Arathi Highlands]Accept from Tor'gan: [QA701 Guile of the Raptor]
@@ -215,7 +215,7 @@ Clear up to the final boss Archaedas.[OC]
 [G2.4,46.1 Badlands]Then accept from Jarkal Mossmeld: [QA2203 Badlands Reagent Run II] — Dungeon chain (Uldaman)
 [G81.4,52.9 Badlands]Use the empty vessels on the Scorched Guardians in the east: [QC2203 Badlands Reagent Run II]
 [G2.4,46.1 Badlands]Back in Kargath, turn in to Jarkal Mossmeld: [QT2203 Badlands Reagent Run II] — Dungeon chain (Uldaman)
->> Next dungeon: Razorfen Downs (at about Lv44.5 — retuned to a 40-50 dungeon in Forever) -> then Zul'Farrak (about Lv46.5). About Lv44.2 now.[OC]
+>> Next dungeon: Zul'Farrak (at about Lv46.3) — about Lv44.2 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Grom'gol Base Camp]Fly to Grom'gol Base Camp (if you're already in Kalimdor, go to Orgrimmar).[OC]
 [F Grom'gol]Fly to Grom'gol.[OC]
 [G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Orgrimmar from the Grom'gol tower.[OC]
 [G59.5,36.6 Orgrimmar]In Orgrimmar, turn in to Dran Droffers: [QT2283 Necklace Recovery] (the necklace from Uldaman — skip the "Take 2" follow-up)
@@ -224,20 +224,7 @@ Clear up to the final boss Archaedas.[OC]
 [G59.6,36.9 Orgrimmar]Then accept from Malton Droffers: [QA650 Ripple Recovery] (The Hinterlands — later)
 [G75.2,34.2 Orgrimmar]Accept from Belgrom Rockmaul: [QA2981 A Threat in Feralas] (Feralas — later)
 [G39.2,86.3 Orgrimmar]Accept from Uthel'nay (or get it shared): [QA7068 Shadowshard Fragments] (Maraudon prep)
-* Razorfen Downs — about Lv44.5 -> about Lv45.3 · recommended Lv40-45 (a 40-50 dungeon in Forever)
-[G45.2,63.8 Orgrimmar][F Camp Taurajo]Fly to Camp Taurajo.[OC]
-[G49,93 The Barrens]Follow the road south to the Razorfen Downs entrance at the southern edge of the Barrens.[OC]
-[G49,94.9 The Barrens]Near the entrance, accept from Myriam Moonsinger (or get it shared): [QA6626 A Host of Evil]
-[G47.8,92 The Barrens]Kill Ambassador Malcin, who walks the hills outside the entrance, and take his scalp: [QC6521 An Unholy Alliance]
-Accept from Belnistrasz inside the dungeon: [QA3523 Scourge of the Downs] — *Reward chain · Dungeon prereq (Razorfen Downs)
-Hand the Oathstone back to him right away: [QT3523 Scourge of the Downs] — *Reward chain · Dungeon prereq (Razorfen Downs)
-Then accept (escort): [QA3525 Extinguishing the Idol] — *Reward
-Escort Belnistrasz to the idol and protect him until the ritual ends: [QC3525 Extinguishing the Idol]
-When the ritual ends, click the brazier (*reward): [QT3525 Extinguishing the Idol]
-Kill 8 each of Razorfen Battleguards, Thornweavers and Death's Head Cultists: [QC6626 A Host of Evil]
-Kill the final boss Amnennar the Coldbringer and take his skull: [QC3341 Bring the End]
-[G49,94.9 The Barrens]== Razorfen Downs turn-ins == Near the entrance, turn in to Myriam Moonsinger: [QT6626 A Host of Evil] (An Unholy Alliance and Bring the End are turned in at Undercity)
-[F Brackenwall Village]Fly to Brackenwall Village (from Camp Taurajo).[OC]
+[G45.2,63.8 Orgrimmar][F Brackenwall Village]Fly to Brackenwall Village.[OC]
 [G36.2,31.4 Dustwallow Marsh]Accept [QA1166 Overlord Mok'Morokk's Concern]
 [G37.2,31.4 Dustwallow Marsh]Accept [QA1168 Army of the Black Dragon]
 [G37,33 Dustwallow Marsh]Accept [QA1169 Identifying the Brood]
@@ -373,8 +360,6 @@ Accept [QA82 Noxious Lair Investigation] (later)
 [G39.2,86.3 Orgrimmar]Turn in [QT3002 The Gordunni Orb]
 [G75.2,34.2 Orgrimmar]Turn in [QT2976 A Grim Discovery]
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
-[G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT6521 An Unholy Alliance] (Ambassador Malcin's Head from outside Razorfen Downs)
-[G74,33.3 Undercity]In the Magic Quarter, turn in to Andrew Brownell: [QT3341 Bring the End]
 [G73.0,32.9 Undercity]Accept [QA2995 Lines of Communication]
 [G63.4,48.6 Undercity][F Tarren Mill]Fly to Tarren Mill.[OC]
 [G84,32 Hillsbrad Foothills]Go here to enter The Hinterlands.[OC]

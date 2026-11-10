@@ -263,8 +263,8 @@ Accept [QA3565 Xylem's Payment to Jediga]
 [G77.5,22.0 Thunder Bluff]Turn in [QT3761 Un'Goro Soil]
 [XP55 55] You should be at least Lv55 (healers can go from Lv54). If you are short, run the Sunken Temple once more or kill mobs in the areas you just passed.
 * Blackrock Depths (1st) — Lv55.1 -> about Lv56.2 · recommended Lv54-55 (healer 54 · tank/DPS 55)
-! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
-[H Orgrimmar]Hearth to Orgrimmar.[OC]
+! You just used your Hearthstone (cooldown). Fly from Thunder Bluff to Orgrimmar. (click to close)
+[G46.8,50 Thunder Bluff][F Orgrimmar]Fly to Orgrimmar.[OC]
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
 [G54.8,76.3 Undercity]Turn in [QT3542 Delivery to Andron Gant] (skip the return quest)
 [G50.1,68 Undercity]In the Apothecarium, accept from Apothecary Zinge (or get it shared): [QA4133 Vivian Lagrave] (Blackrock Depths prep — deliver to Kargath)

@@ -59,9 +59,9 @@ Enter the Excavation Site dungeon right below. Kill Dragonmaw Guardians and Sabo
 If a Relic Guardian drops a "Titan Relic", pick it up and accept [QA95664 Elder Knowledge][OC]
 If you got "Changing Tastes" from Vorstan in Orgrimmar, collect the Thicket Raptor meat: [QC95697 Changing Tastes][OC]
 [G51.4,59.2 Wetlands]Turn in to the Deathstalker: [QT95682 Open the Maw]
-! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
->> Next dungeon: Dalaran (at about Lv30.1) — about Lv28.1 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [H Orgrimmar]Hearth to Orgrimmar (if your Hearthstone is on cooldown, take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
-[G12.2,33.8 Ashenvale][F Splintertree Post]Fly to Splintertree Post.[OC]
+! Your Hearthstone should be set to the Crossroads (set in the 12-25 guide). If not, fly or run to Splintertree Post instead. (click to close)
+>> Next dungeon: Dalaran (at about Lv30.1) — about Lv28.1 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [H The Crossroads]Hearth to the Crossroads (if your Hearthstone is on cooldown, fly from Hammerfall to Tarren Mill, then take the zeppelin to Orgrimmar from the tower east of Undercity [G60.7,58.8 Tirisfal Glades]).[OC]
+[G51.4,30.2 The Barrens][F Splintertree Post]Fly to Splintertree Post.[OC]
 [G66,74 Ashenvale]Go to this point.[OC]
 Clear all the night elves at Silverwing Outpost. Kill the elementals in the lake: [QC25,1 Stonetalon Standstill]
 Kill Tideress near the hut on the small island in the middle: [QC25 Stonetalon Standstill]
@@ -70,8 +70,8 @@ Pick up the item it drops and accept [QA1918 The Befouled Element]
 Ursangous, the white bear, wanders around. [G54,62 Ashenvale]Go to this point.[OC]
 [G73.6,60 Ashenvale]Turn in [QT25 Stonetalon Standstill]
 Turn in [QT1918 The Befouled Element]
-! Your Hearthstone must be set to Camp Taurajo. If it's set elsewhere, fly or run to Camp Taurajo instead of hearthing. (click to close once checked)
-[H Camp Taurajo]Hearth to Camp Taurajo; if your Hearthstone is on cooldown, go to Splintertree Post and fly from there.[OC]
+! Don't use your Hearthstone here — you just used it (1-hour cooldown). Fly from Splintertree Post to Camp Taurajo. (click to close)
+[G73.2,61.6 Ashenvale][F Camp Taurajo]Fly to Camp Taurajo (if you don't have it, fly to the Crossroads and run south).[OC]
 Pick up all the Bloodstone Shards, you'll need them later. Follow the road a bit north, then head east toward the Northwatch Hold. Go to [G63.2,56.6 The Barrens] at Northwatch Hold,[OC]
 come down from the tower and go to [G60.4,54.8 The Barrens],[OC]
 go down the hill to [G61.9,54.6].[OC]
@@ -82,9 +82,8 @@ It's a red wind serpent roaming the Field of Giants. Loot its feather to accept 
 Find Gann Stonespire, who patrols up and down the road. [G47.6,85.2 The Barrens]At Bael Modan excavation[OC]
 [G48.4,84 The Barrens]enter the dwarven fortress above the excavation[OC]
 [G44.8,59 The Barrens]Turn in [QT885 Washte Pawne]
-! Your Hearthstone should be set to the Crossroads (set in the 12-25 guide). If not, fly or run to Orgrimmar instead. (click to close)
-[H The Crossroads]Hearth to the Crossroads.[OC]
-[G51.4,30.2 The Barrens][F Orgrimmar]Fly to Orgrimmar.[OC]
+! Instead of hearthing, fly straight to Orgrimmar from the Camp Taurajo flight path (you'll set and use the Hearthstone from Orgrimmar). (click to close)
+[G44.4,59.2 The Barrens][F Orgrimmar]Fly to Orgrimmar (Camp Taurajo).[OC]
 [G54.1,68.4 Orgrimmar]Set your Hearthstone to [S Orgrimmar] with the innkeeper in the Valley of Strength (the rest of the guides hearth to Orgrimmar).
 [G45.2,63.8 Orgrimmar][F Splintertree Post]Fly to Splintertree Post.[OC]
 [G57,56 Ashenvale]Go to this point.[OC]

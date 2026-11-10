@@ -263,7 +263,7 @@ Follow the main road south toward Camp Taurajo. [G49,50 The Barrens]Find the clu
 [G52,31.6 The Barrens]Run to the Crossroads and turn in [QT4921 Lost in Battle] [A Tauren, Skyborne]
 [G52,31.6 The Barrens]Turn in [QT4921 Lost in Battle] [A Undead,Orc,Troll]
 [F Orgrimmar]Fly to Orgrimmar.[OC]
-*Spells* : this note means you can train new spells. Save gold for your level 40 mount, though — only train the important spells. Head to Orgrimmar. [G54,68.6 Orgrimmar]Set your Hearthstone to [S Orgrimmar].
+*Spells* : this note means you can train new spells. Save gold for your level 40 mount, though — only train the important spells. Head to Orgrimmar. (Keep your Hearthstone at the Crossroads — you hearth there after Shadowfang Keep.)
 Leave Orgrimmar and go to the zeppelin tower. Take the zeppelin to Undercity. [F Orgrimmar]Fly to Orgrimmar.[OC]
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
 [F Undercity]Fly to Undercity (if you don't have the flight path, run).[OC]
