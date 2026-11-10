@@ -1,12 +1,12 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Uldaman 43 -> Zul'Farrak 46 -> Maraudon 49.]
+[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Krol'dok Stronghold 42.5 (new in Forever) -> Uldaman 43.5 -> Zul'Farrak 46 -> Maraudon 49.]
 [GA Horde]
 [N40-50 BalCon: Uldaman, ZF, Maraudon]
 [NX50-60 BalCon: Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip
 
->> Next dungeon: Uldaman (at about Lv43.5) — about Lv39.7 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Hammerfall]Fly to Hammerfall.[OC]
+>> Next dungeon: Krol'dok Stronghold (at about Lv42.5 — new in Forever) — about Lv39.7 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [F Hammerfall]Fly to Hammerfall.[OC]
 [G73.8,34 Arathi Highlands]Turn in to Zengu: [QT638 Trollbane] (the quest from Grom'gol)
 [G74.2,33.9 Arathi Highlands]Accept from Drum Fel: [QA678 Call to Arms]
 [G74.7,36.3 Arathi Highlands]Accept from Tor'gan: [QA701 Guile of the Raptor]
@@ -179,7 +179,21 @@ Turn in [QT209 Skullsplitter Tusks]
 [G32.4,29.2 Stranglethorn Vale][F Stonard]Fly to Stonard.[OC]
 [G22.8,48.1 Swamp of Sorrows]Turn in [QT624 Cortello's Riddle] — *Reward chain
 Accept [QA625 Cortello's Riddle] (Dustwallow Marsh — 45-60 part) — *Reward chain
-[G46,54.6 Swamp of Sorrows][F Kargath]Fly to Kargath.[OC]
+== Krol'dok Stronghold (new Forever dungeon) == The Riverglades is a new zone, so there are no map-arrow coordinates yet. Go north of the Swamp of Sorrows (north of Stonard) into the Riverglades and find the Horde base Rog'mar and its flight path. If the way is blocked, take the boat from Steamwheedle Port (east Tanaris) to Powderfuse Port.[OC]
+If you looted a Krol'dok Moulding (Riverglades ogre drop), accept: [QA94973 Krol'dok Moulding][O] — Dungeon prereq (Krol'dok Stronghold)
+Find someone in Rog'mar who knows about the mould and turn in: [QT94973 Krol'dok Moulding][O]
+Then accept from Kreza Darkthorn: [QA94974 Key Ingredients][O] — Dungeon prereq (Krol'dok Stronghold)
+Bring 4 Thick Leather and 12 Iron Bars (auction house) to Kreza Darkthorn for the Krol'dok key: [QT94974 Key Ingredients][O]
+* Krol'dok Stronghold — about Lv42.5 -> about Lv43.5 · recommended Lv40-45 (healer 40 · tank/DPS 41) · new Forever dungeon
+Enter the cave west of the fortress gates in the north of the Riverglades (map 37.5, 37.5).[OC]
+* Get the dungeon quests inside (only the ones you are missing): [QA94975 A Token of Vengeance] [QA94972 Tome of Twilight] [QA95056 Krol'dok No More!][O]
+Collect 15 Cultist Ears from the Twilight's Hammer: [QC94975 A Token of Vengeance]
+Kill Nar'gurk for the Tome of Twilight: [QC94972 Tome of Twilight]
+Complete the dungeon quest: [QC95056 Krol'dok No More!]
+Kill Overlord Mugg; if you loot the Eye of Mugg, accept: [QA94968 Eye of Mugg][O]
+Leave the dungeon and turn in at Rog'mar (turn-in NPC not confirmed — check your quest log): [QT94975 A Token of Vengeance] [QT94972 Tome of Twilight] [QT95056 Krol'dok No More!][O]
+Turn in to Krom'rosh in Rog'mar: [QT94968 Eye of Mugg][O]
+[F Kargath]Fly to Kargath (from Rog'mar, or back at Stonard).[OC]
 [G62,72 Badlands]*Find* and kill Boss Tho'grun: [QC782 Broken Alliances]
 [G2.8,45.8 Badlands]Turn in [QT782 Broken Alliances]
 [XP43 43] You should be at least Lv43 (healers can go from Lv42). If you are short, run SM Cathedral once more or kill mobs in the areas you just passed.

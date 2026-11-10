@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> Razorfen Downs 38 -> Cathedral 39.]
+[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> Armory 37 -> The Drowned City 37.5 (new in Forever) -> Razorfen Downs 38 -> Cathedral 39.]
 [GA Horde]
 [N30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]
 [NX40-50 BalCon: Uldaman, ZF, Maraudon]
@@ -102,7 +102,9 @@ Kill raptors on the way back to Hammerfall to finish collecting the eyes: [QC672
 [G32.2,27.7 Stranglethorn Vale]Accept from Nimboya: [QA581 Hunt for Yenniku]
 [G32.3,27.7 Stranglethorn Vale]Accept from Kin'weelay: [QA596 Bloody Bone Necklaces]
 [G32.3,27.7 Stranglethorn Vale]Accept from Kin'weelay: [QA629 The Vile Reef]
+[G32.3,27.7 Stranglethorn Vale]Accept from Kin'weelay: [QA95770 Locating the Lost City] — Dungeon prereq (Drowned City)
 [G32.2,28.9 Stranglethorn Vale]Accept from Commander Aggro'gosh: [QA568 The Defense of Grom'gol] (finished later)
+[G32.2,28.9 Stranglethorn Vale]Accept from Commander Aggro'gosh: [QA95773 Enemies in the Water] — Dungeon prereq (Drowned City)
 [G35.6,10.8 Stranglethorn Vale]Head north to Nesingwary's Expedition.[OC]
 [G35.7,10.5 Stranglethorn Vale]Accept from Barnil Stonepot: [QA583 Welcome to the Jungle]
 [G35.7,10.8 Stranglethorn Vale]Turn in to Hemet Nesingwary: [QT583 Welcome to the Jungle]
@@ -120,6 +122,8 @@ Kill Panthers to complete: [QC191 Panther Mastery]
 [G27.6,17.4 Stranglethorn Vale]Kill Stranglethorn Raptors: [QC194 Raptor Mastery]
 [G24,22 Stranglethorn Vale]Swim to this spot.[OC]
 If the mobs around here worry you, group up or ask for help. Collect the tablet shards: [QC629 The Vile Reef]
+[G21.4,27.9 Stranglethorn Vale]Find the underwater cave southwest of the Vile Reef (the Drowned City entrance): [QC95770 Locating the Lost City]
+[G23.1,30.6 Stranglethorn Vale]Kill Brinescale Skirmishers around the cave for 10 tridents: [QC95773 Enemies in the Water]
 [G29.8,21.4 Stranglethorn Vale]Kill Bloodscalp trolls to complete: [QC596 Bloody Bone Necklaces]
 The trolls elsewhere are level 36-37 and harder. Complete the quest: [QC581 Hunt for Yenniku]
 [G35.6,10.6 Stranglethorn Vale]Turn in to Ajeck Rouack: [QT186 Tiger Mastery]
@@ -137,8 +141,12 @@ The trolls elsewhere are level 36-37 and harder. Complete the quest: [QC581 Hunt
 [G32.2,27.7 Stranglethorn Vale]Back at Grom'gol, turn in to Nimboya: [QT581 Hunt for Yenniku]
 [G32.3,27.7 Stranglethorn Vale]Turn in to Kin'weelay: [QT629 The Vile Reef]
 [G32.3,27.7 Stranglethorn Vale]Turn in to Kin'weelay: [QT596 Bloody Bone Necklaces]
+[G32.3,27.7 Stranglethorn Vale]Turn in to Kin'weelay: [QT95770 Locating the Lost City]
+[G32.3,27.7 Stranglethorn Vale]If offered, accept next: [QA95775 The Drowned City][O] (giver not confirmed yet — otherwise pick it up inside the dungeon)
 [G32.2,27.7 Stranglethorn Vale]Accept from Nimboya: [QA638 Trollbane] (deliver to Hammerfall in Arathi — later)
 [G32.2,27.7 Stranglethorn Vale]Accept from Nimboya: [QA582 Headhunting] (finished later)
+[G32.2,28.9 Stranglethorn Vale]Turn in to Commander Aggro'gosh: [QT95773 Enemies in the Water]
+[G32.2,28.9 Stranglethorn Vale]If offered, accept next: [QA95776 The Only Good Brinescale...][O] (giver not confirmed yet — otherwise pick it up inside the dungeon)
 [G32.4,29.2 Stranglethorn Vale]Take the zeppelin to Orgrimmar from the Grom'gol zeppelin tower.[OC]
 [G54,68.6 Orgrimmar][S Orgrimmar]Set your Hearthstone to Orgrimmar.
 [G51.3,45.9 Orgrimmar]Accept from Craven Drok: [QA1431 Alliance Relations] (start of the Desolace chain)
@@ -216,7 +224,7 @@ Turn in [QT6143 Other Fish to Fry]
 [G74,33.3 Undercity]In the Undercity Magic Quarter, accept from Andrew Brownell (or get it shared): [QA3341 Bring the End] (Razorfen Downs — requires level 37, prep for the next dungeon)
 [G82.6,33.8 Tirisfal Glades]Enter the Scarlet Monastery Armory wing (keep collecting Hearts of Zeal).[OC]
 Kill Herod, the Scarlet Champion at the end of the Armory: [QC1048,3 Into The Scarlet Monastery]
->> Next dungeon: Razorfen Downs (at about Lv38.0) — about Lv37.3 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G61.9,59.1 Tirisfal Glades]Take the zeppelin to Stranglethorn Vale (Grom'gol) from the tower east of Undercity.[OC]
+>> Next dungeon: The Drowned City (at about Lv37.5 — new in Forever) — about Lv37.3 now. Until then, do the zone quests below (dungeon quests are picked up when it's that dungeon's turn). [G61.9,59.1 Tirisfal Glades]Take the zeppelin to Stranglethorn Vale (Grom'gol) from the tower east of Undercity.[OC]
 [G27,77 Stranglethorn Vale]Run south along the road to Booty Bay.[OC]
 [G26.8,77 Stranglethorn Vale]Discover the flight path: [P Booty Bay][OC]
 [G27.1,77.2 Stranglethorn Vale]Accept from Crank Fizzlebub: [QA605 Singing Blue Shards]
@@ -240,6 +248,16 @@ Collect the Shadowmaw Claws and the Pristine Tigress Fang there too: [QC570 Mok'
 [G32.2,28.9 Stranglethorn Vale]Turn in to Commander Aggro'gosh: [QT568 The Defense of Grom'gol]
 [G32.1,29.2 Stranglethorn Vale]Turn in to Far Seer Mok'thardin: [QT570 Mok'thardin's Enchantment]
 [G32.1,29.2 Stranglethorn Vale]Then accept from Far Seer Mok'thardin: [QA572 Mok'thardin's Enchantment] (finished later)
+* The Drowned City — about Lv37.5 -> about Lv38.3 · recommended Lv35-40 (healer 35 · tank/DPS 36) · new Forever dungeon
+! The entrance is an underwater cave, so watch your breath. Undead are fine; warlocks use Unending Breath; others bring Water Breathing potions. (click to close)
+[G21.4,27.9 Stranglethorn Vale]Swim west from Grom'gol past the Vile Reef and enter the underwater cave (form your group in Grom'gol).[OC]
+* Get the dungeon quests inside (only the ones you are missing): [QA95775 The Drowned City] [QA95776 The Only Good Brinescale...][O]
+! Pick up any other quests offered inside (two Saltseer quests and others) and do them too. (click to close)
+Make rubbings of the four Tablets of I'lalai with the hide and charcoal: [QC95775 The Drowned City]
+Kill Var'Taka, leader of the Brinescale naga: [QC95776 The Only Good Brinescale...]
+Clear to the last boss, Captain Dreadrise, then leave the dungeon.[OC]
+[G32.2,28.9 Stranglethorn Vale]Back in Grom'gol, turn in: [QT95776 The Only Good Brinescale...][O] (turn-in NPC not confirmed — if not Commander Aggro'gosh, check your quest log)
+Turn in: [QT95775 The Drowned City][O] (turn-in NPC not confirmed — Kin'weelay or Master Gadrin in Sen'jin Village)
 [G32.4,29.2 Stranglethorn Vale][F Booty Bay]Fly to Booty Bay.[OC]
 [G27.1,77.2 Stranglethorn Vale]Turn in to Crank Fizzlebub: [QT605 Singing Blue Shards]
 [G27.1,77.2 Stranglethorn Vale]Then accept from Crank Fizzlebub: [QA600 Venture Company Mining] (finished later)
