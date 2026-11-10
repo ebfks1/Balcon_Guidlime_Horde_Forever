@@ -228,12 +228,11 @@ Gems from the 4 Fang leaders (Cobrahn, Anacondra, Pythas, Serpentis): [QC914 Lea
 Accept from the "Glowing Shard" dropped by the final boss Mutanus: [QA6981 The Glowing Shard]
 [G45.9,35.6 The Barrens]Turn in to Nalpak: [QT1486 Deviate Hides]
 [G46.0,35.7 The Barrens]Turn in to Ebru: [QT1487 Deviate Eradication]
-[G48.1,32.8 The Barrens]Turn in to Falla Sagewind on the hill above the cave: [QT6981 The Glowing Shard]
-[G48.1,32.8 The Barrens]Then accept [QA3369 In Nightmares] (turned in to Hamuul Runetotem in Thunder Bluff)
 Fill up the 15 Centaur Bracers (centaurs around Verog and Hezrul): [QC855 Centaur Bracers]
 [G45.2,28.4 The Barrens]Go north and turn in to Regthar: [QT852 Hezrul Bloodmark]
 [G45.2,28.4 The Barrens]Turn in to Regthar: [QT855 Centaur Bracers]
 [G51.4,30.2 The Barrens]Run to the Crossroads and [F Ratchet]fly to Ratchet.[OC]
+[G63.0,37.2 The Barrens]Talk to Sputtervalve, the goblin between the flight master and the dock, and pick the "glowing shard" dialogue (progresses The Glowing Shard; turned in to Falla Sagewind back near the Crossroads).[OC]
 [G62.4,37.6 The Barrens]Turn in to Mebok Mizzyrix: [QT1491 Smart Drinks]
 [G63.0,37.6 The Barrens]Turn in to Crane Operator Bigglefuzz: [QT959 Trouble at the Docks]
 [G62.6,37.5 The Barrens]Click the Wanted board in Ratchet to accept: [QA92706 WANTED: Bruuz][O] — group quest (new in Forever · elite 20). Best done with your Wailing Caverns group.
@@ -248,6 +247,8 @@ Fill up the 15 Centaur Bracers (centaurs around Verog and Hezrul): [QC855 Centau
 [G63.2,38.4 The Barrens]Turn in [QT1492 Wharfmaster Dizzywig]
 The lions are only found in the grass. [G63,37 The Barrens][F The Crossroads]Fly to the Crossroads.[OC]
 [G52.0,31.6 The Barrens]Accept [QA4921 Lost in Battle]
+[G48.2,32.8 The Barrens]Run west of the Crossroads to the hill above the Wailing Caverns and turn in to Falla Sagewind: [QT6981 The Glowing Shard]
+[G48.2,32.8 The Barrens]Then accept [QA3369 In Nightmares] (turned in to Hamuul Runetotem in Thunder Bluff)
 [F Thunder Bluff]Fly to Thunder Bluff. [A Tauren, Skyborne][OC]
 Follow the main road south toward Camp Taurajo. [G49,50 The Barrens]Find the clue at this point: [QC4921 Lost in Battle] [A Undead,Orc,Troll]
 *Spells* [T]Train your new spells up to level 20 at your class trainer. (Rogues and Warlocks train later in Orgrimmar.)[OC]
