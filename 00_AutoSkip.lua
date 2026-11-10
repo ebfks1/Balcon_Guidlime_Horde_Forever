@@ -74,14 +74,101 @@ local function title(e)
 	return t or tostring(e.questId)
 end
 
+-- 단계 건너뛰기 저장: Guidelime 6.012 부터 건너뛰기는 GuidelimeDataChar.progress[가이드][줄].skip 에 저장됩니다
+-- (예전 guideSkip 표는 더 이상 쓰지 않음). Guidelime 이 직접 체크할 때와 같은 자리에 기록합니다.
+-- Save a skip where Guidelime 6.012+ keeps it (progress[guide][line].skip); the old guideSkip table is no longer used.
+local function markSkip(guideName, step)
+	step.skip = true
+	local c = GuidelimeDataChar
+	if type(c) ~= "table" then return end
+	if step.line then
+		c.progress = c.progress or {}
+		c.progress[guideName] = c.progress[guideName] or {}
+		local p = c.progress[guideName][step.line]
+		if not p then p = {stepText = step.text}; c.progress[guideName][step.line] = p end
+		p.skip = true
+	end
+	if type(c.guideSkip) == "table" and type(c.guideSkip[guideName]) == "table" and step.index then c.guideSkip[guideName][step.index] = true end
+end
+
+-- 지나간 선택 구간 정리: 이 레벨이 되면, 아래 퀘스트를 수락하는 단계가 들어 있는 "연속된 선택 단계 묶음" 중
+-- 안 끝낸 단계를 건너뜀 (같은 퀘스트가 가이드 뒤에서 다시 나오므로 "진행 중" 창에 계속 남지 않게).
+-- 목표를 다 채운 퀘스트의 보고 단계는 남김. 직접 다시 켠 단계는 다시 건너뛰지 않음.
+-- Passed optional block cleanup: at this level, skip the unfinished steps of the contiguous optional block that
+-- accepts this quest (the same quests come back later in the guide, so they should not linger as "ongoing" steps).
+G.CLEAN = {
+	{q = 1492, lvl = 13, ko = "12-25 2단계(13레벨 전 불모의 땅)의 남은 선택 단계를 정리했습니다. 통곡 연퀘는 로데론의 폐허 뒤 5단계에서 다시 나옵니다.",
+		en = "Cleared the remaining optional steps of 12-25 step 2 (Barrens before level 13). The Wailing Caverns chain comes back in step 5, after the Ruins of Lordaeron."},
+}
+local function cleanPassed(data, lvl, d, guideName)
+	local steps = data.guide.steps
+	d.clean = d.clean or {}
+	d.clean[guideName] = d.clean[guideName] or {}
+	local done = d.clean[guideName]
+	local changed, keep = false, {}
+	for _, rule in ipairs(G.CLEAN) do
+		if lvl >= rule.lvl and not done[rule.q] then
+			local at
+			for i, step in ipairs(steps) do
+				for _, e in ipairs(step.elements or {}) do
+					if e.t == "ACCEPT" and e.questId == rule.q and step.optional then at = i; break end
+				end
+				if at then break end
+			end
+			if at then
+				done[rule.q] = true
+				local s, e = at, at
+				while s > 1 and steps[s - 1].optional do s = s - 1 end
+				while e < #steps and steps[e + 1].optional do e = e + 1 end
+				local n = 0
+				for i = s, e do
+					local step = steps[i]
+					if step.index and not step.completed and not step.skip then
+						local hold = false
+						for _, el in ipairs(step.elements or {}) do
+							if el.t == "TURNIN" and el.questId and inLog(el.questId) and isReady(el.questId) then hold = true end
+						end
+						if hold then
+							for _, el in ipairs(step.elements or {}) do if el.questId then keep[title(el)] = true end end
+						else
+							markSkip(guideName, step); n = n + 1
+						end
+					end
+				end
+				if n > 0 then
+					changed = true
+					print("|cffffd200" .. (KO and "발컨" or "BalCon") .. "|r: " .. (KO and rule.ko or rule.en))
+				end
+			end
+		end
+	end
+	local k = {}
+	for t in pairs(keep) do k[#k + 1] = t end
+	if #k > 0 then
+		table.sort(k)
+		print(KO and ("|cffffd200발컨|r: 목표를 다 채운 퀘스트의 완료 단계는 남겨 두었습니다 — " .. table.concat(k, ", "))
+			or ("|cffffd200BalCon|r: turn-in steps of finished quests were kept — " .. table.concat(k, ", ")))
+	end
+	return changed
+end
+
 function G.BalConAutoSkip(data, args, event, arg1)
 	hideUnavailable()
 	local d = db()
 	if not d.on then return end
+	do
+		local gn = GuidelimeDataChar and GuidelimeDataChar.currentGuide
+		if gn and data and data.guide and data.guide.steps then
+			local lv = UnitLevel("player")
+			if event == "PLAYER_LEVEL_UP" and tonumber(arg1) then lv = tonumber(arg1) end
+			if cleanPassed(data, lv, d, gn) then
+				local f = _G["GuidelimeFrame"]
+				if f and f.PLAYER_XP_UPDATE then C_Timer.After(0.1, function() pcall(f.PLAYER_XP_UPDATE, f) end) end
+			end
+		end
+	end
 	local guideName = GuidelimeDataChar and GuidelimeDataChar.currentGuide
 	if not guideName or not data or not data.guide or not data.guide.steps then return end
-	local skipT = GuidelimeDataChar.guideSkip and GuidelimeDataChar.guideSkip[guideName]
-	if not skipT then return end
 	local lvl = UnitLevel("player")
 	if event == "PLAYER_LEVEL_UP" and tonumber(arg1) then lvl = tonumber(arg1) end
 	d.auto[guideName] = d.auto[guideName] or {}
@@ -104,7 +191,7 @@ function G.BalConAutoSkip(data, args, event, arg1)
 				end
 			end
 			if any and low then
-				step.skip = true; skipT[step.index] = true; mine[step.index] = true; changed = true
+				markSkip(guideName, step); mine[step.index] = true; changed = true
 				for _, n in ipairs(inl) do abandon[n] = true end
 			end
 		end
@@ -151,13 +238,9 @@ end
 -- 리로드 없이 넘어가기: 1-12 가이드의 남은 단계를 모두 건너뛰면 Guidelime 이 창 맨 위에
 -- "가이드 완료 — 다음 가이드" 링크를 띄우고, 그 링크를 누르면 리로드 없이 12-25 가이드를 불러옵니다.
 local function finishGuide(guide, guideName, next)
-	GuidelimeDataChar.guideSkip = GuidelimeDataChar.guideSkip or {}
-	GuidelimeDataChar.guideSkip[guideName] = GuidelimeDataChar.guideSkip[guideName] or {}
-	local skipT = GuidelimeDataChar.guideSkip[guideName]
 	for _, step in ipairs(guide.steps) do
 		if step.index and not step.completed and not step.skip then
-			step.skip = true
-			skipT[step.index] = true
+			markSkip(guideName, step)
 		end
 	end
 	print(KO and ("|cffffd200발컨|r: 1-12 가이드의 남은 단계를 건너뛰었습니다. Guidelime 창 맨 위의 |cffffffff다음 가이드: " .. (next or "12-25") .. "|r 를 눌러 주세요 (리로드 없음).")
