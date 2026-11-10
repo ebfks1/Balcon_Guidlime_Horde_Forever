@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 25-30: Ashenvale, Hillsbrad and Arathi -> The Excavation Site: Wetlands at 27 -> zone quests -> Dalaran at 30 (quests need level 30).]
+[D BalCon Dungeon Leveling v1.2.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 25-30: Ashenvale, Hillsbrad and Arathi -> The Excavation Site: Wetlands at 27 -> zone quests -> Dalaran at 30 (quests need level 30).]
 [GA Horde]
 [N25-30 BalCon: Excavation Site, Dalaran]
 [NX30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]

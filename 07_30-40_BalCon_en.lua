@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.2.1-test2 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> The Drowned City 37.5 (new in Forever) -> SM Armory and Cathedral 39 (together) -> Razorfen Downs 40.5 (a 40-50 dungeon in Forever). You set your Hearthstone to Undercity before the Armory/Cathedral, so after Razorfen Downs you hearth straight back to where the 40-50 guide starts.]
+[D BalCon Dungeon Leveling v1.2.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 30-40: Razorfen Kraul 31 -> SM Graveyard and Library 32-33 (together) -> The Drowned City 37.5 (new in Forever) -> SM Armory and Cathedral 39 (together) -> Razorfen Downs 40.5 (a 40-50 dungeon in Forever). You set your Hearthstone to Undercity before the Armory/Cathedral, so after Razorfen Downs you hearth straight back to where the 40-50 guide starts.]
 [GA Horde]
 [N30-40 BalCon: RFK, SM Graveyard, Library, Armory, RFD, Cathedral]
 [NX40-50 BalCon: Uldaman, ZF, Maraudon]

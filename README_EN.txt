@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.0
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.1
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -47,6 +47,14 @@ Credits
   (original by Bustea & Hakurai, Korean translation by 썬파워).
 
 Changes
+  1.2.1  New Forever dungeons: The Drowned City (30-40, Grom'gol, Lv37.5) and Krol'dok Stronghold (40-50, Riverglades, Lv42.5)
+         (some quest givers/turn-ins are not confirmed yet, so those steps are optional; no map arrows in the Riverglades).
+         30-40: SM Armory + Cathedral together (Lv39); Razorfen Downs at Lv40.5 (a 40-50 dungeon in Forever), using an
+         Undercity hearth. Hearthstone routing reviewed across all guides (wrong hearth steps fixed, hearth after SM/ZF,
+         Thousand Needles before Hillsbrad, Orgrimmar hearth after the Hinterlands and the Sunken Temple, cooldown fallbacks).
+         "One more run (optional)" notes at 4 dungeons (Nov 8 +50% dungeon kill XP). Added Chol'aruk the Ravener (Lv18),
+         WANTED: Bruuz, two Jandia quests in Thousand Needles, A Vengeful Fate (RFK); added the missing Battle of Hillsbrad
+         part 6 pickup (Dun Garok trio). 12-60 coordinates checked (Searing Gorge golems/sentry towers fixed, 9 NPC lines added).
   1.2.0  Shortest Path Forever: no route line on objective (kill/collect) steps — the Guidelime arrow stays; the route
          returns to the turn-in NPC once objectives are done. Accept/turn-in/travel and cave/entrance steps keep routes.
          Toggle with /balcon route (on by default).
