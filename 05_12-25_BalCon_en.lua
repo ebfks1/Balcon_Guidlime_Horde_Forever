@@ -160,6 +160,9 @@ Inject the Hissing Serum into the device on Osmar's body: [QC97292 Unending Torm
 ! Your Hearthstone should be set to the Crossroads. If not, take the zeppelin to Orgrimmar from the tower east of Undercity, then fly or run to the Crossroads. (click to close)
 == Step 5: finish the Wailing Caverns prerequisites (Barrens, Ratchet, Thunder Bluff) == [H The Crossroads]Hearth to the Crossroads.[OC]
 [G52,29.8 The Barrens]Set your Hearthstone to [S The Crossroads] with the innkeeper (you hearth back here after the Ruins of Lordaeron).
+[G52.6,29.0 The Barrens]Accept from Gur'ak: [QA97003 Chol'aruk the Ravener][O] — group quest (new in Forever · 4,100 XP). Doing it at about Lv18 gives the best XP — 2-3 players recommended; if solo, keep it and kill him with your Wailing Caverns group.
+[G57.8,27.0 The Barrens]Kill Chol'aruk the Ravener (20) on the hill just east of the Crossroads and loot his item: [QC97003 Chol'aruk the Ravener]
+[G52.6,29.0 The Barrens]Turn in to Gur'ak: [QT97003 Chol'aruk the Ravener]
 ! If you skipped the Barrens steps before Ragefire, do the steps below (they disappear by themselves if already done). (click to close)
 [G52.2,31.8 The Barrens]First step of the Wailing Caverns chain — accept from Tonga Runetotem: [QA870 The Forgotten Pools] — Dungeon prereq (Wailing Caverns)
 [G44,22 The Barrens]Explore the crevasse at the bottom of the pool (exploration only, so a low level is fine): [QC870 The Forgotten Pools]
@@ -233,6 +236,9 @@ Fill up the 15 Centaur Bracers (centaurs around Verog and Hezrul): [QC855 Centau
 [G51.4,30.2 The Barrens]Run to the Crossroads and [F Ratchet]fly to Ratchet.[OC]
 [G62.4,37.6 The Barrens]Turn in to Mebok Mizzyrix: [QT1491 Smart Drinks]
 [G63.0,37.6 The Barrens]Turn in to Crane Operator Bigglefuzz: [QT959 Trouble at the Docks]
+[G62.6,37.5 The Barrens]Click the Wanted board in Ratchet to accept: [QA92706 WANTED: Bruuz][O] — group quest (new in Forever · elite 20). Best done with your Wailing Caverns group.
+[G64.3,41.7 The Barrens]Kill Bruuz (elite) on the shore just south of Ratchet: [QC92706 WANTED: Bruuz]
+[G62.7,36.2 The Barrens]Turn in to Gazlowe: [QT92706 WANTED: Bruuz]
 ! "Leaders of the Fang", "Serpentbloom" and "In Nightmares" are turned in when the route passes through Thunder Bluff (keep them). (click to close once checked)
 [V]Sell junk to Halija and [R]repair your gear.[OC]
 [F Ratchet]Fly to Ratchet (if you don't have the flight path, run).[OC]
