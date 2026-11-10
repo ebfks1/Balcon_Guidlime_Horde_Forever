@@ -91,7 +91,7 @@ Kill the Laughing Sisters at this point until Shadumbra shows up or comes to you
 Kill satyrs to finish: [QC6441 Satyr Horns]
 [G73,61.4 Ashenvale]Turn in [QT6441 Satyr Horns]
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
-[H Orgrimmar]Hearth to Orgrimmar.[OC]
+[H Orgrimmar]Hearth to Orgrimmar (if it is on cooldown, fly from Splintertree Post to Orgrimmar).[OC]
 Take the zeppelin to Undercity. [G63.4,48.6 Undercity][F Tarren Mill]Fly to Tarren Mill.[OC]
 [G33,48.8 Hillsbrad Foothills]Finish the quest at the farms: [QC529 Battle of Hillsbrad]
 [G62.2,20.2 Hillsbrad Foothills]Turn in [QT529 Battle of Hillsbrad]
@@ -114,7 +114,7 @@ Go back to Tarren Mill. [G62.2,20.2 Hillsbrad Foothills]Turn in [QT567 Dangerous
 Turn in [QT539 Battle of Hillsbrad]
 [G61.4,19.2 Hillsbrad Foothills]Turn in [QT509 Elixir of Agony]
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
-[H Orgrimmar]Hearth to Orgrimmar.[OC]
+[H Orgrimmar]Hearth to Orgrimmar (if it is on cooldown, fly from Tarren Mill to Undercity and take the zeppelin to Orgrimmar).[OC]
 [G45.2,63.8 Orgrimmar][F Camp Taurajo]Fly to Camp Taurajo.[OC]
 [G32,22 Thousand Needles]Go to the Great Lift at this point.[OC]
 [G45.6,50.6 Thousand Needles]Go to Freewind Post at this point.[OC]

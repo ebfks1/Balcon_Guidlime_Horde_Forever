@@ -272,7 +272,7 @@ Turn in: [QT95775 The Drowned City][O] (turn-in NPC not confirmed — Kin'weelay
 [H Orgrimmar]Hearth to Orgrimmar.[OC]
 [G59.5,36.6 Orgrimmar]Accept from Dran Droffers (or get it shared): [QA2283 Necklace Recovery] (Uldaman prep — requires level 37)
 [G50.8,13.6 Durotar]Take the zeppelin to Undercity from the tower outside Orgrimmar's north gate.[OC]
-[G67.6,38.2 Undercity]Set your Hearthstone to [S Undercity] with the innkeeper (after Razorfen Downs you hearth straight back here to continue the 40-50 guide).
+[G67.6,38.2 Undercity]Set your Hearthstone to [S Undercity] with the innkeeper (you hearth back here after the Armory/Cathedral to turn in, and again after Razorfen Downs).
 [XP38 38] Lv38.5+ is best (healers can go at 38). You run the Armory and the Cathedral back to back with the same group — the Cathedral bosses are Lv42, so don't go too low. If short, run the Drowned City again or hunt mobs along the way.
 * Scarlet Monastery (Armory + Cathedral together) — about Lv39.0 -> about Lv40.3 · recommended Lv38.5-39 (healer 38 · tank/DPS 38.5-39)
 [G74,33.3 Undercity]In the Undercity Magic Quarter, accept from Andrew Brownell (or get it shared): [QA3341 Bring the End] (Razorfen Downs — requires level 37, prep for the next dungeon)
@@ -282,7 +282,7 @@ After the Armory, go straight into the Cathedral wing with the same group.[OC]
 Finish collecting 20 Hearts of Zeal from Scarlet mobs: [QC1113 Hearts of Zeal]
 Kill Scarlet Commander Mograine: [QC1048,2 Into The Scarlet Monastery]
 Kill High Inquisitor Whitemane (she revives Mograine): [QC1048,1 Into The Scarlet Monastery]
-== Scarlet Monastery turn-ins == [F Undercity]Fly to Undercity (walk if you are close).[OC]
+== Scarlet Monastery turn-ins == Leave the dungeon and [H Undercity]hearth to Undercity (if it is on cooldown, run west to Undercity).[OC]
 [G48.8,69.3 Undercity]In the Apothecarium, turn in to Master Apothecary Faranell: [QT1113 Hearts of Zeal]
 [G62.3,48.6 Undercity]Accept from Patrick Garrett (or get it shared): [QA2342 Reclaimed Treasures] (Uldaman prep)
 [G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT1048 Into The Scarlet Monastery]
@@ -300,7 +300,7 @@ When the ritual ends, click the brazier (*reward): [QT3525 Extinguishing the Ido
 Kill 8 each of Razorfen Battleguards, Thornweavers and Death's Head Cultists: [QC6626 A Host of Evil]
 Kill the final boss Amnennar the Coldbringer and take his skull: [QC3341 Bring the End]
 [G49,94.9 The Barrens]== Razorfen Downs turn-ins == Near the entrance, turn in to Myriam Moonsinger: [QT6626 A Host of Evil] (An Unholy Alliance and Bring the End are turned in at Undercity)
-! Your Hearthstone should be set to Undercity (set above). If not, fly to Orgrimmar and take the zeppelin to Undercity. (click to close)
+! Your Hearthstone should be set to Undercity (set above). The Hearthstone you used after the Monastery comes off cooldown while you run Razorfen Downs. If it is still on cooldown or set elsewhere, fly to Orgrimmar and take the zeppelin to Undercity. (click to close)
 [H Undercity]Hearth to Undercity.[OC]
 [G56.2,92.2 Undercity]In the Royal Quarter, turn in to Varimathras: [QT6521 An Unholy Alliance] (Ambassador Malcin's Head from outside Razorfen Downs)
 [G74,33.3 Undercity]In the Magic Quarter, turn in to Andrew Brownell: [QT3341 Bring the End]

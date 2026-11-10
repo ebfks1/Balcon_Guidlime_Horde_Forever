@@ -256,7 +256,7 @@ Find Archmage Xylem at the top of the tower. [G29.2,40.2 Azshara]Turn in [QT3561
 Accept [QA3565 Xylem's Payment to Jediga]
 [G22.4,51.4 Azshara]Turn in [QT3565 Xylem's Payment to Jediga]
 ! Your Hearthstone must be set to Orgrimmar. If it's set elsewhere, fly or run to Orgrimmar instead of hearthing. (click to close once checked)
-[H Orgrimmar]Hearth to Orgrimmar.[OC]
+[H Orgrimmar]Hearth to Orgrimmar (if it is on cooldown, fly from Valormok in Azshara to Orgrimmar).[OC]
 [G55.6,34 Orgrimmar]Turn in [QT3541 Delivery to Jes'rimon] (skip the return quest)
 [G45.2,63.8 Orgrimmar][F Thunder Bluff]Fly to Thunder Bluff.[OC]
 [G69.9,30.8 Thunder Bluff]Turn in [QT3518 Delivery to Magatha] (skip the return quest)
