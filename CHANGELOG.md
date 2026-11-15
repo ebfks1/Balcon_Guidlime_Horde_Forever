@@ -1,3 +1,17 @@
+## v1.2.3
+
+**한국어**
+- 12레벨 안내 창이 11레벨에서 뜨던 문제 대비: 창을 띄우기 직전에 실제 레벨을 다시 확인
+- 멀고어 1-12: 사냥터 좌표 보정 (검독수리, 썬더혼 토템상, 와일드메인 토템상, 사냥꾼의 길, 사냥꾼 길들이기 2종)
+- 제프라스: 현상 수배 게시판(벌가라) 좌표 보정
+- 12-25 "빛나는 조각": 톱니항 스퍼터밸브와 대화하는 단계 추가, 팔라 세이지윈드 보고는 톱니항을 다녀온 뒤로
+
+**English**
+- Level-12 prompt: the real level is checked again right before the window shows (it could appear at level 11)
+- Mulgore 1-12: corrected hunting spots (Swoop Hunting, Thunderhorn Totem, Wildmane Totem, The Hunter's Way, two Taming the Beast quests)
+- Zephras: corrected the wanted poster (Vulgara) location
+- 12-25 "The Glowing Shard": added the talk with Sputtervalve in Ratchet; the turn-in to Falla Sagewind now comes after Ratchet
+
 ## v1.2.2
 
 **한국어**

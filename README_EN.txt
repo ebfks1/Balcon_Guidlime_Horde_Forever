@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.2
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde 1-60) v1.2.3
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -46,6 +46,9 @@ Data sources
   Quests: Wowhead WoW Forever. Coordinates: WoW Forever client map and spawn data.
 
 Changes
+  1.2.3  Level-12 prompt checks the real level again right before it shows (it could appear at level 11).
+         Mulgore 1-12: corrected hunting spots. Zephras: corrected the wanted poster location.
+         12-25 "The Glowing Shard": talk to Sputtervalve in Ratchet first, then turn in to Falla Sagewind.
   1.2.2  Auto-skip of low-level quests works again (Guidelime 6.012+ stores skips in a new place; it did nothing in 12-25 and later).
          12-25: at level 13 the leftover optional "Step 2: Barrens before level 13" steps are cleared (the Wailing Caverns chain
          comes back in step 5; turn-ins of finished quests are kept). Fix for Guidelime 6.018 where an empty ongoing-window width
