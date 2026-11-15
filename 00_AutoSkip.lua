@@ -313,7 +313,12 @@ function G.BalConLevel12(data, args, event, arg1)
 		end,
 		timeout = 0, whileDead = 1, hideOnEscape = false, preferredIndex = 3,
 	}
-	C_Timer.After(1, function() StaticPopup_Show("BALCON_LEVEL12", table.concat(t, "\n")) end)
+	-- 창을 띄우기 직전에 실제 레벨을 한 번 더 확인합니다 (레벨업 이벤트가 알려 준 숫자만 믿지 않음).
+	-- Check the real level again right before showing (do not trust the event's number alone).
+	C_Timer.After(1, function()
+		if UnitLevel("player") < 12 then asked[guideName] = nil; return end
+		StaticPopup_Show("BALCON_LEVEL12", table.concat(t, "\n"))
+	end)
 end
 G.BalConLevel12Reset = function()
 	local d = db(); d.stay12 = {}
