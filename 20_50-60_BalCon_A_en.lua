@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.3.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Un'Goro/Feralas/Tanaris/Hinterlands → Sunken Temple at 51 → Azshara/Felwood → Redridge/Burning Steppes → BRD at 54 → Winterspring → LBRS at 56 → Western/Eastern Plaguelands → Stratholme at 58.]
+[D BalCon Dungeon Leveling v1.3.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 50-60: Un'Goro/Feralas/Tanaris/Hinterlands → Sunken Temple at 51 → Azshara/Felwood → Redridge/Burning Steppes → BRD at 54 → Winterspring → LBRS at 56 → Western/Eastern Plaguelands → Stratholme at 58.]
 [GA Alliance]
 [N50-60 BalCon (Alliance): Sunken Temple, BRD, LBRS, Stratholme]
 --OnLoad,PLAYER_LEVEL_UP,QUEST_ACCEPTED,QUEST_TURNED_IN>>BalConAutoSkip

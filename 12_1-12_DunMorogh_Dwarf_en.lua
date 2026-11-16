@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.3.0 — Levels 1-12 starting-zone guide (Alliance). Coordinates follow the WoW Forever client data and quests follow Wowhead Forever. At level 12 you move on to the 12-25 dungeon guide.]
+[D BalCon Dungeon Leveling v1.3.1 — Levels 1-12 starting-zone guide (Alliance). Coordinates follow the WoW Forever client data and quests follow Wowhead Forever. At level 12 you move on to the 12-25 dungeon guide.]
 [GA Alliance]
 [N1-12 Dun Morogh (Dwarf) BalCon]
 [NX12-25 BalCon (Alliance): Hall of Thanes, Deadmines, Stockade, BFD]

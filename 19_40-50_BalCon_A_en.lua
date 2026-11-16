@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.3.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Dustwallow/STV → Loch Modan/Badlands → Uldaman at 42 → Hinterlands/Feralas/Tanaris → ZF at 45 → Hinterlands/Searing Gorge → Maraudon at 48.]
+[D BalCon Dungeon Leveling v1.3.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 40-50: Dustwallow/STV → Loch Modan/Badlands → Uldaman at 42 → Hinterlands/Feralas/Tanaris → ZF at 45 → Hinterlands/Searing Gorge → Maraudon at 48.]
 [GA Alliance]
 [N40-50 BalCon (Alliance): Uldaman, ZF, Maraudon]
 [NX50-60 BalCon (Alliance): Sunken Temple, BRD, LBRS, Stratholme]

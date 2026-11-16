@@ -1,4 +1,4 @@
-BalCon — Dungeon Leveling Guide for WoW Forever (Horde and Alliance 1-60) v1.3.0
+BalCon — Dungeon Leveling Guide for WoW Forever (Horde and Alliance 1-60) v1.3.1
 ====================================================================
 
 A Guidelime leveling guide built around dungeons.
@@ -35,31 +35,16 @@ Route (Horde)
   58     Blackrock Depths (2nd)
   59     Stratholme -> 60
 
-Route (Alliance, new in 1.3.0)
+Alliance (new in 1.3.0)
   1-12   Elwynn Forest / Dun Morogh (Dwarf, Gnome) / Teldrassil / Zephras Isle (Skyborne Alliance)
-  14     Hall of Thanes (Ironforge, Forever)
-  18     Deadmines
-  23     Stormwind Stockade
-  24     Blackfathom Deeps
-  27     Excavation Site: Wetlands (Forever)
-  28     Gnomeregan
-  29     Dalaran (Forever)
-  31     Scarlet Monastery Graveyard + Library
-  32     Razorfen Kraul
-  38     Scarlet Monastery Armory + Cathedral
-  39     Razorfen Downs
-  42     Uldaman
-  45     Zul'Farrak
-  48     Maraudon
-  51     Sunken Temple
-  54     Blackrock Depths
-  56     Lower Blackrock Spire
-  58     Stratholme -> 60
-  Prerequisite quests end with "— ◆dungeon prereq (name)"; dungeon quests say "(or get it shared)" and are listed
-  on the "★ ... quests" line before each dungeon, which ticks once you have them.
-  Alliance guide names end in "(Alliance)" and only show for Alliance characters.
-  Not used for the Alliance: Drowned City (no Alliance quests), Krol'dok (quest NPCs not confirmed yet),
-  Ruins of Lordaeron, Wailing Caverns, Shadowfang Keep (long travel, almost no Alliance quests).
+  12-60  Five dungeon guides (12-25, 25-30, 30-40, 40-50, 50-60); names end in "(Alliance)".
+  Same routing as the Horde guides: run each dungeon as soon as you reach its level and do all its quests;
+  in between, only efficient zone quests on the way to the next dungeon.
+  Prerequisite quests end with "— ◆dungeon prereq (name)"; a ★ line before each dungeon ticks the quests you have.
+
+Verification
+  Horde: the author is playing through the guide and verifying it in game.
+  Alliance: built from WoW Forever data and not played through yet - feedback is welcome and the route will be fixed.
 
 Features
   - Every dungeon quest, with prerequisites picked up on the route; party sharing is suggested where it saves travel.

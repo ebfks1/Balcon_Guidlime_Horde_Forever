@@ -1,3 +1,11 @@
+## v1.3.1
+
+**한국어**
+- 설명 정리: 얼라이언스는 데이터 기반(피드백 시 수정), 호드는 제작자가 직접 플레이하며 검증 중. 가이드 내용은 1.3.0 과 같음
+
+**English**
+- Description update: the Alliance route is data-based (fixed on feedback), the Horde route is being verified in game by the author. Guide content is the same as 1.3.0
+
 ## v1.3.0
 
 **한국어**

@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.3.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Westfall → Hall of Thanes (Ironforge) at 14 → Redridge/Westfall Defias chain → Deadmines at 18 → Redridge/Duskwood → Stockade at 23 → Darkshore/Ashenvale → Blackfathom Deeps at 24.]
+[D BalCon Dungeon Leveling v1.3.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 12-25: Westfall → Hall of Thanes (Ironforge) at 14 → Redridge/Westfall Defias chain → Deadmines at 18 → Redridge/Duskwood → Stockade at 23 → Darkshore/Ashenvale → Blackfathom Deeps at 24.]
 [GA Alliance]
 [N12-25 BalCon (Alliance): Hall of Thanes, Deadmines, Stockade, BFD]
 [NX25-30 BalCon (Alliance): Excavation Site, Gnomeregan, Dalaran]

@@ -1,6 +1,6 @@
 if GetLocale() == "koKR" then return end
 Guidelime.registerGuide([[
-[D BalCon Dungeon Leveling v1.3.0 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 25-30: Ashenvale → Wetlands → Excavation Site at 27 → Ironforge/Stormwind → Gnomeregan at 28 → Wetlands/Hillsbrad → Dalaran at 29.]
+[D BalCon Dungeon Leveling v1.3.1 — Dungeon-focused leveling. When you reach a dungeon's level you run it first, then do only the most efficient zone quests until the next dungeon. 25-30: Ashenvale → Wetlands → Excavation Site at 27 → Ironforge/Stormwind → Gnomeregan at 28 → Wetlands/Hillsbrad → Dalaran at 29.]
 [GA Alliance]
 [N25-30 BalCon (Alliance): Excavation Site, Gnomeregan, Dalaran]
 [NX30-40 BalCon (Alliance): SM Graveyard, Library, RFK, Armory, Cathedral, RFD]
