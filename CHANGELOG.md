@@ -1,3 +1,17 @@
+## v1.3.0
+
+**한국어**
+- 얼라이언스 1-60 가이드 추가 (한글·영어 각 10개): 1-12 엘윈 숲·던 모로(드워프/노움)·텔드랏실·제프라스(스카이본 얼라이언스), 12-25·25-30·30-40·40-50·50-60 던전 가이드
+- 던전 순서: 영주의 전당 14 → 죽음의 폐광 18 → 지하감옥 23 → 검은심연 24 → 발굴 현장 27 → 놈리건 28 → 달라란 29 → 수도원 묘지·도서관 31 → 가시덩굴 우리 32 → 무기고·대성당 38 → 가시덩굴 구릉 39 → 울다만 42 → 줄파락 45 → 마라우돈 48 → 아탈학카르 51 → 검은바위 나락 54 → 검은바위 첨탑 하층 56 → 스트라솔름 58
+- 선행 퀘스트는 "◆던전 선행", 던전 퀘스트는 "공유받기"와 던전 앞 ★ 목록으로 구분해 표시
+- 얼라이언스용 자동 건너뛰기·12레벨 안내 자료 추가 (00b_AutoSkip_Alliance.lua)
+
+**English**
+- New Alliance 1-60 guides (10 each in Korean and English): 1-12 Elwynn Forest, Dun Morogh (Dwarf/Gnome), Teldrassil, Zephras (Skyborne Alliance), then 12-25, 25-30, 30-40, 40-50 and 50-60 dungeon guides
+- Dungeon order: Hall of Thanes 14 → Deadmines 18 → Stockade 23 → BFD 24 → Excavation Site 27 → Gnomeregan 28 → Dalaran 29 → SM Graveyard/Library 31 → RFK 32 → SM Armory/Cathedral 38 → RFD 39 → Uldaman 42 → ZF 45 → Maraudon 48 → Sunken Temple 51 → BRD 54 → LBRS 56 → Stratholme 58
+- Prerequisite quests are marked "◆dungeon prereq"; dungeon quests are marked "or get it shared" and listed on the ★ line before each dungeon
+- Alliance data for auto-skip and the level-12 prompt (00b_AutoSkip_Alliance.lua)
+
 ## v1.2.3
 
 **한국어**

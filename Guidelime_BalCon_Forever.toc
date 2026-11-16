@@ -1,15 +1,16 @@
 ## Interface: 16001
-## Title: BalCon Dungeon Leveling Guide (Forever) v1.2.3
-## Title-koKR: 발컨 던전 레벨업 가이드 (포에버) v1.2.3
-## Notes: Dungeon-focused Guidelime leveling guide for WoW Forever (Horde 1-60). Korean or English text, chosen by your game language.
-## Notes-koKR: 던전 중심 레벨업 1-60 (호드) — 성난불길부터 스트라솔름까지
+## Title: BalCon Dungeon Leveling Guide (Forever) v1.3.0
+## Title-koKR: 발컨 던전 레벨업 가이드 (포에버) v1.3.0
+## Notes: Dungeon-focused Guidelime leveling guide for WoW Forever (Horde and Alliance 1-60). Korean or English text, chosen by your game language.
+## Notes-koKR: 던전 중심 레벨업 1-60 (호드·얼라이언스) — 성난불길·영주의 전당부터 스트라솔름까지
 ## Author: 씨가 + Claude
-## Version: 1.2.3
+## Version: 1.3.0
 ## Dependencies: Guidelime
 ## SavedVariablesPerCharacter: BalConAutoSkipDB
 ## X-Curse-Project-ID: 1763150
 
 00_AutoSkip.lua
+00b_AutoSkip_Alliance.lua
 01_1-12_Durotar.lua
 02_1-12_Mulgore.lua
 03_1-12_Tirisfal.lua
@@ -19,6 +20,16 @@
 07_30-40_BalCon.lua
 08_40-50_BalCon.lua
 09_50-60_BalCon.lua
+11_1-12_Elwynn.lua
+12_1-12_DunMorogh_Dwarf.lua
+13_1-12_DunMorogh_Gnome.lua
+14_1-12_Teldrassil.lua
+15_1-12_Zephras_A.lua
+16_12-25_BalCon_A.lua
+17_25-30_BalCon_A.lua
+18_30-40_BalCon_A.lua
+19_40-50_BalCon_A.lua
+20_50-60_BalCon_A.lua
 01_1-12_Durotar_en.lua
 02_1-12_Mulgore_en.lua
 03_1-12_Tirisfal_en.lua
@@ -28,3 +39,13 @@
 07_30-40_BalCon_en.lua
 08_40-50_BalCon_en.lua
 09_50-60_BalCon_en.lua
+11_1-12_Elwynn_en.lua
+12_1-12_DunMorogh_Dwarf_en.lua
+13_1-12_DunMorogh_Gnome_en.lua
+14_1-12_Teldrassil_en.lua
+15_1-12_Zephras_A_en.lua
+16_12-25_BalCon_A_en.lua
+17_25-30_BalCon_A_en.lua
+18_30-40_BalCon_A_en.lua
+19_40-50_BalCon_A_en.lua
+20_50-60_BalCon_A_en.lua
